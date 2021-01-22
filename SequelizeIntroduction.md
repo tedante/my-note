@@ -5,6 +5,8 @@
 Promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.
 
 ## 2. [Install sequelize](https://sequelize.org/v5/manual/getting-started.html)
+Jangan lupa, npm init dan .gitignore
+
 Install sequelize.
 
 commad: `npm install --save sequelize`
@@ -89,7 +91,7 @@ User
         console.log(error)
     })
 ```
-
+more detail: https://sequelize.org/v5/class/lib/model.js~Model.html#static-method-findAll
 
 # Referensi 
 - https://sequelize.org/v5
