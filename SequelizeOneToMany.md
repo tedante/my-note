@@ -75,6 +75,48 @@ Maka dibutuhkanlah table junction, biasanya penamaannya seperti ini, produtHasTa
 
 ![example many to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/manytomany.png)
 
+```
+// code Tag model 
+
+    static associate(models) {
+      // define association here
+      
+      Tag.belongsToMany(models.Product, { through: 'ProductHasTags', foreignKey: "tagId" });
+    }
+
+// code Category model 
+```
+
+```
+// code Product model 
+
+    static associate(models) {
+      // define association here
+      
+      Product.belongsToMany(models.Tag, { through: 'ProductHasTags', foreignKey: "productId" });
+    }
+
+// code Product model 
+```
+
+
+## 5. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
+```
+Product
+    .findAll({
+        include: [
+            { 
+                model: Tag
+            }
+        ]
+    })
+    .then(data => {
+        // do something
+    })
+    .catch(error => {
+        // do something
+    })
+``` 
 
 # Referensi 
 - https://sequelize.org/v5/manual/associations.html
