@@ -100,7 +100,7 @@ Maka dibutuhkanlah table junction, biasanya penamaannya seperti ini, produtHasTa
 ```
 
 
-## 5. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
+## 7. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
 ```
 Product
     .findAll({
