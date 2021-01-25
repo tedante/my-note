@@ -73,7 +73,7 @@ Maka hasilnya adalah 1 tags memiliki bisa memiliki banyak products bisa juga seb
 
 Maka dibutuhkanlah table junction, biasanya penamaannya seperti ini, produtHasTags atau tagHasProducts pilih antara 2 nama itu. Dan table junction ini berisi 2 kolom foreign key yaitu tagId dan productId yang masing-masing mereference ke table tags dan products. 
 
-<!-- ![alt text]('./manytomany.jpg') -->
+![example many to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/manytomany.png)
 
 
 # Referensi 
