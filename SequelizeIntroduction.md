@@ -54,7 +54,7 @@ Menjalankan semua migration yang statusnya belum dijalankan.
 
 commad: `npx sequelize-cli db:migrate`
 
-Bisa juga mengundo migration,
+Bisa juga mengundo migration
 
 command: `npx sequelize-cli db:migrate:undo:all`
 
