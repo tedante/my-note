@@ -37,11 +37,12 @@ function countdown(number) {
 countdown(10)
 ```
 
-## 4. [Detail cara kerja](https://rizafahmi.com/2020/03/26/rekursi-atau-recursion/)
+## 4. Detail cara kerja
 
 ![example1](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/recursion.png)
 
 ![example2](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/stack_tracing_recursion.png)
 
 # Referensi 
-- https://sequelize.org/v5/manual/hooks.html
+- https://developer.mozilla.org/en-US/docs/Glossary/Recursion
+- https://rizafahmi.com/2020/03/26/rekursi-atau-recursion
