@@ -1,16 +1,16 @@
-# Rekursi (Recursion)
+# Rekursif (Recursive)
 
-## 1. [Apa itu rekursi?](https://developer.mozilla.org/en-US/docs/Glossary/Recursion)
+## 1. [Apa itu rekursif?](https://developer.mozilla.org/en-US/docs/Glossary/Recursion)
 
-Rekursi intinya adalah sebuah fungsi yang didalamnya itu memanggil dirinya sendiri. Rekursi memiliki input yang nantinya dapat menjadi 2 kondisi yaitu base case (ends recursion) dan recursive case (resume recursion) 
+rekursif intinya adalah sebuah fungsi yang didalamnya itu memanggil dirinya sendiri. rekursif memiliki input yang nantinya dapat menjadi 2 kondisi yaitu base case (ends recursion) dan recursive case (resume recursion) 
 
-## 2. [Kenapa kita perlu paham rekursi](https://rizafahmi.com/2020/03/26/rekursi-atau-recursion/)
+## 2. [Kenapa kita perlu paham rekursif](https://rizafahmi.com/2020/03/26/rekursif-atau-recursion/)
 
-rekursi adalah salah satu pengetahuan fundamental yang sangat diharapkan dikuasai oleh developer. Dan yang tidak kalah penting adalah banyak sekali algoritma diluar sana yang menggunakan rekursi sehingga dengan memahaminya, secara tidak langsung kita bisa mengerti algoritma yang menggunakan rekursi.
+rekursif adalah salah satu pengetahuan fundamental yang sangat diharapkan dikuasai oleh developer. Dan yang tidak kalah penting adalah banyak sekali algoritma diluar sana yang menggunakan rekursif sehingga dengan memahaminya, secara tidak langsung kita bisa mengerti algoritma yang menggunakan rekursif.
 
-Namun sebenarnya pun tanpa rekursi pun kita bisa saja menggunakan perulangan untuk menciptakan solusi yang sama. Akan tetapi setidaknya kita mengerti cara kerja rekursi.
+Namun sebenarnya pun tanpa rekursif pun kita bisa saja menggunakan perulangan untuk menciptakan solusi yang sama. Akan tetapi setidaknya kita mengerti cara kerja rekursif.
 
-## 3. Contoh perbedaan looping dengan rekursi
+## 3. Contoh perbedaan looping dengan rekursif
 
 Penghitung mundur dengan looping 
 ```
@@ -22,7 +22,7 @@ function countdown(number) {
 
 countdown(10)
 ```
-Penghitung mundur dengan rekursi 
+Penghitung mundur dengan rekursif 
 ```
 function countdown(number) {
     console.log(number)
@@ -49,6 +49,6 @@ Contoh 2:
 
 # Referensi 
 - https://developer.mozilla.org/en-US/docs/Glossary/Recursion
-- https://rizafahmi.com/2020/03/26/rekursi-atau-recursion
+- https://rizafahmi.com/2020/03/26/rekursif-atau-recursion
 - https://www.youtube.com/watch?v=B0NtAFf4bvU
 - https://www.youtube.com/watch?v=-JV_YbJR1GY
