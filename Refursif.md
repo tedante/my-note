@@ -37,12 +37,18 @@ function countdown(number) {
 countdown(10)
 ```
 
-## 4. Detail cara kerja
-
-![example1](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/recursion.png)
+## 4. Cara kerja
+Contoh 1:
 
 ![example2](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/stack_tracing_recursion.png)
+
+
+Contoh 2:
+
+![example1](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/recursion.png)
 
 # Referensi 
 - https://developer.mozilla.org/en-US/docs/Glossary/Recursion
 - https://rizafahmi.com/2020/03/26/rekursi-atau-recursion
+- https://www.youtube.com/watch?v=B0NtAFf4bvU
+- https://www.youtube.com/watch?v=-JV_YbJR1GY
