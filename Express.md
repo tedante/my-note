@@ -114,7 +114,13 @@ console.log(req.query.q)
 ```
 
 # Referensi 
+- https://expressjs.com/
+- https://www.niagahoster.co.id/blog/apa-itu-framework/
+- https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview
+- https://expressjs.com/en/starter/hello-world.html
+- https://expressjs.com/en/starter/basic-routing.html
+- https://expressjs.com/en/guide/routing.html#route-parameters
+- http://expressjs.com/en/5x/api.html#req.query
 - https://www.hostinger.co.id/tutorial/apa-itu-npm/
-- https://sequelize.org/v5/identifiers.html
-- https://medium.com/wripolinema/sudah-kenal-sama-orm-34712e85c6fa
-- https://medium.com/@Ayra_Lux/a-guide-to-orm-sequelize-c276c7b6dd18
+- https://www.youtube.com/watch?v=qxDluZMZ2HM
+- https://www.youtube.com/watch?v=vdDojOXkmPY
