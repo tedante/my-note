@@ -10,7 +10,7 @@ Relasi itu ada 3 yaitu :
 - One To Many
 - Many To Many
 
-[Referensi jenis relasi](https://database.guide/the-3-types-of-relationships-in-database-design/)
+[Referensi jenis relasi](https://database.guide/the-3-types-of-relationships-in-database-design/) :
 
 Secara syntax-nya associations di sequelize ada 4 yang bisa dipakai yang memiliki karakteristiknya masing-masing:
 1. BelongsTo
@@ -65,7 +65,6 @@ Category.hasMany(Product, { foreignKey: "categoryId" });
 // tambahkan kode berikut di bagian function associate model product
 Product.belongsTo(Category, { foreignKey: "categoryId" });
 ``` 
-
 
 ## 7. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
 ```
