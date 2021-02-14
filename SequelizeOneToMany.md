@@ -55,8 +55,10 @@ Profile.belongsTo(Account, { foreignKey: "accountId" });
 
 **hasOne ditempatkan di model yang merupakan target model atau tempat referensi dari foreign key.**
 
+![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/onetoone.png)
 
 ## 5. [One To Many](https://sequelize.org/v5/manual/associations.html#one-to-many-associations--hasmany-)
+
 Relasi one to many, foregin key di letakan di table yang "many", contohnya adalah jika kita punya 2 table yaitu categories dan products, table categories menyimpan hanya nama category dan table products menyimpan data dari product seperti categoryId, name, price, description, stock, dll. Maka foreign key-nya di letakan di table products, karena disini 1 category memiliki banyak product, jadilah categories (one) dan products (many).
 ```
 // tambahkan kode berikut di bagian function associate model category
@@ -65,6 +67,9 @@ Category.hasMany(Product, { foreignKey: "categoryId" });
 // tambahkan kode berikut di bagian function associate model product
 Product.belongsTo(Category, { foreignKey: "categoryId" });
 ``` 
+
+![one to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/onetomany.png)
+
 
 ## 7. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
 ```
