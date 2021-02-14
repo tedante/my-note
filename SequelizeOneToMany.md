@@ -2,9 +2,9 @@
 
 ## 1. [Apa itu associations?](https://sequelize.org/v5/manual/associations.html)
 
-Secara mudahnya kita sudah tahu ada yang namanya relasi database, association itu bisa juga dikatakan relasi. 
+Associations adalah cara mendefinisikan relasi antara 2 entity.
 
-## 2. [Jenis association](https://sequelize.org/v5/manual/associations.html)
+## 2. [Jenis relasi](https://sequelize.org/v5/manual/associations.html)
 Relasi itu ada 3 yaitu :
 - One To One
 - One To Many
@@ -12,7 +12,7 @@ Relasi itu ada 3 yaitu :
 
 [Referensi jenis relasi](https://database.guide/the-3-types-of-relationships-in-database-design/)
 
-Secara syntax-nya di sequelize ada 4 yang bisa dipakai yang memiliki karakteristiknya masing-masing:
+Secara syntax-nya associations di sequelize ada 4 yang bisa dipakai yang memiliki karakteristiknya masing-masing:
 1. BelongsTo
 2. HasOne
 3. HasMany
@@ -65,39 +65,6 @@ Category.hasMany(Product, { foreignKey: "categoryId" });
 // tambahkan kode berikut di bagian function associate model product
 Product.belongsTo(Category, { foreignKey: "categoryId" });
 ``` 
-
-## 6. [Many To Many](https://sequelize.org/v5/manual/associations.html#belongs-to-many-associations)
-Relasi many to many, membutuhkan table tambahan yang bisa disebut table junction atau pivot, contohnya adalah jika kita punya 2 table yaitu tags dan products, table categories menyimpan hanya nama tags dan table products menyimpan data dari product seperti categoryId, name, price, description, stock, dll. 
-
-Maka hasilnya adalah 1 tags memiliki bisa memiliki banyak products bisa juga sebaliknya 1 products bisa memiliki banyak tags, karena itulah jadinya tags (many) dan product (many). 
-
-Maka dibutuhkanlah table junction, biasanya penamaannya seperti ini, produtHasTags atau tagHasProducts pilih antara 2 nama itu. Dan table junction ini berisi 2 kolom foreign key yaitu tagId dan productId yang masing-masing mereference ke table tags dan products. 
-
-![example many to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/manytomany.png)
-
-```
-// code Tag model 
-
-    static associate(models) {
-      // define association here
-      
-      Tag.belongsToMany(models.Product, { through: 'ProductHasTags', foreignKey: "tagId" });
-    }
-
-// code Category model 
-```
-
-```
-// code Product model 
-
-    static associate(models) {
-      // define association here
-      
-      Product.belongsToMany(models.Tag, { through: 'ProductHasTags', foreignKey: "productId" });
-    }
-
-// code Product model 
-```
 
 
 ## 7. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
