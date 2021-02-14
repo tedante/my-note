@@ -55,7 +55,7 @@ Profile.belongsTo(Account, { foreignKey: "accountId" });
 
 **hasOne ditempatkan di model yang merupakan target model atau tempat referensi dari foreign key.**
 
-![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/onetoone.png)
+![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/onetoone.jfif)
 
 ## 5. [One To Many](https://sequelize.org/v5/manual/associations.html#one-to-many-associations--hasmany-)
 
@@ -68,7 +68,7 @@ Category.hasMany(Product, { foreignKey: "categoryId" });
 Product.belongsTo(Category, { foreignKey: "categoryId" });
 ``` 
 
-![one to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/onetomany.png)
+![one to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/onetomany.jfif)
 
 
 ## 7. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
