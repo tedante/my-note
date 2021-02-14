@@ -13,10 +13,10 @@ Relasi itu ada 3 yaitu :
 [Referensi jenis relasi](https://database.guide/the-3-types-of-relationships-in-database-design/) :
 
 Secara syntax-nya associations di sequelize ada 4 yang bisa dipakai yang memiliki karakteristiknya masing-masing:
-1. BelongsTo
-2. HasOne
-3. HasMany
-4. BelongsToMany
+1. BelongsTo, create are ones where the foreign key for the edists on the source model.
+2. HasOne, create an association in which the foreign key for the relationship exists on the target model.
+3. HasMany, create associations are connecting one source with multiple targets in which the foreign key for the relationship exists on the target model
+4. BelongsToMany, dibahas di kelas selanjutnya.
 
 ## 3. [Add relation to migration](https://sequelize.org/master/manual/migrations.html#migration-skeleton)
 ```
