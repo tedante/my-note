@@ -1,4 +1,4 @@
-# Sequelize Intro
+# Express Intro
 
 ## 1. [Express?](https://expressjs.com/)
 
@@ -18,7 +18,7 @@ Secara singkat mekanisme aplikasi web itu alurnya seperti ini, pertama browser s
 
 ## 4. [NPM init](https://docs.npmjs.com/creating-a-package-json-file)
 
-Sebelum install express, pastikan sudah menjalankan command `npm init` di terminal. Command ini sebagai tool untuk membuat file package.json 
+Sebelum install express, pastikan sudah menjalankan command `npm init` atau `npm init -y` di terminal. Command ini sebagai tool untuk membuat file package.json. 
 
 dalam package.json terdapat:
 
@@ -37,6 +37,7 @@ npm i express
 npm i express --save
 ```
 
+Setelah selesai install express pastikan untuk membuat `.gitignore` dan masukan folder `node_modules` ke dalamnya, supaya folder node_modules tidak dimasukan e dalam git.
 
 ## 4. [Express Basic Code](https://expressjs.com/en/starter/hello-world.html)
 
@@ -58,7 +59,7 @@ app.get('/', (req, res) => {
 })
 
 /**
- * listen the app / Jalankan server
+ * listen the app / jalankan aplikasi di port spesifik
 */
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
@@ -105,7 +106,7 @@ app.get('/users/:userId/books/:bookId', function (req, res) {
 
 ## 6. [Query String](http://expressjs.com/en/5x/api.html#req.query)
 
-sebuah property pada di route yang ditandai dengan tanda tanya (?).
+sebuah property pada route yang ditandai dengan tanda tanya (?), buka tokopedia atau shopee sebagai contoh.
 
 ```
 // GET /search?q=xiaomi
@@ -114,6 +115,7 @@ console.log(req.query.q)
 ```
 
 # Referensi 
+- https://docs.google.com/presentation/d/1MmR249WJ-wpYybt-6CL6yjnhel2slN5Jl1nYVaM2-b4/edit#slide=id.g7c8eb2d86c_0_0
 - https://expressjs.com/
 - https://www.niagahoster.co.id/blog/apa-itu-framework/
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview
