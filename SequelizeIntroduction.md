@@ -49,6 +49,8 @@ commad: `npx sequelize-cli model:generate --name User --attributes name:string,e
 
 kalau kita ingin melihat apa saja attribute yang ada di model:generate, bisa digunakan command `npx sequelize-cli model:generate --help`.  
 
+[Tipe data di sequelize](https://sequelize.org/v5/manual/data-types.html)
+
 ## 9. [Running Migration](https://sequelize.org/v5/manual/migrations.html#running-migrations)
 Menjalankan semua migration yang statusnya belum dijalankan.
 
