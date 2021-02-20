@@ -70,6 +70,10 @@ Product.belongsTo(Category, { foreignKey: "categoryId" });
 
 ![one to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/onetomany.jfif)
 
+## 6. [Association di migration dan model itu BERBEDA](https://sequelize.org/v5/manual/associations.html)
+
+Associations adalah cara mendefinisikan relasi antara 2 entity.
+
 
 ## 7. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
 ```
