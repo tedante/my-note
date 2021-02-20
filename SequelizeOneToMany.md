@@ -72,7 +72,8 @@ Product.belongsTo(Category, { foreignKey: "categoryId" });
 
 ## 6. [Association di migration dan model itu BERBEDA](https://sequelize.org/v5/manual/associations.html)
 
-Associations adalah cara mendefinisikan relasi antara 2 entity.
+Associations yang ada di migration dan model itu BERBEDA ALAM. Di migration di databasenya sedangkan di model itu di aplikasinya.
+
 
 
 ## 7. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
