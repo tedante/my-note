@@ -20,16 +20,38 @@ Secara syntax-nya associations di sequelize ada 4 yang bisa dipakai yang memilik
 
 ## 3. [Migration One To One](https://sequelize.org/master/manual/migrations.html#migration-skeleton)
 
-Membuat migration baru untuk menambahkan foreign key (PokemonId) 
-`npx sequelize-cli migration:generate --name add-PokemonId-to-BaseStatuses-table`
+
+Kita akan membuat satu table BaseStatuses
+![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_5.png)
+
+Dengan command: 
+
+```npx sequelize-cli model:generate --name BaseStatus --attributes hp:integer,attack:integer,defense:integer,speed:integer```
+
+
+Jika relasinya adalah **One To One** maka **forign key-nya bisa dipilih salah satu di antara 2 table** tersebut, contohnya adalah jika kita punya 2 table yaitu BaseStatuses dan Pokemons, table BaseStatuses menyimpan hanya menyimpan stat dari pokemon dan table Pokemons menyimpan data umumnya. 
+
+Kata kunci:
+`DALAM RELASI ONE TO ONE, FOREIGN KEY BISA DILETAKAN DIMANA SAJA`
+
+Pada kasus ini kita akan taruh foreign key-nya di table BaseStatuses.
+
+Menambahkan column ke table Pokemons
+![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_6.png)
+
+Dengan command: 
+
+```npx sequelize-cli migration:generate --name add-PokemonId-to-BaseStatuses-table```
+
+Di dalam migration method up, gunakan [addColumn](https://sequelize.org/master/class/lib/dialects/abstract/query-interface.js~QueryInterface.html#instance-method-addColumn) untuk menambah column: 
 
 ```
 // codingan migration yang lain
-    /**
-    Dibawah ini adalah kita akan membuat kolom userId bertipe integer dan mereferensi ke table Users kolom id juga onUpdate dan onDeletenya 'cascade'
-    */
+/**
+Dibawah ini adalah kita akan membuat kolom userId bertipe integer dan mereferensi ke table Users kolom id juga onUpdate dan onDeletenya 'cascade'
+*/
 
-    queryInterface.addColumn(
+    return queryInterface.addColumn(
       'BaseStatuses',
       'PokemonId',
       {
@@ -48,55 +70,101 @@ Membuat migration baru untuk menambahkan foreign key (PokemonId)
 // codingan migration yang lain
 ```
 
+dan method down, gunakan [removeColumn](https://sequelize.org/master/class/lib/dialects/abstract/query-interface.js~QueryInterface.html#instance-method-removeColumn) untuk menghapus column: 
 
-## 4. [One To One](https://sequelize.org/v5/manual/associations.html#one-to-one-associations)
-
-Jika relasinya adalah One To One maka forign key-nya bisa dipilih salah satu di antara 2 table tersebut, contohnya adalah jika kita punya 2 table yaitu BaseStatuses dan Pokemons, table BaseStatuses menyimpan hanya menyimpan stat dari pokemon dan table Pokemons menyimpan data umumnya. 
-
-Kata kunci:
-`DALAM RELASI ONE TO ONE, FOREIGN KEY BISA DILETAKAN DIMANA SAJA`
-
-Pada kasus ini kita akan taruh foreign key-nya di table BaseStatuses.
 ```
-// tambahkan kode berikut di bagian function associate model account
-Account.hasOne(Profile, { foreignKey: "accountId" });
+// codingan migration yang lain
+/**
+Dibawah ini adalah kita akan membuat kolom userId bertipe integer dan mereferensi ke table Users kolom id juga onUpdate dan onDeletenya 'cascade'
+*/
 
-// tambahkan kode berikut di bagian function associate model profile
-Profile.belongsTo(Account, { foreignKey: "accountId" });
+    return queryInterface.removeColumn(
+      'BaseStatuses',
+      'PokemonId',
+      {}
+    )
+
+// codingan migration yang lain
+```
+
+## 4. [Seed Table](https://sequelize.org/v5/manual/migrations.html#creating-first-seed)
+
+Buat seeder untuk table PokemonStatus
+```
+npx sequelize-cli seed:generate --name status-starter-pokemon
+```
+
+Running seed status-starter-pokemon
+```
+npx sequelize db:seed --seed blablabla-status-starter-pokemon
+```
+
+## 4. [Model One To One](https://sequelize.org/v5/manual/associations.html#one-to-one-associations)
+
+Karena kita sudah menambah column PokemonId di table BaseStatuses dan juga membuat fk di database, maka di model kita perlu tambahkan juga PokemonId di model BaseStatus, lalu dilanjutkan menambahkan assosiationnya di masing-masing model. 
+
+```
+// tambahkan kode berikut di bagian function associate model Pokemon
+Pokemon.hasOne(models.BaseStatus, { foreignKey: "PokemonId" });
+
+// tambahkan kode berikut di bagian function associate model BaseStatus
+BaseStatus.belongsTo(models.Pokemon, { foreignKey: "PokemonId" });
 ``` 
 
 **BelongsTo ditempatkan di model yang merupakan source model atau tempat foreign key berada.**
 
 **hasOne ditempatkan di model yang merupakan target model atau tempat referensi dari foreign key.**
 
-![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/onetoone.jfif)
+![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_6.png)
 
-## 5. [One To Many](https://sequelize.org/v5/manual/associations.html#one-to-many-associations--hasmany-)
+## 5. [Migration One To Many](https://sequelize.org/v5/manual/associations.html#one-to-many-associations--hasmany-)
 
-Relasi one to many, foregin key di letakan di table yang "many", contohnya adalah jika kita punya 2 table yaitu categories dan products, table categories menyimpan hanya nama category dan table products menyimpan data dari product seperti categoryId, name, price, description, stock, dll. Maka foreign key-nya di letakan di table products, karena disini 1 category memiliki banyak product, jadilah categories (one) dan products (many).
+Relasi one to many, foregin key di letakan di table yang "many", contohnya adalah jika kita punya 2 table yaitu Pokemons dan PokemonImages, table Pokemons menyimpan hanya data umum pokemon dan table PokemoImages menyimpan data image dari pokemon. Maka foreign key-nya di letakan di table PokemoImages, karena disini 1 pokemon memiliki banyak pokemon image, jadilah Pokemons (one) dan PokemoImages (many).
+
+Kata kunci:
+```DALAM RELASI ONE TO MANY, FOREIGN KEY DILETAKAN DI TABLE MANY```
+
+Buat file migration table PokemonImages dengan command:
 ```
-// tambahkan kode berikut di bagian function associate model category
-Category.hasMany(Product, { foreignKey: "categoryId" });
+npx sequelize-cli model:generate --name PokemonImage --attributes PokemonId:integer,image:string
+```
 
-// tambahkan kode berikut di bagian function associate model product
-Product.belongsTo(Category, { foreignKey: "categoryId" });
+## 5. [Model One To Many](https://sequelize.org/v5/manual/associations.html#one-to-many-associations--hasmany-)
+```
+// tambahkan kode berikut di bagian function associate model Pokemon
+Pokemon.hasMany(models.PokemonImage, { foreignKey: "PokemonId" });
+
+// tambahkan kode berikut di bagian function associate model PokemonImage
+PokemonImage.belongsTo(models.Pokemon, { foreignKey: "PokemonId" });
 ``` 
 
-![one to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/onetomany.jfif)
+![one to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_7.png)
 
-## 6. [Association di migration dan model itu BERBEDA](https://sequelize.org/v5/manual/associations.html)
+## 4. [Seed Table](https://sequelize.org/v5/manual/migrations.html#creating-first-seed)
 
-Associations yang ada di migration dan model itu BERBEDA ALAM. Di migration di databasenya sedangkan di model itu di aplikasinya.
+Buat seed untuk table PokemonImages
+```
+npx sequelize-cli seed:generate --name pokemon-image
+```
 
+Running seed pokemon-image
+```
+npx sequelize db:seed --seed blablabla-pokemon-image
+```
 
+## 6. [Relasi di migration dan model itu BERBEDA](https://sequelize.org/v5/manual/associations.html)
+
+Relasi yang ada di migration dan model itu `BERBEDA ALAM`. Relasi yang ada di migration ada di dalam `databasenya` sedangkan relasi yang ada di model itu ada di `aplikasinya`.
+
+![beda alam aplikasi dan database](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_8.png)
 
 ## 7. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
 ```
-Product
+Pokemon
     .findAll({
         include: [
             { 
-                model: Tag
+                model: BaseStatus
             }
         ]
     })
