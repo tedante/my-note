@@ -18,23 +18,32 @@ Secara syntax-nya associations di sequelize ada 4 yang bisa dipakai yang memilik
 3. HasMany, create associations are connecting one source with multiple targets in which the foreign key for the relationship exists on the target model
 4. BelongsToMany, dibahas di kelas selanjutnya.
 
-## 3. [Add relation to migration](https://sequelize.org/master/manual/migrations.html#migration-skeleton)
+## 3. [Migration One To One](https://sequelize.org/master/manual/migrations.html#migration-skeleton)
+
+Membuat migration baru untuk menambahkan foreign key (PokemonId) 
+`npx sequelize-cli migration:generate --name add-PokemonId-to-BaseStatuses-table`
+
 ```
 // codingan migration yang lain
-
     /**
     Dibawah ini adalah kita akan membuat kolom userId bertipe integer dan mereferensi ke table Users kolom id juga onUpdate dan onDeletenya 'cascade'
     */
 
-    userId: {
-    type: Sequelize.INTEGER,
-    references: {
-        model: 'Users',
-        key: 'id'
-    },
-    onUpdate: 'cascade',
-    onDelete: 'cascade'
-    },
+    queryInterface.addColumn(
+      'BaseStatuses',
+      'PokemonId',
+      {
+        type: Sequelize.INTEGER,
+        references: {
+          model: {
+            tableName: 'Pokemons'
+          },
+          key: 'id'
+        },
+        onUpdate: 'CASCADE',
+        onDelete: 'CASCADE'
+      }
+    )
 
 // codingan migration yang lain
 ```
@@ -42,7 +51,12 @@ Secara syntax-nya associations di sequelize ada 4 yang bisa dipakai yang memilik
 
 ## 4. [One To One](https://sequelize.org/v5/manual/associations.html#one-to-one-associations)
 
-Jika relasinya adalah One To One maka forign key-nya bisa dipilih salah satu di antara 2 table tersebut, contohnya adalah jika kita punya 2 table yaitu accounts dan profiles, table accounts menyimpan hanya email dan password dan table profiles menyimpan data detail dari accounts seperti name, nomor telepon, jenis kelamin, tanggal lahir, dll. Kita akan taruh foreign key-nya di table profiles.
+Jika relasinya adalah One To One maka forign key-nya bisa dipilih salah satu di antara 2 table tersebut, contohnya adalah jika kita punya 2 table yaitu BaseStatuses dan Pokemons, table BaseStatuses menyimpan hanya menyimpan stat dari pokemon dan table Pokemons menyimpan data umumnya. 
+
+Kata kunci:
+`DALAM RELASI ONE TO ONE, FOREIGN KEY BISA DILETAKAN DIMANA SAJA`
+
+Pada kasus ini kita akan taruh foreign key-nya di table BaseStatuses.
 ```
 // tambahkan kode berikut di bagian function associate model account
 Account.hasOne(Profile, { foreignKey: "accountId" });
