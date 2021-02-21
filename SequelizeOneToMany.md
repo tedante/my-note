@@ -22,6 +22,7 @@ Secara syntax-nya associations di sequelize ada 4 yang bisa dipakai yang memilik
 
 
 Kita akan membuat satu table BaseStatuses
+
 ![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_5.png)
 
 Dengan command: 
@@ -37,6 +38,7 @@ Kata kunci:
 Pada kasus ini kita akan taruh foreign key-nya di table BaseStatuses.
 
 Menambahkan column ke table Pokemons
+
 ![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_6.png)
 
 Dengan command: 
