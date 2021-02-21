@@ -142,9 +142,9 @@ PokemonImage.belongsTo(models.Pokemon, { foreignKey: "PokemonId" });
 
 ![one to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/w4d1-1toM.png)
 
-Hasil Akhir
+Hasil Akhir ERD
 
-![hasil akhir](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/w4d1.png)
+![hasil akhir](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/w4d1-v2.png)
 
 
 ## 4. [Seed Table](https://sequelize.org/v5/manual/migrations.html#creating-first-seed)
