@@ -39,7 +39,7 @@ Pada kasus ini kita akan taruh foreign key-nya di table BaseStatuses.
 
 Menambahkan column ke table Pokemons
 
-![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_6.png)
+![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/w4d1-1to1.png)
 
 Dengan command: 
 
@@ -140,7 +140,12 @@ Pokemon.hasMany(models.PokemonImage, { foreignKey: "PokemonId" });
 PokemonImage.belongsTo(models.Pokemon, { foreignKey: "PokemonId" });
 ``` 
 
-![one to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_7.png)
+![one to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/w4d1-1toM.png)
+
+Hasil Akhir
+
+![hasil akhir](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/w4d1.png)
+
 
 ## 4. [Seed Table](https://sequelize.org/v5/manual/migrations.html#creating-first-seed)
 
