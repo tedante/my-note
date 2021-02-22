@@ -1,5 +1,9 @@
 # Sequelize Associations
 
+**Record**
+
+Untuk recall materi sequelize (Lihat note sequelize intro), buat dulu table pokemon v1
+
 ## 1. [Apa itu associations?](https://sequelize.org/v5/manual/associations.html)
 
 Associations adalah cara mendefinisikan relasi antara 2 entity.
@@ -47,10 +51,10 @@ Dengan command:
 
 Di dalam migration method up, gunakan [addColumn](https://sequelize.org/master/class/lib/dialects/abstract/query-interface.js~QueryInterface.html#instance-method-addColumn) untuk menambah column: 
 
-```
+```js
 // codingan migration yang lain
 /**
-Dibawah ini adalah kita akan membuat kolom userId bertipe integer dan mereferensi ke table Users kolom id juga onUpdate dan onDeletenya 'cascade'
+Dibawah ini adalah kita akan membuat kolom PokemonId bertipe integer dan mereferensi ke table Pokemons kolom id juga onUpdate dan onDeletenya 'cascade'
 */
 
     return queryInterface.addColumn(
@@ -74,11 +78,8 @@ Dibawah ini adalah kita akan membuat kolom userId bertipe integer dan mereferens
 
 dan method down, gunakan [removeColumn](https://sequelize.org/master/class/lib/dialects/abstract/query-interface.js~QueryInterface.html#instance-method-removeColumn) untuk menghapus column: 
 
-```
+```js
 // codingan migration yang lain
-/**
-Dibawah ini adalah kita akan membuat kolom userId bertipe integer dan mereferensi ke table Users kolom id juga onUpdate dan onDeletenya 'cascade'
-*/
 
     return queryInterface.removeColumn(
       'BaseStatuses',
@@ -166,21 +167,21 @@ Relasi yang ada di migration dan model itu `BERBEDA ALAM`. Relasi yang ada di mi
 ![beda alam aplikasi dan database](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_8.png)
 
 ## 7. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
-```
+```js
 Pokemon
-    .findAll({
-        include: [
-            { 
-                model: BaseStatus
-            }
-        ]
-    })
-    .then(data => {
-        // do something
-    })
-    .catch(error => {
-        // do something
-    })
+  .findAll({
+      include: [
+          { 
+              model: BaseStatus
+          }
+      ]
+  })
+  .then(data => {
+      // do something
+  })
+  .catch(error => {
+      // do something
+  })
 ``` 
 
 # Referensi 
