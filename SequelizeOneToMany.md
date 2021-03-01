@@ -2,8 +2,6 @@
 
 **Record**
 
-Untuk recall materi sequelize (Lihat note sequelize intro), buat dulu table pokemon v1
-
 ## 1. [Apa itu associations?](https://sequelize.org/v5/manual/associations.html)
 
 Associations adalah cara mendefinisikan relasi antara 2 entity.
