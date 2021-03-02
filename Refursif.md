@@ -15,7 +15,7 @@ Namun sebenarnya pun tanpa rekursif pun kita bisa saja menggunakan perulangan un
 Penghitung mundur dengan looping 
 ```
 function countdown(number) {
-    for(let i = number; i >= 0; i++) {
+    for(let i = number; i >= 0; i--) {
         console.log(i)
     }
 }
