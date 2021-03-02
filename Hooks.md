@@ -43,7 +43,7 @@ Secara mudahnya hooks adalah fungsi yang akan dijalankan sebelum atau sesudah se
 ## 3. [Cara menggunakan hooks](https://sequelize.org/v5/manual/hooks.html#declaring-hooks)
 
 Ada 3 cara untuk menggunakan hooks, kita bisa pilih sesuai dengan kebutuhan. Dalam sebuah hooks kita bisa melakukan banyak logic untuk memanipulasi data ataupun yang lainnya. Seperti misal jika setelah register kita akan mengirimkan email informasi bahwa berhasil register, maka itu dilakukan setelah create data user.
-```
+```js
 // ===================================================
 // cara 1 via .init() method
 class User extends Model {}
