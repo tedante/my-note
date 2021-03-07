@@ -13,9 +13,9 @@ Namun sebenarnya pun tanpa rekursif pun kita bisa saja menggunakan perulangan un
 ## 3. Contoh perbedaan looping dengan rekursif
 
 Penghitung mundur dengan looping 
-```
+```js
 function countdown(number) {
-    for(let i = number; i >= 0; i++) {
+    for(let i = number; i >= 0; i--) {
         console.log(i)
     }
 }
@@ -23,7 +23,7 @@ function countdown(number) {
 countdown(10)
 ```
 Penghitung mundur dengan rekursif 
-```
+```js
 function countdown(number) {
     console.log(number)
 
