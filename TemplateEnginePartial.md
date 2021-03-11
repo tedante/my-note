@@ -24,10 +24,26 @@ Secara singkatnya component itu adalah turunan dari **the separation of concerns
 - Independent
 - Encapsulated
 
-## 4. [EJS Partial (includes)](https://ejs.co/#docs)
+## 4. [EJS Partial (include)](https://ejs.co/#docs)
 
 Partials are basically just views that are designed to be used from within other views. This approach is the implementation of a component.
 
+![example1](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/ejspartial.png)
+
+Contoh penggunaan include
+```
+<div class=”container”>
+    <%- include('partials/navbar') %>
+    <div class=”content”>
+        <p>Body Content</p>
+    </div>
+    <%- include('partials/footer') %>’
+</div>
+```
+
+## 5. Validation
+
+Pastikan input user itu sesuai dengan requirement pada aplikasi.
 
 # Referensi 
 - 
