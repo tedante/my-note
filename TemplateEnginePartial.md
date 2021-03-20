@@ -31,7 +31,7 @@ Partials are basically just views that are designed to be used from within other
 ![example1](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/ejspartial.png)
 
 Contoh penggunaan include
-```
+```html
 <div class=”container”>
     <%- include('partials/navbar') %>
     <div class=”content”>
@@ -39,7 +39,37 @@ Contoh penggunaan include
     </div>
     <%- include('partials/footer') %>’
 </div>
+```
+
+## 5. Validation
+
+Pastikan input user itu sesuai dengan requirement pada aplikasi.
+
+```js
+let message = []
+
+if(!input.name) {
+    message.push("name must be required")
+}
+
+if(!input.nickname) {
+    message.push("nickname must be required")
+}
+
+if(!input.age) {
+    message.push("age must be required")
+}
+
+if(!input.purchase_price) {
+    message.push("price must be required")
+}
+
+if(input.age <= 0) {
+    message.push("age must be greater then 0")
+}
+
+if(input.purchase_price <= 0) {
+    message.push("price must be greater then 0")
+}
 
 ```
-# Referensi 
-- 
