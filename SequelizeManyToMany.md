@@ -25,7 +25,7 @@ Kata kunci:
 
 Membuat relasi many to many, jika kita menemukan pola seperti ini maka perlu membuat table junction.
 
-![m to m](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/mtomv2.png)
+![m to m](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/mtomv4.png)
 
 Dengan command: 
 
@@ -33,20 +33,20 @@ Dengan command:
 ```npx sequelize-cli model:generate --name PostHasTags --attributes PostId:integer,TagId:integer```
 
 
-Jika relasinya adalah **Many To Many** maka **forign key-nya di letakan di table juction**, contohnya adalah jika kita punya 2 table yaitu Posts dan Users, maka jika kita ingin membuat fitur comment, dimana 1 user bisa meng-comment banyak post dan 1 post bisa di-comment oleh banyak user disini terlihat pola many to many. maka kita perlu membuat table junction, misal namanya adalah table comments yang didalamnya ada UserId, PostId, dan tentu saja column commentnya.
+Jika relasinya adalah **Many To Many** maka **forign key-nya di letakan di table juction**, contohnya adalah jika kita punya 2 table yaitu Posts dan Tags, maka jika kita ingin membuat post memiliki tag, dimana 1 post bisa memiliki banyak tag dan 1 tag bisa pakai oleh banyak post disini terlihat pola many to many. maka kita perlu membuat table junction, misal namanya adalah table PostHasTags yang didalamnya ada TagId dan PostId.
 
-![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/manytomanyv3.png)
+![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/mtomv5.png)
 
 ```js
 // codingan migration yang lain
 /**
 Dibawah ini adalah salah satu cara untuk membuat fk
 */
-UserId: {
+TagId: {
   type: Sequelize.INTEGER,
   references:{
     model:{
-      tableName: "Users"
+      tableName: "Tags"
     },
     key: "id"
   },
@@ -58,13 +58,13 @@ UserId: {
 ```
 
 ## 4. [Model Many To Many](https://sequelize.org/v5/manual/associations.html#belongs-to-many-associations)
-Relasi many to many, membutuhkan table tambahan yang bisa disebut table junction atau pivot. Jika bingung menentukan nama table junction maka buatlah seperti ini, ProductHasTags atau TagHasProducts. 
+Relasi many to many, membutuhkan table tambahan yang bisa disebut table junction atau pivot. Jika bingung menentukan nama table junction maka buatlah penamaan seperti ini, ProductHasTags atau TagHasProducts. 
 
 ```js
 // potongan code model
 
 static associate(models) {
-  Post.belongsToMany(models.User, { through: 'Comments', foreignKey: "PostId" });
+  Post.belongsToMany(models.Tag, { through: 'Comments', foreignKey: "PostId" });
 }
 
 ```
@@ -73,7 +73,7 @@ static associate(models) {
 // potongan code model
 
 static associate(models) {
-  User.belongsToMany(models.Post, { through: 'Comments', foreignKey: "UserId" });
+  Tag.belongsToMany(models.Post, { through: 'Comments', foreignKey: "TagId" });
 }
 
 ```
@@ -86,11 +86,11 @@ Relasi yang ada di migration dan model itu `BERBEDA ALAM`. Relasi yang ada di mi
 
 ## 6. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
 ```js
-Pokemon
+Post
   .findAll({
       include: [
           { 
-              model: BaseStatus
+              model: Tag
           }
       ]
   })
