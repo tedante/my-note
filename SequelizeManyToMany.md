@@ -25,28 +25,28 @@ Kata kunci:
 
 Membuat relasi many to many, jika kita menemukan pola seperti ini maka perlu membuat table junction.
 
-![m to m](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/mtomv2.png)
+![m to m](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/mtomv4.png)
+
+Jika relasinya adalah **Many To Many** maka **forign key-nya di letakan di table juction**, contohnya adalah jika kita punya 2 table yaitu Posts dan Tags, maka jika kita ingin membuat post memiliki tag, dimana 1 post bisa memiliki banyak tag dan 1 tag bisa pakai oleh banyak post disini terlihat pola many to many. maka kita perlu membuat table junction, misal namanya adalah table PostHasTags yang didalamnya ada TagId dan PostId.
 
 Dengan command: 
 
 ```npx sequelize-cli model:generate --name Tag --attributes name:string```
-```npx sequelize-cli model:generate --name PostHasTags --attributes PostId:integer,TagId:integer```
 
+```npx sequelize-cli model:generate --name PostHasTag --attributes PostId:integer,TagId:integer```
 
-Jika relasinya adalah **Many To Many** maka **forign key-nya di letakan di table juction**, contohnya adalah jika kita punya 2 table yaitu Posts dan Users, maka jika kita ingin membuat fitur comment, dimana 1 user bisa meng-comment banyak post dan 1 post bisa di-comment oleh banyak user disini terlihat pola many to many. maka kita perlu membuat table junction, misal namanya adalah table comments yang didalamnya ada UserId, PostId, dan tentu saja column commentnya.
-
-![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/manytomanyv3.png)
+![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/mtomv5.png)
 
 ```js
 // codingan migration yang lain
 /**
 Dibawah ini adalah salah satu cara untuk membuat fk
 */
-UserId: {
+TagId: {
   type: Sequelize.INTEGER,
   references:{
     model:{
-      tableName: "Users"
+      tableName: "Tags"
     },
     key: "id"
   },
@@ -57,14 +57,16 @@ UserId: {
 // codingan migration yang lain
 ```
 
+karena disini kita tagnya belum ada datanya, boleh dibuat seed atau isi langsung di database.
+
 ## 4. [Model Many To Many](https://sequelize.org/v5/manual/associations.html#belongs-to-many-associations)
-Relasi many to many, membutuhkan table tambahan yang bisa disebut table junction atau pivot. Jika bingung menentukan nama table junction maka buatlah seperti ini, ProductHasTags atau TagHasProducts. 
+Relasi many to many, membutuhkan table tambahan yang bisa disebut table junction atau pivot. Jika bingung menentukan nama table junction maka buatlah penamaan seperti ini, ProductHasTags atau TagHasProducts. 
 
 ```js
 // potongan code model
 
 static associate(models) {
-  Post.belongsToMany(models.User, { through: 'Comments', foreignKey: "PostId" });
+  Post.belongsToMany(models.Tag, { through: 'PostHasTag', foreignKey: "PostId" });
 }
 
 ```
@@ -73,24 +75,18 @@ static associate(models) {
 // potongan code model
 
 static associate(models) {
-  User.belongsToMany(models.Post, { through: 'Comments', foreignKey: "UserId" });
+  Tag.belongsToMany(models.Post, { through: 'PostHasTag', foreignKey: "TagId" });
 }
 
 ```
 
-## 5. [Relasi di migration dan model itu BERBEDA](https://sequelize.org/v5/manual/associations.html)
-
-Relasi yang ada di migration dan model itu `BERBEDA ALAM`. Relasi yang ada di migration ada di dalam `databasenya` sedangkan relasi yang ada di model itu ada di `aplikasinya`.
-
-![beda alam aplikasi dan database](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_8.png)
-
-## 6. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
+## 5. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
 ```js
-Pokemon
+Post
   .findAll({
       include: [
           { 
-              model: BaseStatus
+              model: Tag
           }
       ]
   })
@@ -102,9 +98,17 @@ Pokemon
   })
 ```
 
+## 6. [Relasi di migration dan model itu BERBEDA](https://sequelize.org/v5/manual/associations.html)
+
+Relasi yang ada di migration dan model itu `BERBEDA ALAM`. Relasi yang ada di migration ada di dalam `databasenya` sedangkan relasi yang ada di model itu ada di `aplikasinya`.
+
+![beda alam aplikasi dan database](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_8.png)
+
+
 # Referensi 
 - https://sequelize.org/v5/manual/associations.html
 - https://sequelize.org/v5/manual/associations.html#one-to-one-associations
 - https://sequelize.org/v5/manual/associations.html#one-to-many-associations--hasmany-
 - https://medium.com/@andrewoons/how-to-define-sequelize-associations-using-migrations-de4333bf75a7
 - https://medium.com/@MomchilKolev/sequelize-migrations-with-relations-a8fd40a0912b
+- https://sequelize.org/master/class/lib/model.js~Model.html#static-method-belongsToMany
