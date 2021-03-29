@@ -62,7 +62,7 @@ console.log(a.join(""))
 ```
 
 ```js
-let iniVariale = 90
+let iniVariable = 90
 
 iniVariable()
 ```
@@ -94,7 +94,7 @@ rekursif()
 function stringReverser(params) {
     let result = ""
 
-    for (let = 0; i < params.lengh; ++i) {
+    for (let i = 0; i < params.lengh; ++i) {
         result = result + params[i]
     }
 
@@ -108,11 +108,11 @@ console.log(stringReverser("bakso"))
 function stringReverser(params) {
     let result = ""
 
-    for (let = params.lengh - 1; i >= 0; i--) {
+    for (let i = params.length - 1; i >= 0; i--) {
         result = result + params[i]
     }
 
-    console.log(result)
+    return result
 }
 
 console.log(stringReverser("bakso"))
