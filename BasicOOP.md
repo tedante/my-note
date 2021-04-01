@@ -8,7 +8,7 @@ OOP adalah paradigma/model/konsep dalam pemrograman yang mendefinisikan desain d
 ## 2. Why
 - Flexibility and maintainability
 - Data can be hidden and cannot accessed by external code
-- Simpleer to develoop and easier to understand
+- Simpler to develop and easier to understand
 - New data and functions can be easily added
 
 ## 3. Class and Object
@@ -91,4 +91,3 @@ fs adalah sebuah module built in pada nodejs. Didalamnya terdapat function readF
 - https://dev.to/samanthaming/3-ways-to-set-default-value-in-javascript-2253
 - https://www.tutorialsteacher.com/nodejs/nodejs-module-exports
 - https://nodejs.org/docs/latest-v14.x/api/fs.html#fs_file_system
-- 
