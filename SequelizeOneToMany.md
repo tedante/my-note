@@ -1,6 +1,7 @@
 # Sequelize Associations
 
 **Record**
+Untuk recall materi sequelize, buat dulu table pokemon v1
 
 ## 1. [Apa itu associations?](https://sequelize.org/v5/manual/associations.html)
 
@@ -29,6 +30,8 @@ Kita akan membuat satu table BaseStatuses
 
 Dengan command: 
 
+```npx sequelize-cli model:generate --name Pokemon --attributes name:string,description:string,height:float,weight:float```
+
 ```npx sequelize-cli model:generate --name BaseStatus --attributes hp:integer,attack:integer,defense:integer,speed:integer```
 
 
@@ -52,7 +55,7 @@ Di dalam migration method up, gunakan [addColumn](https://sequelize.org/master/c
 ```js
 // codingan migration yang lain
 /**
-Dibawah ini adalah kita akan membuat kolom PokemonId bertipe integer dan mereferensi ke table Pokemons kolom id juga onUpdate dan onDeletenya 'cascade'
+Dibawah ini adalah kita akan membuat kolom userId bertipe integer dan mereferensi ke table Users kolom id juga onUpdate dan onDeletenya 'cascade'
 */
 
     return queryInterface.addColumn(
@@ -78,6 +81,9 @@ dan method down, gunakan [removeColumn](https://sequelize.org/master/class/lib/d
 
 ```js
 // codingan migration yang lain
+/**
+Dibawah ini adalah kita akan membuat kolom userId bertipe integer dan mereferensi ke table Users kolom id juga onUpdate dan onDeletenya 'cascade'
+*/
 
     return queryInterface.removeColumn(
       'BaseStatuses',
@@ -100,7 +106,7 @@ Running seed status-starter-pokemon
 npx sequelize db:seed --seed blablabla-status-starter-pokemon
 ```
 
-## 5. [Model One To One](https://sequelize.org/v5/manual/associations.html#one-to-one-associations)
+## 4. [Model One To One](https://sequelize.org/v5/manual/associations.html#one-to-one-associations)
 
 Karena kita sudah menambah column PokemonId di table BaseStatuses dan juga membuat fk di database, maka di model kita perlu tambahkan juga PokemonId di model BaseStatus, lalu dilanjutkan menambahkan assosiationnya di masing-masing model. 
 
@@ -118,7 +124,7 @@ BaseStatus.belongsTo(models.Pokemon, { foreignKey: "PokemonId" });
 
 ![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_6.png)
 
-## 6. [Migration One To Many](https://sequelize.org/v5/manual/associations.html#one-to-many-associations--hasmany-)
+## 5. [Migration One To Many](https://sequelize.org/v5/manual/associations.html#one-to-many-associations--hasmany-)
 
 Relasi one to many, foregin key di letakan di table yang "many", contohnya adalah jika kita punya 2 table yaitu Pokemons dan PokemonImages, table Pokemons menyimpan hanya data umum pokemon dan table PokemoImages menyimpan data image dari pokemon. Maka foreign key-nya di letakan di table PokemoImages, karena disini 1 pokemon memiliki banyak pokemon image, jadilah Pokemons (one) dan PokemoImages (many).
 
@@ -130,7 +136,7 @@ Buat file migration table PokemonImages dengan command:
 npx sequelize-cli model:generate --name PokemonImage --attributes PokemonId:integer,image:string
 ```
 
-## 7. [Model One To Many](https://sequelize.org/v5/manual/associations.html#one-to-many-associations--hasmany-)
+## 5. [Model One To Many](https://sequelize.org/v5/manual/associations.html#one-to-many-associations--hasmany-)
 ```
 // tambahkan kode berikut di bagian function associate model Pokemon
 Pokemon.hasMany(models.PokemonImage, { foreignKey: "PokemonId" });
@@ -146,7 +152,7 @@ Hasil Akhir ERD
 ![hasil akhir](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/w4d1-v2.png)
 
 
-## 8. [Seed Table](https://sequelize.org/v5/manual/migrations.html#creating-first-seed)
+## 4. [Seed Table](https://sequelize.org/v5/manual/migrations.html#creating-first-seed)
 
 Buat seed untuk table PokemonImages
 ```
@@ -158,65 +164,34 @@ Running seed pokemon-image
 npx sequelize db:seed --seed blablabla-pokemon-image
 ```
 
-## 9. [Relasi di migration dan model itu BERBEDA](https://sequelize.org/v5/manual/associations.html)
+## 6. [Relasi di migration dan model itu BERBEDA](https://sequelize.org/v5/manual/associations.html)
 
 Relasi yang ada di migration dan model itu `BERBEDA ALAM`. Relasi yang ada di migration ada di dalam `databasenya` sedangkan relasi yang ada di model itu ada di `aplikasinya`.
 
 ![beda alam aplikasi dan database](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_8.png)
 
-## 10. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
+## 7. [Show data relation (join)](https://sequelize.org/v5/manual/querying.html#relations---associations)
 ```js
 Pokemon
-  .findAll({
-      include: [
-          { 
-              model: BaseStatus
-          }
-      ]
-  })
-  .then(data => {
-      // do something
-  })
-  .catch(error => {
-      // do something
-  })
+    .findAll({
+        include: [
+            { 
+                model: BaseStatus
+            }
+        ]
+    })
+    .then(data => {
+        // do something
+    })
+    .catch(error => {
+        // do something
+    })
 ``` 
-## 11. (Kelas PM) [Many To Many](https://sequelize.org/v5/manual/associations.html#belongs-to-many-associations)
-Relasi many to many, membutuhkan table tambahan yang bisa disebut table junction atau pivot, contohnya adalah jika kita punya 2 table yaitu tags dan products, table categories menyimpan hanya nama tags dan table products menyimpan data dari product seperti categoryId, name, price, description, stock, dll. 
-
-Maka hasilnya adalah 1 tags memiliki bisa memiliki banyak products bisa juga sebaliknya 1 products bisa memiliki banyak tags, karena itulah jadinya tags (many) dan product (many). 
-
-Maka dibutuhkanlah table junction, biasanya penamaannya seperti ini, produtHasTags atau tagHasProducts pilih antara 2 nama itu. Dan table junction ini berisi 2 kolom foreign key yaitu tagId dan productId yang masing-masing mereference ke table tags dan products. 
-
-![example many to many](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/manytomany.png)
-
-```
-// code Tag model 
-
-    static associate(models) {
-      // define association here
-      
-      Tag.belongsToMany(models.Product, { through: 'ProductHasTags', foreignKey: "tagId" });
-    }
-
-// code Category model 
-```
-
-```
-// code Product model 
-
-    static associate(models) {
-      // define association here
-      
-      Product.belongsToMany(models.Tag, { through: 'ProductHasTags', foreignKey: "productId" });
-    }
-
-// code Product model 
-```
 
 # Referensi 
 - https://sequelize.org/v5/manual/associations.html
 - https://sequelize.org/v5/manual/associations.html#one-to-one-associations
 - https://sequelize.org/v5/manual/associations.html#one-to-many-associations--hasmany-
+- https://sequelize.org/v5/manual/associations.html#foreign-keys
 - https://medium.com/@andrewoons/how-to-define-sequelize-associations-using-migrations-de4333bf75a7
 - https://medium.com/@MomchilKolev/sequelize-migrations-with-relations-a8fd40a0912b
