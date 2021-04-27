@@ -54,15 +54,70 @@ return this
 
 `'this'` mempresentasikan object instance dan keseluruhan yang ada di dalamnya.  
 
-## 7. [Module Exports](https://www.tutorialsteacher.com/nodejs/nodejs-module-exports)
-The module is a variable that represents the current module, and exports is an object that will be exposed as a module. So, whatever you assign to module.exports will be exposed as a module.
+## 2. [fs.readFileSync](https://nodejs.org/docs/latest-v14.x/api/fs.html#fs_fs_readfilesync_path_options)
+fs adalah sebuah module built in pada nodejs. Didalamnya terdapat function readFileSync yang dapat digunakan untuk membaca file.
 
+## 3. [JavaScript Object Notation](https://www.json.org/json-en.html)
+JSON (JavaScript Object Notation) is a lightweight data-interchange format. 
+
+Sebuah format untuk pertukaran data yang dapat digunakan pada beragam bahasa pemrograman dimana setiap bahasa pemrograman memiliki cara tersendiri dalam interaksinya. 
+
+Dibuat berdasarkan format object pada Javascript (`key: value`).
+
+Tipe data dari value JSON:
+- Boolean
+- String
+- Number
+- Array
+- Object
+- Null
+
+Contoh 1 data dalam json
 ```js
-module.exports = Smartphone
+// file users.json
+{
+    "name": "Teddy Monitor",
+    "email": "teddy@email.com",
+    "password": "teddywadidaw",
+    "isActive": true,
+    "age": 20
+}
 ```
 
-## 7. [fs.readFileSync](https://nodejs.org/docs/latest-v14.x/api/fs.html#fs_fs_readfilesync_path_options)
-fs adalah sebuah module built in pada nodejs. Didalamnya terdapat function readFileSync yang dapat digunakan untuk membaca file.
+Contoh banyak data dalam json
+```js
+// file users.json
+[
+    {
+        "name": "Teddy Monitor",
+        "email": "teddy@email.com",
+        "password": "teddywadidaw",
+        "isActive": true,
+        "age": 20
+    },
+    {
+        "name": "Alexander Zulkifli",
+        "email": "alex@email.com",
+        "password": "alexoranginggris",
+        "isActive": true,
+        "age": 20
+    },
+    {
+        "name": "Tatang Topi",
+        "email": "tatang@email.com",
+        "password": "topinambahganteng",
+        "isActive": false,
+        "age": 20
+    },
+    {
+        "name": "Wawan Jaya Abadi",
+        "email": "wawan@email.com",
+        "password": "gakwarteggakfren",
+        "isActive": true,
+        "age": 20
+    }
+]
+```
 
 # Reference:
 - https://www.petanikode.com/java-oop/
@@ -76,3 +131,4 @@ fs adalah sebuah module built in pada nodejs. Didalamnya terdapat function readF
 - https://www.tutorialsteacher.com/nodejs/nodejs-module-exports
 - https://nodejs.org/docs/latest-v14.x/api/fs.html#fs_file_system
 - https://www.codepolitan.com/belajar-method-chaining-dan-implementasinya-dalam-php-57b54c754d53b-5
+- https://www.youtube.com/watch?v=EluVFXu4GOU
