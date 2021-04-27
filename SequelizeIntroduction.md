@@ -95,6 +95,14 @@ User
 ```
 more detail: https://sequelize.org/v5/class/lib/model.js~Model.html#static-method-findAll
 
+## 14. Migration dan Model itu SANGAT BERBEDA
+`SANGAT BERBEDA`
+
+TIDAK ADA HUBUNGANNYA SAMA SEKALI
+
+Migration, berhubungan dengan struktur table 
+
+Model, berhubungan dengan data yang ada dalam table 
 # Referensi 
 - https://sequelize.org/v5
 - https://sequelize.org/v5/identifiers.html
