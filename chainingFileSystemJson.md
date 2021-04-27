@@ -2,8 +2,6 @@
 
 **Record**
 
-![posisi-middleware](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/posisi-middleware.png)
-
 ## 1. [Method Chaining](https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f)
 "Method chaining merupakan salah satu konsep yang ada dalam paradigma OOP untuk mengikat / merantai method." - [Ahmad Oriza](https://www.codepolitan.com/belajar-method-chaining-dan-implementasinya-dalam-php-57b54c754d53b-5)
 
@@ -25,7 +23,8 @@ class ChainAble {
   }
 }
 
-const chainAbleInstance = new ChainAble()
+const chainAbleInstance = new ChainAble();
+
 chainAbleInstance.firstMethod();
 chainAbleInstance.secondMethod();
 chainAbleInstance.thirdMethod();
@@ -36,7 +35,8 @@ contoh penggunaan method chaining:
 
 ```js
 // Dengan chaining
-const chainAbleInstance = new ChainAble()
+const chainAbleInstance = new ChainAble();
+
 object.firstMethod().secondMethod().thirdMethod();
 ```
 
@@ -55,7 +55,17 @@ return this
 `'this'` mempresentasikan object instance dan keseluruhan yang ada di dalamnya.  
 
 ## 2. [fs.readFileSync](https://nodejs.org/docs/latest-v14.x/api/fs.html#fs_fs_readfilesync_path_options)
-fs adalah sebuah module built in pada nodejs. Didalamnya terdapat function readFileSync yang dapat digunakan untuk membaca file.
+fs adalah sebuah module built in pada nodejs. Didalamnya terdapat function readFileSync yang dapat digunakan untuk membaca file dan return value didalam filenya.
+
+contoh penggunaan:
+```js
+const fs = require('fs')
+
+let data = fs.readFileSync('./users.csv');
+
+console.log(data)
+```
+
 
 ## 3. [JavaScript Object Notation](https://www.json.org/json-en.html)
 JSON (JavaScript Object Notation) is a lightweight data-interchange format. 
