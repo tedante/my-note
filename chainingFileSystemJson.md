@@ -37,7 +37,7 @@ contoh penggunaan method chaining:
 // Dengan chaining
 const chainAbleInstance = new ChainAble();
 
-object.firstMethod().secondMethod().thirdMethod();
+chainAbleInstance.firstMethod().secondMethod().thirdMethod();
 ```
 
 ```js
@@ -86,11 +86,10 @@ Contoh 1 data dalam json
 ```js
 // file users.json
 {
-    "name": "Teddy Monitor",
-    "email": "teddy@email.com",
-    "password": "teddywadidaw",
-    "isActive": true,
-    "age": 20
+    "name": "Iphul S20 Lite",
+    "cpu": "Bionic 1660S",
+    "memory": "4GB",
+    "storage": "64"
 }
 ```
 
@@ -99,32 +98,28 @@ Contoh banyak data dalam json
 // file users.json
 [
     {
-        "name": "Teddy Monitor",
-        "email": "teddy@email.com",
-        "password": "teddywadidaw",
-        "isActive": true,
-        "age": 20
+        "name": "Iphul S20 Lite",
+        "cpu": "Bionic 1660S",
+        "memory": "4GB",
+        "storage": "64GB"
     },
     {
-        "name": "Alexander Zulkifli",
-        "email": "alex@email.com",
-        "password": "alexoranginggris",
-        "isActive": true,
-        "age": 20
+        "name": "Iphul S20+ Ultra Lite 2G 3G 4G 5G",
+        "cpu": "Bionic 3060",
+        "memory": "16GB",
+        "storage": "124GB"
     },
     {
-        "name": "Tatang Topi",
-        "email": "tatang@email.com",
-        "password": "topinambahganteng",
-        "isActive": false,
-        "age": 20
+        "name": "Samsul 12 Pro Max",
+        "cpu": "Exynos 3070",
+        "memory": "16GB",
+        "storage": "124GB"
     },
     {
-        "name": "Wawan Jaya Abadi",
-        "email": "wawan@email.com",
-        "password": "gakwarteggakfren",
-        "isActive": true,
-        "age": 20
+        "name": "Samsul 12 Mini Pro Max Ultra Lite Super Saiyan Bankai Gear 4 5G",
+        "cpu": "Exynos 3090 TI",
+        "memory": "124GB",
+        "storage": "104GB"
     }
 ]
 ```
@@ -142,3 +137,5 @@ Contoh banyak data dalam json
 - https://nodejs.org/docs/latest-v14.x/api/fs.html#fs_file_system
 - https://www.codepolitan.com/belajar-method-chaining-dan-implementasinya-dalam-php-57b54c754d53b-5
 - https://www.youtube.com/watch?v=EluVFXu4GOU
+- https://nodejs.org/en/knowledge/advanced/buffers/how-to-use-buffers/
+- https://www.codepolitan.com/apa-itu-encoding-obfuscation-hashing-dan-encryption-58bfb7eee3215
