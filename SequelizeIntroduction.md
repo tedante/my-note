@@ -1,5 +1,10 @@
 # Sequelize Intro
 
+Record 
+
+- buat gitignore
+- npm init
+
 ## 1. [Apa itu sequelize?](https://sequelize.org/v5/)
 
 Promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.
