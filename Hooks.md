@@ -1,10 +1,14 @@
-# Sequelize Hooks
+# Sequelize Hooks + Static Method + Instance Method
 
-## 1. [Apa itu hooks?](https://sequelize.org/v5/manual/hooks.html)
+- .gitignore
+- npm init
 
-Secara mudahnya hooks adalah fungsi yang akan dijalankan sebelum atau sesudah sebuah operasi sequelize contoh sebelum create atau sesudah create. 
+## 1. [Apa itu hooks?](https://sequelize.org/master/manual/hooks.html)
+Hooks (also known as lifecycle events), are functions which are called before and after calls in sequelize are executed. 
 
-## 2. [Order of Operations Hook](https://sequelize.org/v5/manual/hooks.html#order-of-operations)
+Secara mudahnya hooks adalah fungsi yang akan dijalankan sebelum atau sesudah sebuah operasi model didalam sequelize. Contohnya sebelum create atau sesudah create. 
+
+## 2. [Order of Operations Hook](https://sequelize.org/master/manual/hooks.html#order-of-operations)
 ```
 (1)
   beforeBulkCreate(instances, options)
@@ -40,7 +44,8 @@ Secara mudahnya hooks adalah fungsi yang akan dijalankan sebelum atau sesudah se
   afterBulkUpdate(options)
 ```
 
-## 3. [Cara menggunakan hooks](https://sequelize.org/v5/manual/hooks.html#declaring-hooks)
+
+## 3. [Cara menggunakan hooks](https://sequelize.org/master/manual/hooks.html#declaring-hooks)
 
 Ada 3 cara untuk menggunakan hooks, kita bisa pilih sesuai dengan kebutuhan. Dalam sebuah hooks kita bisa melakukan banyak logic untuk memanipulasi data ataupun yang lainnya. Seperti misal jika setelah register kita akan mengirimkan email informasi bahwa berhasil register, maka itu dilakukan setelah create data user.
 ```js
@@ -91,10 +96,20 @@ User.afterValidate('myHookAfter', (user, options) => {
 // ===================================================
 ```
 
-## 4. [Global hooks](https://sequelize.org/v5/manual/hooks.html#global---universal-hooks)
+Kita akan mecoba menambahkan hooks untuk memasukan data `code` secara otomatis!
+
+`Disc-o-Rent` mengharapkan format sebagai berikut:
+- Sebuah disc memiliki judul `Cerita Burhan` dan genre `Supranatural`.
+- Format yang diharapkan dari judul tersebut adalah `CB-Supranatural`, yang mengambil setiap huruf besar yang ditemukan pada `name`, kemudian digabungkan dengan `genre` (dengan tanda `-` dihilangkan).
+
+Output yang diharapkan adalah sebagai berikut:
+
+![Hooks applied to newly created Disc](./assets/s3-add-hooks.png)
+
+## 4. [Global hooks](https://sequelize.org/master/manual/hooks.html#global---universal-hooks)
 Global hooks adalah hook yang akan dijalankan di semua model. Untuk menggunakan global hook maka kita akan menaruhnya di model/index.js
 ```
-// codingan index yang lain
+// codingan model/index.js yang lain
 
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
@@ -119,16 +134,53 @@ if (config.use_env_variable) {
   sequelize = new Sequelize(config.database, config.username, config.password, config);
 }
 
-// codingan index yang lain
+// codingan  model/index.js yang lain
 ```
 
-## 5. Parameter pada hooks (instances, options)
+## 5. [Individual Hooks](https://sequelize.org/master/manual/hooks.html)
+methods like bulkCreate do not emit individual hooks by default - only the bulk hooks. However, if you want individual hooks to be emitted as well, you can pass the { individualHooks: true } option to the query call.
+
+```js
+
+Model
+    .update({ username: 'Tony' }, {
+        where: { accessLevel: 0 },
+        individualHooks: true // individual hooks
+    });
+
+```
+
+## 6. Parameter pada hooks (instances, options)
 Kebanyakan hooks memiliki 2 parameter yaitu instances dan options.
 1. instance berisi object data yang telah di passing dari controller ke model
 2. option berisi kolom dari table dll.
 
+
+## 7. Static Method
+
+Example: Select all data with genre Sci-Fi
+```js
+static getScifi() {
+  return Disc
+            .findAll({
+              where: {
+                genre: "Sci-Fi"
+              }
+            })
+}
+```
+## 8. Instance Method
+
+Example: Price with IDR format
+```js
+getPriceIdr() {
+  return `IDR ${this.rentPrice.toLocaleString("id-ID")},00`
+}
+
+```
+
 # Referensi 
-- https://sequelize.org/v5/manual/hooks.html
-- https://sequelize.org/v5/manual/hooks.html#order-of-operations
-- https://sequelize.org/v5/manual/hooks.html#declaring-hooks
-- https://sequelize.org/v5/manual/hooks.html#global---universal-hooks
+- https://sequelize.org/master/manual/hooks.html
+- https://sequelize.org/master/manual/hooks.html#order-of-operations
+- https://sequelize.org/master/manual/hooks.html#declaring-hooks
+- https://sequelize.org/master/manual/hooks.html#global---universal-hooks
