@@ -104,7 +104,7 @@ Kita akan mecoba menambahkan hooks untuk memasukan data `code` secara otomatis!
 
 Output yang diharapkan adalah sebagai berikut:
 
-![Hooks applied to newly created Disc](./assets/s3-add-hooks.png)
+![Hooks applied to newly created Disc](./images/s3-add-hooks.png)
 
 ## 4. [Global hooks](https://sequelize.org/master/manual/hooks.html#global---universal-hooks)
 Global hooks adalah hook yang akan dijalankan di semua model. Untuk menggunakan global hook maka kita akan menaruhnya di model/index.js
