@@ -89,7 +89,6 @@ Alur dari pembuatan sebuah object:
 - https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f
 - https://www.tutorialspoint.com/method-chaining-in-javascript
 - https://nodejs.org/api/fs.html
-- https://www.youtube.com/playlist?list=PLCZlgfAG0GXAiH1acKFPx8EtpJAq44gjPd
 - https://dev.to/samanthaming/3-ways-to-set-default-value-in-javascript-2253
 - https://www.tutorialsteacher.com/nodejs/nodejs-module-exports
 - https://nodejs.org/docs/latest-v14.x/api/fs.html#fs_file_system
