@@ -1,9 +1,9 @@
 # Basic Object Oriented Programming
 
-**Record**
-
 ## 1. What
-OOP adalah paradigma/model/konsep dalam pemrograman yang mendefinisikan desain dari software dalam bentuk OBJECT, bukan hanya dalam bentuk function dan logika saja.
+OOP adalah paradigma/model/konsep dalam pemrograman yang mendefinisikan desain dari software dalam bentuk OBJECT. 
+
+Maksudnya object disini didasarkan pada object di dunia nyata contoh object yang namanya smartphone. Smartphone diibaratkan mempunyai property dan juga method yang nanti ada penjelasannya di bawah.
 
 ## 2. Why
 - Flexibility and maintainability
@@ -17,29 +17,53 @@ OOP adalah paradigma/model/konsep dalam pemrograman yang mendefinisikan desain d
 
 `CLASS` adalah blueprint/cetakan/rancangan
 
-`INSTANCE` adalah proses pembuatan object dari class
+`INSTANSTIATE` adalah proses pembuatan object dari class
 
 `OBJECT` adalah hasil instance dari class
 
 Didalam OOP `VARIABLE` disebut juga dengan `PROPERTY` dan `FUNCTION` disebut juga dengan `METHOD`
 
+Penamaan class: 
+- PascalCase
+- Singular
+
 ## 4. Constructor
-Constructor adalah function yang dijalankan ketika proses instance. Contructor biasanya digunakan untuk inisiasi property.
+Constructor adalah function yang dijalankan ketika proses INSTANSTIATE. Constructor biasanya digunakan untuk inisiasi property.
 
 ## 5. Let's Try
 
 Kita punya sebuah smartphone yang memiliki spesifikasi
 - `CPU` snapdragon 2070 
-- `memory` 4GB 
-- `storage` 64GB 
+- `color` red
 
+```js
+let jajangSmartphone = {
+  name : 'Iphul S20 Lite',
+  cpu : 'Bionic 1660S',
+  color : 'red'
+}
+let teddySmartphone = {
+  name : 'Samsul 12 Pro Max',
+  cpu : 'Bionic 2070',
+  color : 'black'
+}
+let alexSmartphone = {
+  name : 'Samsul 12 Pro Max Lite Super',
+  cpu : 'Bionic 2070 TI',
+  color : 'violet'
+}
+```
+
+Jika misalnya ada penambahan property didalam object maka kita harus menambahkan property baru ke semua object yang ada.
+
+jika dengan menggunakan konsep oop jadinya seperti ini,
 
 ```js
 class Smartphone {
-    constructor(cpu, memory, storage) {
+    constructor(name, cpu, color) {
+        this.name = name
         this.cpu = cpu
-        this.memory = memory
-        this.storage = storage
+        this.color = color
     }
 
     bisaNyala() {}
@@ -48,37 +72,15 @@ class Smartphone {
     showSpec() {}
 }
 
-let bambangSmartphone = new Smartphone("snapdragon 2070", "4GB", "64GB")
+let jajangSmartphone = new Smartphone("Iphul S20 Lite", "Bionic 1660S", "red")
+let teddySmartphone = new Smartphone("Samsul 12 Pro Max", "Bionic 2070", "black")
+let alexSmartphone = new Smartphone("Samsul 12 Pro Max Ultra Lite Super", "Bionic 2070 TI", "violet")
 
-console.log(bambangSmartphone)
+console.log(jajangSmartphone)
 ```
 
 Alur dari pembuatan sebuah object:
 ![constructor](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/constructor.png)
-
-## 6. [Method Chaining](https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f)
-contoh method chaining: 
-
-```js
-str = "Pagi-Pagi"
-console.log(str.split('').reverse().join(''))
-```
-
-Kata kunci: 
-
-```js
-return this
-```
-
-## 7. [Module Exports](https://www.tutorialsteacher.com/nodejs/nodejs-module-exports)
-The module is a variable that represents the current module, and exports is an object that will be exposed as a module. So, whatever you assign to module.exports will be exposed as a module.
-
-```js
-module.exports = Smartphone
-```
-
-## 7. [fs.readFileSync](https://nodejs.org/docs/latest-v14.x/api/fs.html#fs_fs_readfilesync_path_options)
-fs adalah sebuah module built in pada nodejs. Didalamnya terdapat function readFileSync yang dapat digunakan untuk membaca file.
 
 # Reference:
 - https://www.petanikode.com/java-oop/
