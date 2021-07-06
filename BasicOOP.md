@@ -80,7 +80,7 @@ console.log(jajangSmartphone)
 ```
 
 Alur dari pembuatan sebuah object:
-![constructor](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/constructor.png)
+![constructor](./images/flow-instantiate.png)
 
 # Reference:
 - https://www.petanikode.com/java-oop/
