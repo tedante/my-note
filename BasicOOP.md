@@ -13,7 +13,7 @@ Maksudnya object disini didasarkan pada object di dunia nyata contoh object yang
 
 ## 3. Class and Object
 
-![class-instance-object](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/classObject.png)
+![class-instance-object](./images/class-instance.png)
 
 `CLASS` adalah blueprint/cetakan/rancangan
 
