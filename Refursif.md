@@ -1,14 +1,49 @@
 # Rekursif (Recursive)
 
-## 1. [Apa itu rekursif?](https://developer.mozilla.org/en-US/docs/Glossary/Recursion)
+## 1. [Function](https://developer.mozilla.org/en-US/docs/Glossary/Recursion)
 
-rekursif intinya adalah sebuah fungsi yang didalamnya itu memanggil dirinya sendiri. rekursif memiliki input yang nantinya dapat menjadi 2 kondisi yaitu base case (ends recursion) dan recursive case (resume recursion) 
+Secara sederhana, function adalah kode program yang dirancang untuk menyelesaikan sebuah tugas tertentu yang bisa dipanggil berulang kali.
+
+Function itu bisa return sebuah value atau menampilkan value.
+
+```js
+function cookIndomie(variant) {
+    return "cook indomie " + variant + " selesai"
+}
+
+cookIndome("Goreng Kuah Soto") // or
+console.log(cookIndome("Goreng Kuah Soto"))
+```
+
+```js
+function cookIndomie(variant) {
+    console.log("cook indomie " + variant + " selesai")
+}
+
+cookIndome("Goreng Kuah Soto")
+```
+
+Ketika membuat function perhatikan mau dipanggilnya seperti apa atau mekanisme outpusnya seperti apa.
+
+## 2. [Apa itu function rekursif?](https://developer.mozilla.org/en-US/docs/Glossary/Recursion)
+
+rekursif intinya adalah sebuah fungsi yang didalamnya itu memanggil dirinya sendiri. 
+
+Function:
+![one to one](./img/writing-function.png)
+
+Fucntion Recursive:
+![one to one](./img/recursive.png)
+
+rekursif memiliki 2 kondisi yaitu base case (end recursion) dan recursive case (resume recursion).
 
 ## 2. [Kenapa kita perlu paham rekursif](https://rizafahmi.com/2020/03/26/rekursif-atau-recursion/)
 
-rekursif adalah salah satu pengetahuan fundamental yang sangat diharapkan dikuasai oleh developer. Dan yang tidak kalah penting adalah banyak sekali algoritma diluar sana yang menggunakan rekursif sehingga dengan memahaminya, secara tidak langsung kita bisa mengerti algoritma yang menggunakan rekursif.
+rekursif adalah salah satu pengetahuan fundamental yang sangat diharapkan dikuasai oleh developer. Dan yang tidak kalah penting adalah banyak algoritma diluar sana yang menggunakan rekursif.
 
-Namun sebenarnya pun tanpa rekursif pun kita bisa saja menggunakan perulangan untuk menciptakan solusi yang sama. Akan tetapi setidaknya kita mengerti cara kerja rekursif.
+Secara umum semua kasus yang bisa selesai menggunakan looping maka bisa juga menggunakan rekursif, tapi tidak secara sebaliknya.
+- Pencarian data dalam struktur data list dan tree
+- Bahasa pemrograman yang tidak memiliki looping (Haskell, Erlang, Proglog)
 
 ## 3. Contoh perbedaan looping dengan rekursif
 
@@ -27,27 +62,35 @@ Penghitung mundur dengan rekursif
 function countdown(number) {
     console.log(number)
 
-    if (number <= 0) {
+    if (number == 0) {
         return;
-    } else {
-        countdown(number - 1)
-    }
+    } 
+    
+    countdown(number - 1)
+    
 }
 
 countdown(10)
 ```
 
-## 4. Cara kerja
-Contoh 1:
+Contoh lain:
+1. Tambah angka 
+2. Faktorial
+3. Translate num string 
+    - 1 -> A
+    - 2 -> B
+    - 3 -> C
+    - 4 -> D
+    - 5 -> E
+    - 6 -> F
+    - 7 -> G
+    - 8 -> H
+    - 9 -> I
 
-![example2](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/stack_tracing_recursion.png)
-
-
-Contoh 2:
-
-![example1](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/recursion.png)
 
 # Referensi 
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+- https://www.duniailkom.com/tutorial-belajar-java-pengertian-function-fungsi-bahasa-java/
 - https://developer.mozilla.org/en-US/docs/Glossary/Recursion
 - https://rizafahmi.com/2020/03/26/rekursif-atau-recursion
 - https://www.youtube.com/watch?v=B0NtAFf4bvU
