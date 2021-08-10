@@ -1,7 +1,5 @@
-# MVC Callback Review
 
-<details>
-<summary>1. MVC</summary>
+# MVC Callback 
 
 ## 1. [MVC ?](https://www.tutorialspoint.com/mvc_framework/mvc_framework_introduction.htm)
 
@@ -16,10 +14,6 @@ Model View Controller or MVC is an architectural pattern that separates an appli
 
 ![flow MVC](https://miro.medium.com/max/700/1*hTlpGXMh9EFefBIT9NrTDQ.png)
 
-</details>
-
-<details>
-<summary>2. Callback</summary>
 
 ## 2. [Callback](https://www.w3schools.com/js/js_callback.asp)
 
@@ -31,59 +25,27 @@ This technique allows a function to call another function
 
 A callback function can run after another function has finished
 
-</details>
-
-<details>
-<summary>3. Buat folder models, views, dan controllers</summary>
 
 ## 3. Buat folder models, views, dan controllers
 
 Membuat aplikasi untuk memanipulasi data buku, termasuk didalamnya CRUD 
 
-</details>
-
-<details>
-<summary>4. Buat file induk atau utama</summary>
 
 ## 4. Buat file induk atau utama (index atau app)
 
-</details>
-
-<details>
-<summary>5. Buat command help</summary>
 
 ## 5. Buat command help
 
 Bagusnya setiap kita bikin aplikasi bikin dulu bagian atau perintah "help" supaya orang lain yang mau pakai aplikasi itu jelas bisa ngapain aja dan sebagainya.
 
-</details>
-
-<details>
-<summary>6. Buat file controller</summary>
-
 ## 6. Buat file controller
 
 `'JANGAN LUPA module.exports PAKAI ES'`
 
-</details>
-
-<details>
-<summary>7. Require/Import controller </summary>
 
 ## 7. Require/Import controller 
 
-</details>
-
-<details>
-<summary>8. Buat file view</summary>
-
 ## 8. Buat file view
-
-</details>
-
-
-<details>
-<summary>9. Buat command lain</summary>
 
 ## 9. Buat command lain
 
@@ -94,7 +56,6 @@ Bagusnya setiap kita bikin aplikasi bikin dulu bagian atau perintah "help" supay
 - Pastikan data yang kita inginkan sudah benar
 - Buat view
 - Hubungkan controller ke view
-</details>
 
 
 
