@@ -9,6 +9,12 @@ node-postgres is a collection of node.js modules for interfacing with your Postg
 
 LIBRARY/PACKAGE/DEPENDENCIES singkatnya adalah code orang lain yang bisa kita pakai.
 
+Sebelum mulai ke tahap 2, mulai dari sekarang hampir semua project yang kita kerjakan harus menjalankan di terminal 
+
+```npm init``` 
+
+dan BUAT FILE .gitignore masukan "node_modules"
+
 ## 2. [Install Node Postgres](https://node-postgres.com/)
 untuk menginstall library node-postgres bisa jalankan di terminal 
 
@@ -40,7 +46,7 @@ client.query('SELECT NOW()', (err, res) => {
   client.end()
 })
 ```
-
+biasanya code connection ini kita letakan di folder config/connection.js
 
 ## 4. [Setup/Migration](https://www.postgresqltutorial.com/postgresql-create-table/)
 Setup/migration adalah proses untuk mendefinisikan atau merubah struktur (schema) dari database.
@@ -63,6 +69,8 @@ CREATE TABLE accounts (
     last_login TIMESTAMP 
 );
 ```
+biasanya kita letakan code ini di setup.js
+
 ## 5. [Seeder](https://www.postgresqltutorial.com/postgresql-insert-multiple-rows/)
 Seeder adalah proses untuk memasukan data dummy ke dalam database.
 
@@ -83,7 +91,10 @@ VALUES
     ('https://www.bing.com','Bing');
 ```
 
+biasanya kita letakan code ini di seeder.js
+
 # Referensi 
 - https://node-postgres.com/
 - https://www.postgresqltutorial.com/
 - https://laravel.com/docs/8.x/migrations#introduction
+- https://docs.npmjs.com/creating-a-package-json-file
