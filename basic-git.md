@@ -20,8 +20,9 @@ Intinya git ini merekam semua perubahan yang terjadi pada file dalam repo dan ki
 
 ## 3. Basic Git Config
 run this command in terminal:
-```git config –global user.name "Juned The Geming And Code"```
-```git config –global user.email "junedtamvhan@gmail.com"```
+```git config --global user.name "Juned The Geming And Code"```
+
+```git config --global user.email "junedtamvhan@gmail.com"```
 
 ## 4. Three State File in Git
 1. Modified, kita mengubah file tapi belum disimpan secara permanen ke repository
@@ -35,7 +36,7 @@ Clone atau download repo dari git server ke local
 
 ## 6. git checkout -b
 Membuat branch baru dan pindah ke branch tersebut
-```git clone checkout -b <namaBranchBaru>```
+```git checkout -b <namaBranchBaru>```
 
 ## 7. git status
 Melihat status file
