@@ -83,7 +83,7 @@ Alur dari pembuatan sebuah object:
 ![constructor](./images/flow-instantiate.png)
 
 # Reference:
-- https://www.petanikode.com/java-oop/
+- https://www.youtube.com/watch?v=4l3bTDlT6ZI&list=PL4cUxeGkcC9i5yvDkJgt60vNVWffpblB7&index=1&ab_channel=TheNetNinja
 - https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/
 - https://medium.com/backticks-tildes/understanding-method-chaining-in-javascript-647a9004bd4f
