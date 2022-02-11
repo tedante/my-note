@@ -115,7 +115,6 @@ console.log(req.query.q)
 ```
 
 # Referensi 
-- https://docs.google.com/presentation/d/1MmR249WJ-wpYybt-6CL6yjnhel2slN5Jl1nYVaM2-b4/edit#slide=id.g7c8eb2d86c_0_0
 - https://expressjs.com/
 - https://www.niagahoster.co.id/blog/apa-itu-framework/
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview
