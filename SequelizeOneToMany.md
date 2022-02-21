@@ -49,7 +49,7 @@ Dengan command:
 
 ```npx sequelize-cli migration:generate --name add-PokemonId-to-BaseStatuses-table```
 
-Di dalam migration method up, gunakan [addColumn](https://sequelize.org/master/class/lib/dialects/abstract/query-interface.js~QueryInterface.html#instance-method-addColumn) untuk menambah column: 
+Di dalam migration method up, gunakan [addColumn](https://sequelize.org/v6/class/src/dialects/abstract/query-interface.js~QueryInterface.html#instance-method-addColumn) untuk menambah column: 
 
 ```js
 // codingan migration yang lain
