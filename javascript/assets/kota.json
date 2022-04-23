@@ -1,0 +1,4627 @@
+[{
+    "id": 1,
+    "code": "1101",
+    "province_code": "11",
+    "name": "KABUPATEN ACEH SELATAN",
+    "meta": {
+        "lat": "3.3115056",
+        "long": "97.3516558"
+    }
+}, {
+    "id": 2,
+    "code": "1102",
+    "province_code": "11",
+    "name": "KABUPATEN ACEH TENGGARA",
+    "meta": {
+        "lat": "3.3088666",
+        "long": "97.6982272"
+    }
+}, {
+    "id": 3,
+    "code": "1103",
+    "province_code": "11",
+    "name": "KABUPATEN ACEH TIMUR",
+    "meta": {
+        "lat": "4.5224111",
+        "long": "97.6114217"
+    }
+}, {
+    "id": 4,
+    "code": "1104",
+    "province_code": "11",
+    "name": "KABUPATEN ACEH TENGAH",
+    "meta": {
+        "lat": "4.4482641",
+        "long": "96.8350999"
+    }
+}, {
+    "id": 5,
+    "code": "1105",
+    "province_code": "11",
+    "name": "KABUPATEN ACEH BARAT",
+    "meta": {
+        "lat": "4.4542745",
+        "long": "96.1526985"
+    }
+}, {
+    "id": 6,
+    "code": "1106",
+    "province_code": "11",
+    "name": "KABUPATEN ACEH BESAR",
+    "meta": {
+        "lat": "5.4529168",
+        "long": "95.4777811"
+    }
+}, {
+    "id": 7,
+    "code": "1107",
+    "province_code": "11",
+    "name": "KABUPATEN PIDIE",
+    "meta": {
+        "lat": "5.0742659",
+        "long": "95.940971"
+    }
+}, {
+    "id": 8,
+    "code": "1108",
+    "province_code": "11",
+    "name": "KABUPATEN ACEH UTARA",
+    "meta": {
+        "lat": "4.9786331",
+        "long": "97.2221421"
+    }
+}, {
+    "id": 9,
+    "code": "1109",
+    "province_code": "11",
+    "name": "KABUPATEN SIMEULUE",
+    "meta": {
+        "lat": "2.6439724",
+        "long": "96.0255738"
+    }
+}, {
+    "id": 10,
+    "code": "1110",
+    "province_code": "11",
+    "name": "KABUPATEN ACEH SINGKIL",
+    "meta": {
+        "lat": "2.3589459",
+        "long": "97.87216"
+    }
+}, {
+    "id": 11,
+    "code": "1111",
+    "province_code": "11",
+    "name": "KABUPATEN BIREUEN",
+    "meta": {
+        "lat": "5.1086446",
+        "long": "96.663812"
+    }
+}, {
+    "id": 12,
+    "code": "1112",
+    "province_code": "11",
+    "name": "KABUPATEN ACEH BARAT DAYA",
+    "meta": {
+        "lat": "3.7963426",
+        "long": "97.0068393"
+    }
+}, {
+    "id": 13,
+    "code": "1113",
+    "province_code": "11",
+    "name": "KABUPATEN GAYO LUES",
+    "meta": {
+        "lat": "3.955165",
+        "long": "97.3516558"
+    }
+}, {
+    "id": 14,
+    "code": "1114",
+    "province_code": "11",
+    "name": "KABUPATEN ACEH JAYA",
+    "meta": {
+        "lat": "4.7873684",
+        "long": "95.6457951"
+    }
+}, {
+    "id": 15,
+    "code": "1115",
+    "province_code": "11",
+    "name": "KABUPATEN NAGAN RAYA",
+    "meta": {
+        "lat": "4.1248406",
+        "long": "96.4929797"
+    }
+}, {
+    "id": 16,
+    "code": "1116",
+    "province_code": "11",
+    "name": "KABUPATEN ACEH TAMIANG",
+    "meta": {
+        "lat": "4.2328871",
+        "long": "98.0028892"
+    }
+}, {
+    "id": 17,
+    "code": "1117",
+    "province_code": "11",
+    "name": "KABUPATEN BENER MERIAH",
+    "meta": {
+        "lat": "4.7513606",
+        "long": "96.9525224"
+    }
+}, {
+    "id": 18,
+    "code": "1118",
+    "province_code": "11",
+    "name": "KABUPATEN PIDIE JAYA",
+    "meta": {
+        "lat": "5.1548063",
+        "long": "96.195132"
+    }
+}, {
+    "id": 19,
+    "code": "1171",
+    "province_code": "11",
+    "name": "KOTA BANDA ACEH",
+    "meta": {
+        "lat": "5.5482904",
+        "long": "95.3237559"
+    }
+}, {
+    "id": 20,
+    "code": "1172",
+    "province_code": "11",
+    "name": "KOTA SABANG",
+    "meta": {
+        "lat": "5.8926053",
+        "long": "95.3237608"
+    }
+}, {
+    "id": 21,
+    "code": "1173",
+    "province_code": "11",
+    "name": "KOTA LHOKSEUMAWE",
+    "meta": {
+        "lat": "5.1811638",
+        "long": "97.1413222"
+    }
+}, {
+    "id": 22,
+    "code": "1174",
+    "province_code": "11",
+    "name": "KOTA LANGSA",
+    "meta": {
+        "lat": "4.4725348",
+        "long": "97.9756343"
+    }
+}, {
+    "id": 23,
+    "code": "1175",
+    "province_code": "11",
+    "name": "KOTA SUBULUSSALAM",
+    "meta": {
+        "lat": "2.7121164",
+        "long": "97.9157099"
+    }
+}, {
+    "id": 24,
+    "code": "1201",
+    "province_code": "12",
+    "name": "KABUPATEN TAPANULI TENGAH",
+    "meta": {
+        "lat": "1.8493299",
+        "long": "98.704075"
+    }
+}, {
+    "id": 25,
+    "code": "1202",
+    "province_code": "12",
+    "name": "KABUPATEN TAPANULI UTARA",
+    "meta": {
+        "lat": "2.0405246",
+        "long": "99.1013498"
+    }
+}, {
+    "id": 26,
+    "code": "1203",
+    "province_code": "12",
+    "name": "KABUPATEN TAPANULI SELATAN",
+    "meta": {
+        "lat": "1.5774933",
+        "long": "99.2785583"
+    }
+}, {
+    "id": 27,
+    "code": "1204",
+    "province_code": "12",
+    "name": "KABUPATEN NIAS",
+    "meta": {
+        "lat": "1.0869444",
+        "long": "97.7416703"
+    }
+}, {
+    "id": 28,
+    "code": "1205",
+    "province_code": "12",
+    "name": "KABUPATEN LANGKAT",
+    "meta": {
+        "lat": "3.8653916",
+        "long": "98.3088441"
+    }
+}, {
+    "id": 29,
+    "code": "1206",
+    "province_code": "12",
+    "name": "KABUPATEN KARO",
+    "meta": {
+        "lat": "3.1052909",
+        "long": "98.265058"
+    }
+}, {
+    "id": 30,
+    "code": "1207",
+    "province_code": "12",
+    "name": "KABUPATEN DELI SERDANG",
+    "meta": {
+        "lat": "3.4201802",
+        "long": "98.704075"
+    }
+}, {
+    "id": 31,
+    "code": "1208",
+    "province_code": "12",
+    "name": "KABUPATEN SIMALUNGUN",
+    "meta": {
+        "lat": "2.9781612",
+        "long": "99.2785583"
+    }
+}, {
+    "id": 32,
+    "code": "1209",
+    "province_code": "12",
+    "name": "KABUPATEN ASAHAN",
+    "meta": {
+        "lat": "2.8174722",
+        "long": "99.634135"
+    }
+}, {
+    "id": 33,
+    "code": "1210",
+    "province_code": "12",
+    "name": "KABUPATEN LABUHANBATU",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 34,
+    "code": "1211",
+    "province_code": "12",
+    "name": "KABUPATEN DAIRI",
+    "meta": {
+        "lat": "2.8675801",
+        "long": "98.265058"
+    }
+}, {
+    "id": 35,
+    "code": "1212",
+    "province_code": "12",
+    "name": "KABUPATEN TOBA SAMOSIR",
+    "meta": {
+        "lat": "2.3502398",
+        "long": "99.2785583"
+    }
+}, {
+    "id": 36,
+    "code": "1213",
+    "province_code": "12",
+    "name": "KABUPATEN MANDAILING NATAL",
+    "meta": {
+        "lat": "0.7432372",
+        "long": "99.3673084"
+    }
+}, {
+    "id": 37,
+    "code": "1214",
+    "province_code": "12",
+    "name": "KABUPATEN NIAS SELATAN",
+    "meta": {
+        "lat": "0.7086091",
+        "long": "97.8286368"
+    }
+}, {
+    "id": 38,
+    "code": "1215",
+    "province_code": "12",
+    "name": "KABUPATEN PAKPAK BHARAT",
+    "meta": {
+        "lat": "2.5135376",
+        "long": "98.2212979"
+    }
+}, {
+    "id": 39,
+    "code": "1216",
+    "province_code": "12",
+    "name": "KABUPATEN HUMBANG HASUNDUTAN",
+    "meta": {
+        "lat": "2.1988508",
+        "long": "98.5721016"
+    }
+}, {
+    "id": 40,
+    "code": "1217",
+    "province_code": "12",
+    "name": "KABUPATEN SAMOSIR",
+    "meta": {
+        "lat": "2.6274431",
+        "long": "98.7921836"
+    }
+}, {
+    "id": 41,
+    "code": "1218",
+    "province_code": "12",
+    "name": "KABUPATEN SERDANG BEDAGAI",
+    "meta": {
+        "lat": "3.3371694",
+        "long": "99.0571089"
+    }
+}, {
+    "id": 42,
+    "code": "1219",
+    "province_code": "12",
+    "name": "KABUPATEN BATU BARA",
+    "meta": {
+        "lat": "3.1740979",
+        "long": "99.5006143"
+    }
+}, {
+    "id": 43,
+    "code": "1220",
+    "province_code": "12",
+    "name": "KABUPATEN PADANG LAWAS UTARA",
+    "meta": {
+        "lat": "1.5758644",
+        "long": "99.634135"
+    }
+}, {
+    "id": 44,
+    "code": "1221",
+    "province_code": "12",
+    "name": "KABUPATEN PADANG LAWAS",
+    "meta": {
+        "lat": "1.1186977",
+        "long": "99.8124935"
+    }
+}, {
+    "id": 45,
+    "code": "1222",
+    "province_code": "12",
+    "name": "KABUPATEN LABUHANBATU SELATAN",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 46,
+    "code": "1223",
+    "province_code": "12",
+    "name": "KABUPATEN LABUHANBATU UTARA",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 47,
+    "code": "1224",
+    "province_code": "12",
+    "name": "KABUPATEN NIAS UTARA",
+    "meta": {
+        "lat": "1.3166036",
+        "long": "97.394882"
+    }
+}, {
+    "id": 48,
+    "code": "1225",
+    "province_code": "12",
+    "name": "KABUPATEN NIAS BARAT",
+    "meta": {
+        "lat": "1.0116383",
+        "long": "97.4814163"
+    }
+}, {
+    "id": 49,
+    "code": "1271",
+    "province_code": "12",
+    "name": "KOTA MEDAN",
+    "meta": {
+        "lat": "3.5951956",
+        "long": "98.6722227"
+    }
+}, {
+    "id": 50,
+    "code": "1272",
+    "province_code": "12",
+    "name": "KOTA PEMATANGSIANTAR",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 51,
+    "code": "1273",
+    "province_code": "12",
+    "name": "KOTA SIBOLGA",
+    "meta": {
+        "lat": "1.7368371",
+        "long": "98.7851121"
+    }
+}, {
+    "id": 52,
+    "code": "1274",
+    "province_code": "12",
+    "name": "KOTA TANJUNG BALAI",
+    "meta": {
+        "lat": "2.9659488",
+        "long": "99.7983506"
+    }
+}, {
+    "id": 53,
+    "code": "1275",
+    "province_code": "12",
+    "name": "KOTA BINJAI",
+    "meta": {
+        "lat": "3.6135482",
+        "long": "98.5025286"
+    }
+}, {
+    "id": 54,
+    "code": "1276",
+    "province_code": "12",
+    "name": "KOTA TEBING TINGGI",
+    "meta": {
+        "lat": "3.3262879",
+        "long": "99.1566855"
+    }
+}, {
+    "id": 55,
+    "code": "1277",
+    "province_code": "12",
+    "name": "KOTA PADANGSIDIMPUAN",
+    "meta": {
+        "lat": "1.4437644",
+        "long": "99.2563859"
+    }
+}, {
+    "id": 56,
+    "code": "1278",
+    "province_code": "12",
+    "name": "KOTA GUNUNGSITOLI",
+    "meta": {
+        "lat": "1.2804692",
+        "long": "97.6146757"
+    }
+}, {
+    "id": 57,
+    "code": "1301",
+    "province_code": "13",
+    "name": "KABUPATEN PESISIR SELATAN",
+    "meta": {
+        "lat": "-1.7223147",
+        "long": "100.8903099"
+    }
+}, {
+    "id": 58,
+    "code": "1302",
+    "province_code": "13",
+    "name": "KABUPATEN SOLOK",
+    "meta": {
+        "lat": "-0.9643838",
+        "long": "100.8903099"
+    }
+}, {
+    "id": 59,
+    "code": "1303",
+    "province_code": "13",
+    "name": "KABUPATEN SIJUNJUNG",
+    "meta": {
+        "lat": "-0.6647007",
+        "long": "101.0711758"
+    }
+}, {
+    "id": 60,
+    "code": "1304",
+    "province_code": "13",
+    "name": "KABUPATEN TANAH DATAR",
+    "meta": {
+        "lat": "-0.4797043",
+        "long": "100.5746224"
+    }
+}, {
+    "id": 61,
+    "code": "1305",
+    "province_code": "13",
+    "name": "KABUPATEN PADANG PARIAMAN",
+    "meta": {
+        "lat": "-0.5546757",
+        "long": "100.2151578"
+    }
+}, {
+    "id": 62,
+    "code": "1306",
+    "province_code": "13",
+    "name": "KABUPATEN AGAM",
+    "meta": {
+        "lat": "-0.2209392",
+        "long": "100.1703257"
+    }
+}, {
+    "id": 63,
+    "code": "1307",
+    "province_code": "13",
+    "name": "KABUPATEN LIMA PULUH KOTA",
+    "meta": {
+        "lat": "0.0734192",
+        "long": "100.5296115"
+    }
+}, {
+    "id": 64,
+    "code": "1308",
+    "province_code": "13",
+    "name": "KABUPATEN PASAMAN",
+    "meta": {
+        "lat": "0.2209392",
+        "long": "100.1703257"
+    }
+}, {
+    "id": 65,
+    "code": "1309",
+    "province_code": "13",
+    "name": "KABUPATEN KEPULAUAN MENTAWAI",
+    "meta": {
+        "lat": "-1.426001",
+        "long": "98.9245343"
+    }
+}, {
+    "id": 66,
+    "code": "1310",
+    "province_code": "13",
+    "name": "KABUPATEN DHARMASRAYA",
+    "meta": {
+        "lat": "-1.1120568",
+        "long": "101.6157773"
+    }
+}, {
+    "id": 67,
+    "code": "1311",
+    "province_code": "13",
+    "name": "KABUPATEN SOLOK SELATAN",
+    "meta": {
+        "lat": "-1.4157329",
+        "long": "101.2523792"
+    }
+}, {
+    "id": 68,
+    "code": "1312",
+    "province_code": "13",
+    "name": "KABUPATEN PASAMAN BARAT",
+    "meta": {
+        "lat": "0.2213005",
+        "long": "99.634135"
+    }
+}, {
+    "id": 69,
+    "code": "1371",
+    "province_code": "13",
+    "name": "KOTA PADANG",
+    "meta": {
+        "lat": "-0.9470832",
+        "long": "100.417181"
+    }
+}, {
+    "id": 70,
+    "code": "1372",
+    "province_code": "13",
+    "name": "KOTA SOLOK",
+    "meta": {
+        "lat": "-0.7885335",
+        "long": "100.6549823"
+    }
+}, {
+    "id": 71,
+    "code": "1373",
+    "province_code": "13",
+    "name": "KOTA SAWAHLUNTO",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 72,
+    "code": "1374",
+    "province_code": "13",
+    "name": "KOTA PADANG PANJANG",
+    "meta": {
+        "lat": "-0.4660955",
+        "long": "100.3984148"
+    }
+}, {
+    "id": 73,
+    "code": "1375",
+    "province_code": "13",
+    "name": "KOTA BUKITTINGGI",
+    "meta": {
+        "lat": "-0.3039178",
+        "long": "100.383479"
+    }
+}, {
+    "id": 74,
+    "code": "1376",
+    "province_code": "13",
+    "name": "KOTA PAYAKUMBUH",
+    "meta": {
+        "lat": "-0.2246548",
+        "long": "100.6318006"
+    }
+}, {
+    "id": 75,
+    "code": "1377",
+    "province_code": "13",
+    "name": "KOTA PARIAMAN",
+    "meta": {
+        "lat": "-0.6256517",
+        "long": "100.1233396"
+    }
+}, {
+    "id": 76,
+    "code": "1401",
+    "province_code": "14",
+    "name": "KABUPATEN KAMPAR",
+    "meta": {
+        "lat": "0.146671",
+        "long": "101.1617356"
+    }
+}, {
+    "id": 77,
+    "code": "1402",
+    "province_code": "14",
+    "name": "KABUPATEN INDRAGIRI HULU",
+    "meta": {
+        "lat": "-0.7361181",
+        "long": "102.2547919"
+    }
+}, {
+    "id": 78,
+    "code": "1403",
+    "province_code": "14",
+    "name": "KABUPATEN BENGKALIS",
+    "meta": {
+        "lat": "1.4139187",
+        "long": "101.6157773"
+    }
+}, {
+    "id": 79,
+    "code": "1404",
+    "province_code": "14",
+    "name": "KABUPATEN INDRAGIRI HILIR",
+    "meta": {
+        "lat": "-0.1456733",
+        "long": "102.989615"
+    }
+}, {
+    "id": 80,
+    "code": "1405",
+    "province_code": "14",
+    "name": "KABUPATEN PELALAWAN",
+    "meta": {
+        "lat": "0.1460923",
+        "long": "102.2547919"
+    }
+}, {
+    "id": 81,
+    "code": "1406",
+    "province_code": "14",
+    "name": "KABUPATEN ROKAN HULU",
+    "meta": {
+        "lat": "1.0410934",
+        "long": "100.439656"
+    }
+}, {
+    "id": 82,
+    "code": "1407",
+    "province_code": "14",
+    "name": "KABUPATEN ROKAN HILIR",
+    "meta": {
+        "lat": "1.6463978",
+        "long": "100.8000051"
+    }
+}, {
+    "id": 83,
+    "code": "1408",
+    "province_code": "14",
+    "name": "KABUPATEN SIAK",
+    "meta": {
+        "lat": "0.8118812",
+        "long": "101.7979613"
+    }
+}, {
+    "id": 84,
+    "code": "1409",
+    "province_code": "14",
+    "name": "KABUPATEN KUANTAN SINGINGI",
+    "meta": {
+        "lat": "-0.4411596",
+        "long": "101.5248055"
+    }
+}, {
+    "id": 85,
+    "code": "1410",
+    "province_code": "14",
+    "name": "KABUPATEN KEPULAUAN MERANTI",
+    "meta": {
+        "lat": "0.9208765",
+        "long": "102.6675575"
+    }
+}, {
+    "id": 86,
+    "code": "1471",
+    "province_code": "14",
+    "name": "KOTA PEKANBARU",
+    "meta": {
+        "lat": "0.5070677",
+        "long": "101.4477793"
+    }
+}, {
+    "id": 87,
+    "code": "1472",
+    "province_code": "14",
+    "name": "KOTA DUMAI",
+    "meta": {
+        "lat": "1.6666349",
+        "long": "101.4001855"
+    }
+}, {
+    "id": 88,
+    "code": "1501",
+    "province_code": "15",
+    "name": "KABUPATEN KERINCI",
+    "meta": {
+        "lat": "-1.8720467",
+        "long": "101.4339148"
+    }
+}, {
+    "id": 89,
+    "code": "1502",
+    "province_code": "15",
+    "name": "KABUPATEN MERANGIN",
+    "meta": {
+        "lat": "-2.1752789",
+        "long": "101.9804613"
+    }
+}, {
+    "id": 90,
+    "code": "1503",
+    "province_code": "15",
+    "name": "KABUPATEN SAROLANGUN",
+    "meta": {
+        "lat": "-2.3230422",
+        "long": "102.7135121"
+    }
+}, {
+    "id": 91,
+    "code": "1504",
+    "province_code": "15",
+    "name": "KABUPATEN BATANGHARI",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 92,
+    "code": "1505",
+    "province_code": "15",
+    "name": "KABUPATEN MUARO JAMBI",
+    "meta": {
+        "lat": "-1.552136",
+        "long": "103.8216261"
+    }
+}, {
+    "id": 93,
+    "code": "1506",
+    "province_code": "15",
+    "name": "KABUPATEN TANJUNG JABUNG BARAT",
+    "meta": {
+        "lat": "-1.105846",
+        "long": "103.0817903"
+    }
+}, {
+    "id": 94,
+    "code": "1507",
+    "province_code": "15",
+    "name": "KABUPATEN TANJUNG JABUNG TIMUR",
+    "meta": {
+        "lat": "-1.1024367",
+        "long": "103.8216261"
+    }
+}, {
+    "id": 95,
+    "code": "1508",
+    "province_code": "15",
+    "name": "KABUPATEN BUNGO",
+    "meta": {
+        "lat": "-1.6401338",
+        "long": "101.8891721"
+    }
+}, {
+    "id": 96,
+    "code": "1509",
+    "province_code": "15",
+    "name": "KABUPATEN TEBO",
+    "meta": {
+        "lat": "-1.2592999",
+        "long": "102.3463875"
+    }
+}, {
+    "id": 97,
+    "code": "1571",
+    "province_code": "15",
+    "name": "KOTA JAMBI",
+    "meta": {
+        "lat": "-1.6101229",
+        "long": "103.6131203"
+    }
+}, {
+    "id": 98,
+    "code": "1572",
+    "province_code": "15",
+    "name": "KOTA SUNGAI PENUH",
+    "meta": {
+        "lat": "-2.0634335",
+        "long": "101.3947481"
+    }
+}, {
+    "id": 99,
+    "code": "1601",
+    "province_code": "16",
+    "name": "KABUPATEN OGAN KOMERING ULU",
+    "meta": {
+        "lat": "-4.0283486",
+        "long": "104.0072348"
+    }
+}, {
+    "id": 100,
+    "code": "1602",
+    "province_code": "16",
+    "name": "KABUPATEN OGAN KOMERING ILIR",
+    "meta": {
+        "lat": "-3.4559744",
+        "long": "105.2194808"
+    }
+}, {
+    "id": 101,
+    "code": "1603",
+    "province_code": "16",
+    "name": "KABUPATEN MUARA ENIM",
+    "meta": {
+        "lat": "-3.7114163",
+        "long": "104.0072348"
+    }
+}, {
+    "id": 102,
+    "code": "1604",
+    "province_code": "16",
+    "name": "KABUPATEN LAHAT",
+    "meta": {
+        "lat": "-3.8008893",
+        "long": "103.3587288"
+    }
+}, {
+    "id": 103,
+    "code": "1605",
+    "province_code": "16",
+    "name": "KABUPATEN MUSI RAWAS",
+    "meta": {
+        "lat": "-3.0956537",
+        "long": "103.0817903"
+    }
+}, {
+    "id": 104,
+    "code": "1606",
+    "province_code": "16",
+    "name": "KABUPATEN MUSI BANYUASIN",
+    "meta": {
+        "lat": "-2.5442029",
+        "long": "103.7289167"
+    }
+}, {
+    "id": 105,
+    "code": "1607",
+    "province_code": "16",
+    "name": "KABUPATEN BANYUASIN",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 106,
+    "code": "1608",
+    "province_code": "16",
+    "name": "KABUPATEN OGAN KOMERING ULU TIMUR",
+    "meta": {
+        "lat": "-3.8567934",
+        "long": "104.7520939"
+    }
+}, {
+    "id": 107,
+    "code": "1609",
+    "province_code": "16",
+    "name": "KABUPATEN OGAN KOMERING ULU SELATAN",
+    "meta": {
+        "lat": "-4.6681951",
+        "long": "104.0072348"
+    }
+}, {
+    "id": 108,
+    "code": "1610",
+    "province_code": "16",
+    "name": "KABUPATEN OGAN ILIR",
+    "meta": {
+        "lat": "-3.426544",
+        "long": "104.6121475"
+    }
+}, {
+    "id": 109,
+    "code": "1611",
+    "province_code": "16",
+    "name": "KABUPATEN EMPAT LAWANG",
+    "meta": {
+        "lat": "-3.7286029",
+        "long": "102.8975098"
+    }
+}, {
+    "id": 110,
+    "code": "1612",
+    "province_code": "16",
+    "name": "KABUPATEN PENUKAL ABAB LEMATANG ILIR",
+    "meta": {
+        "lat": "-3.239825",
+        "long": "104.0072348"
+    }
+}, {
+    "id": 111,
+    "code": "1613",
+    "province_code": "16",
+    "name": "KABUPATEN MUSI RAWAS UTARA",
+    "meta": {
+        "lat": "-2.787759",
+        "long": "102.7135121"
+    }
+}, {
+    "id": 112,
+    "code": "1671",
+    "province_code": "16",
+    "name": "KOTA PALEMBANG",
+    "meta": {
+        "lat": "-2.9760735",
+        "long": "104.7754307"
+    }
+}, {
+    "id": 113,
+    "code": "1672",
+    "province_code": "16",
+    "name": "KOTA PAGAR ALAM",
+    "meta": {
+        "lat": "-4.0419617",
+        "long": "103.2278845"
+    }
+}, {
+    "id": 114,
+    "code": "1673",
+    "province_code": "16",
+    "name": "KOTA LUBUK LINGGAU",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 115,
+    "code": "1674",
+    "province_code": "16",
+    "name": "KOTA PRABUMULIH",
+    "meta": {
+        "lat": "-3.4213707",
+        "long": "104.2436833"
+    }
+}, {
+    "id": 116,
+    "code": "1701",
+    "province_code": "17",
+    "name": "KABUPATEN BENGKULU SELATAN",
+    "meta": {
+        "lat": "-4.3248409",
+        "long": "103.035694"
+    }
+}, {
+    "id": 117,
+    "code": "1702",
+    "province_code": "17",
+    "name": "KABUPATEN REJANG LEBONG",
+    "meta": {
+        "lat": "-3.4548154",
+        "long": "102.6675575"
+    }
+}, {
+    "id": 118,
+    "code": "1703",
+    "province_code": "17",
+    "name": "KABUPATEN BENGKULU UTARA",
+    "meta": {
+        "lat": "-3.2663246",
+        "long": "101.9804613"
+    }
+}, {
+    "id": 119,
+    "code": "1704",
+    "province_code": "17",
+    "name": "KABUPATEN KAUR",
+    "meta": {
+        "lat": "-4.5215978",
+        "long": "103.2663479"
+    }
+}, {
+    "id": 120,
+    "code": "1705",
+    "province_code": "17",
+    "name": "KABUPATEN SELUMA",
+    "meta": {
+        "lat": "-4.0499387",
+        "long": "102.7135121"
+    }
+}, {
+    "id": 121,
+    "code": "1706",
+    "province_code": "17",
+    "name": "KABUPATEN MUKO MUKO",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 122,
+    "code": "1707",
+    "province_code": "17",
+    "name": "KABUPATEN LEBONG",
+    "meta": {
+        "lat": "-3.1455094",
+        "long": "102.2090224"
+    }
+}, {
+    "id": 123,
+    "code": "1708",
+    "province_code": "17",
+    "name": "KABUPATEN KEPAHIANG",
+    "meta": {
+        "lat": "-3.6130091",
+        "long": "102.6675575"
+    }
+}, {
+    "id": 124,
+    "code": "1709",
+    "province_code": "17",
+    "name": "KABUPATEN BENGKULU TENGAH",
+    "meta": {
+        "lat": "-3.6962324",
+        "long": "102.3922135"
+    }
+}, {
+    "id": 125,
+    "code": "1771",
+    "province_code": "17",
+    "name": "KOTA BENGKULU",
+    "meta": {
+        "lat": "-3.7928451",
+        "long": "102.2607641"
+    }
+}, {
+    "id": 126,
+    "code": "1801",
+    "province_code": "18",
+    "name": "KABUPATEN LAMPUNG SELATAN",
+    "meta": {
+        "lat": "-5.5622614",
+        "long": "105.5474373"
+    }
+}, {
+    "id": 127,
+    "code": "1802",
+    "province_code": "18",
+    "name": "KABUPATEN LAMPUNG TENGAH",
+    "meta": {
+        "lat": "-4.8008086",
+        "long": "105.3131185"
+    }
+}, {
+    "id": 128,
+    "code": "1803",
+    "province_code": "18",
+    "name": "KABUPATEN LAMPUNG UTARA",
+    "meta": {
+        "lat": "-4.8133905",
+        "long": "104.7520939"
+    }
+}, {
+    "id": 129,
+    "code": "1804",
+    "province_code": "18",
+    "name": "KABUPATEN LAMPUNG BARAT",
+    "meta": {
+        "lat": "-5.1095293",
+        "long": "104.1466046"
+    }
+}, {
+    "id": 130,
+    "code": "1805",
+    "province_code": "18",
+    "name": "KABUPATEN TULANG BAWANG",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 131,
+    "code": "1806",
+    "province_code": "18",
+    "name": "KABUPATEN TANGGAMUS",
+    "meta": {
+        "lat": "-5.3027489",
+        "long": "104.5655273"
+    }
+}, {
+    "id": 132,
+    "code": "1807",
+    "province_code": "18",
+    "name": "KABUPATEN LAMPUNG TIMUR",
+    "meta": {
+        "lat": "-5.1134995",
+        "long": "105.6881788"
+    }
+}, {
+    "id": 133,
+    "code": "1808",
+    "province_code": "18",
+    "name": "KABUPATEN WAY KANAN",
+    "meta": {
+        "lat": "-4.4963689",
+        "long": "104.5655273"
+    }
+}, {
+    "id": 134,
+    "code": "1809",
+    "province_code": "18",
+    "name": "KABUPATEN PESAWARAN",
+    "meta": {
+        "lat": "-5.493245",
+        "long": "105.0791228"
+    }
+}, {
+    "id": 135,
+    "code": "1810",
+    "province_code": "18",
+    "name": "KABUPATEN PRINGSEWU",
+    "meta": {
+        "lat": "-5.3331186",
+        "long": "104.9856176"
+    }
+}, {
+    "id": 136,
+    "code": "1811",
+    "province_code": "18",
+    "name": "KABUPATEN MESUJI",
+    "meta": {
+        "lat": "-4.0044783",
+        "long": "105.3131185"
+    }
+}, {
+    "id": 137,
+    "code": "1812",
+    "province_code": "18",
+    "name": "KABUPATEN TULANG BAWANG BARAT",
+    "meta": {
+        "lat": "-4.5256967",
+        "long": "105.0791228"
+    }
+}, {
+    "id": 138,
+    "code": "1813",
+    "province_code": "18",
+    "name": "KABUPATEN PESISIR BARAT",
+    "meta": {
+        "lat": "-5.2928191",
+        "long": "104.1233667"
+    }
+}, {
+    "id": 139,
+    "code": "1871",
+    "province_code": "18",
+    "name": "KOTA BANDAR LAMPUNG",
+    "meta": {
+        "lat": "-5.3971396",
+        "long": "105.2667887"
+    }
+}, {
+    "id": 140,
+    "code": "1872",
+    "province_code": "18",
+    "name": "KOTA METRO",
+    "meta": {
+        "lat": "-5.1178394",
+        "long": "105.3072646"
+    }
+}, {
+    "id": 141,
+    "code": "1901",
+    "province_code": "19",
+    "name": "KABUPATEN BANGKA",
+    "meta": {
+        "lat": "-1.874294",
+        "long": "105.92299"
+    }
+}, {
+    "id": 142,
+    "code": "1902",
+    "province_code": "19",
+    "name": "KABUPATEN BELITUNG",
+    "meta": {
+        "lat": "-2.7216743",
+        "long": "107.763621"
+    }
+}, {
+    "id": 143,
+    "code": "1903",
+    "province_code": "19",
+    "name": "KABUPATEN BANGKA SELATAN",
+    "meta": {
+        "lat": "-2.7410513",
+        "long": "106.4405872"
+    }
+}, {
+    "id": 144,
+    "code": "1904",
+    "province_code": "19",
+    "name": "KABUPATEN BANGKA TENGAH",
+    "meta": {
+        "lat": "-2.4007823",
+        "long": "106.2051484"
+    }
+}, {
+    "id": 145,
+    "code": "1905",
+    "province_code": "19",
+    "name": "KABUPATEN BANGKA BARAT",
+    "meta": {
+        "lat": "-1.8405046",
+        "long": "105.5005483"
+    }
+}, {
+    "id": 146,
+    "code": "1906",
+    "province_code": "19",
+    "name": "KABUPATEN BELITUNG TIMUR",
+    "meta": {
+        "lat": "-2.8678037",
+        "long": "108.1428669"
+    }
+}, {
+    "id": 147,
+    "code": "1971",
+    "province_code": "19",
+    "name": "KOTA PANGKAL PINANG",
+    "meta": {
+        "lat": "-2.1316266",
+        "long": "106.1169299"
+    }
+}, {
+    "id": 148,
+    "code": "2101",
+    "province_code": "21",
+    "name": "KABUPATEN BINTAN",
+    "meta": {
+        "lat": "1.0619173",
+        "long": "104.5189214"
+    }
+}, {
+    "id": 149,
+    "code": "2102",
+    "province_code": "21",
+    "name": "KABUPATEN KARIMUN",
+    "meta": {
+        "lat": "0.7697665",
+        "long": "103.4049445"
+    }
+}, {
+    "id": 150,
+    "code": "2103",
+    "province_code": "21",
+    "name": "KABUPATEN NATUNA",
+    "meta": {
+        "lat": "4",
+        "long": "108.25"
+    }
+}, {
+    "id": 151,
+    "code": "2104",
+    "province_code": "21",
+    "name": "KABUPATEN LINGGA",
+    "meta": {
+        "lat": "-0.4726065",
+        "long": "104.4257533"
+    }
+}, {
+    "id": 152,
+    "code": "2105",
+    "province_code": "21",
+    "name": "KABUPATEN KEPULAUAN ANAMBAS",
+    "meta": {
+        "lat": "3.1055459",
+        "long": "105.6537231"
+    }
+}, {
+    "id": 153,
+    "code": "2171",
+    "province_code": "21",
+    "name": "KOTA BATAM",
+    "meta": {
+        "lat": "1.1300779",
+        "long": "104.0529207"
+    }
+}, {
+    "id": 154,
+    "code": "2172",
+    "province_code": "21",
+    "name": "KOTA TANJUNG PINANG",
+    "meta": {
+        "lat": "0.9185504",
+        "long": "104.4665072"
+    }
+}, {
+    "id": 155,
+    "code": "3101",
+    "province_code": "31",
+    "name": "KABUPATEN ADM. KEP. SERIBU",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 156,
+    "code": "3171",
+    "province_code": "31",
+    "name": "KOTA ADM. JAKARTA PUSAT",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 157,
+    "code": "3172",
+    "province_code": "31",
+    "name": "KOTA ADM. JAKARTA UTARA",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 158,
+    "code": "3173",
+    "province_code": "31",
+    "name": "KOTA ADM. JAKARTA BARAT",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 159,
+    "code": "3174",
+    "province_code": "31",
+    "name": "KOTA ADM. JAKARTA SELATAN",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 160,
+    "code": "3175",
+    "province_code": "31",
+    "name": "KOTA ADM. JAKARTA TIMUR",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 161,
+    "code": "3201",
+    "province_code": "32",
+    "name": "KABUPATEN BOGOR",
+    "meta": {
+        "lat": "-6.5517758",
+        "long": "106.6291304"
+    }
+}, {
+    "id": 162,
+    "code": "3202",
+    "province_code": "32",
+    "name": "KABUPATEN SUKABUMI",
+    "meta": {
+        "lat": "-6.8649236",
+        "long": "106.9535691"
+    }
+}, {
+    "id": 163,
+    "code": "3203",
+    "province_code": "32",
+    "name": "KABUPATEN CIANJUR",
+    "meta": {
+        "lat": "-7.3579773",
+        "long": "107.1957203"
+    }
+}, {
+    "id": 164,
+    "code": "3204",
+    "province_code": "32",
+    "name": "KABUPATEN BANDUNG",
+    "meta": {
+        "lat": "-7.1340702",
+        "long": "107.6215321"
+    }
+}, {
+    "id": 165,
+    "code": "3205",
+    "province_code": "32",
+    "name": "KABUPATEN GARUT",
+    "meta": {
+        "lat": "-7.5012204",
+        "long": "107.763621"
+    }
+}, {
+    "id": 166,
+    "code": "3206",
+    "province_code": "32",
+    "name": "KABUPATEN TASIKMALAYA",
+    "meta": {
+        "lat": "-7.6513306",
+        "long": "108.1428669"
+    }
+}, {
+    "id": 167,
+    "code": "3207",
+    "province_code": "32",
+    "name": "KABUPATEN CIAMIS",
+    "meta": {
+        "lat": "-7.3320773",
+        "long": "108.3492543"
+    }
+}, {
+    "id": 168,
+    "code": "3208",
+    "province_code": "32",
+    "name": "KABUPATEN KUNINGAN",
+    "meta": {
+        "lat": "-7.0138053",
+        "long": "108.5700636"
+    }
+}, {
+    "id": 169,
+    "code": "3209",
+    "province_code": "32",
+    "name": "KABUPATEN CIREBON",
+    "meta": {
+        "lat": "-6.6898876",
+        "long": "108.4750846"
+    }
+}, {
+    "id": 170,
+    "code": "3210",
+    "province_code": "32",
+    "name": "KABUPATEN MAJALENGKA",
+    "meta": {
+        "lat": "-6.7790605",
+        "long": "108.2852049"
+    }
+}, {
+    "id": 171,
+    "code": "3211",
+    "province_code": "32",
+    "name": "KABUPATEN SUMEDANG",
+    "meta": {
+        "lat": "-6.832858",
+        "long": "107.9531836"
+    }
+}, {
+    "id": 172,
+    "code": "3212",
+    "province_code": "32",
+    "name": "KABUPATEN INDRAMAYU",
+    "meta": {
+        "lat": "-6.33731",
+        "long": "108.3258329"
+    }
+}, {
+    "id": 173,
+    "code": "3213",
+    "province_code": "32",
+    "name": "KABUPATEN SUBANG",
+    "meta": {
+        "lat": "-6.3487617",
+        "long": "107.763621"
+    }
+}, {
+    "id": 174,
+    "code": "3214",
+    "province_code": "32",
+    "name": "KABUPATEN PURWAKARTA",
+    "meta": {
+        "lat": "-6.5649241",
+        "long": "107.4321959"
+    }
+}, {
+    "id": 175,
+    "code": "3215",
+    "province_code": "32",
+    "name": "KABUPATEN KARAWANG",
+    "meta": {
+        "lat": "-6.3227303",
+        "long": "107.3375791"
+    }
+}, {
+    "id": 176,
+    "code": "3216",
+    "province_code": "32",
+    "name": "KABUPATEN BEKASI",
+    "meta": {
+        "lat": "-6.366723",
+        "long": "107.1735638"
+    }
+}, {
+    "id": 177,
+    "code": "3217",
+    "province_code": "32",
+    "name": "KABUPATEN BANDUNG BARAT",
+    "meta": {
+        "lat": "-6.8652214",
+        "long": "107.4919767"
+    }
+}, {
+    "id": 178,
+    "code": "3218",
+    "province_code": "32",
+    "name": "KABUPATEN PANGANDARAN",
+    "meta": {
+        "lat": "-7.6150611",
+        "long": "108.4988269"
+    }
+}, {
+    "id": 179,
+    "code": "3271",
+    "province_code": "32",
+    "name": "KOTA BOGOR",
+    "meta": {
+        "lat": "-6.5971469",
+        "long": "106.8060388"
+    }
+}, {
+    "id": 180,
+    "code": "3272",
+    "province_code": "32",
+    "name": "KOTA SUKABUMI",
+    "meta": {
+        "lat": "-6.9277361",
+        "long": "106.9299579"
+    }
+}, {
+    "id": 181,
+    "code": "3273",
+    "province_code": "32",
+    "name": "KOTA BANDUNG",
+    "meta": {
+        "lat": "-6.9174639",
+        "long": "107.6191228"
+    }
+}, {
+    "id": 182,
+    "code": "3274",
+    "province_code": "32",
+    "name": "KOTA CIREBON",
+    "meta": {
+        "lat": "-6.7320229",
+        "long": "108.5523164"
+    }
+}, {
+    "id": 183,
+    "code": "3275",
+    "province_code": "32",
+    "name": "KOTA BEKASI",
+    "meta": {
+        "lat": "-6.2382699",
+        "long": "106.9755726"
+    }
+}, {
+    "id": 184,
+    "code": "3276",
+    "province_code": "32",
+    "name": "KOTA DEPOK",
+    "meta": {
+        "lat": "-6.4024844",
+        "long": "106.7942405"
+    }
+}, {
+    "id": 185,
+    "code": "3277",
+    "province_code": "32",
+    "name": "KOTA CIMAHI",
+    "meta": {
+        "lat": "-6.8840816",
+        "long": "107.5413039"
+    }
+}, {
+    "id": 186,
+    "code": "3278",
+    "province_code": "32",
+    "name": "KOTA TASIKMALAYA",
+    "meta": {
+        "lat": "-7.3505808",
+        "long": "108.2171633"
+    }
+}, {
+    "id": 187,
+    "code": "3279",
+    "province_code": "32",
+    "name": "KOTA BANJAR",
+    "meta": {
+        "lat": "-7.3706874",
+        "long": "108.5342487"
+    }
+}, {
+    "id": 188,
+    "code": "3301",
+    "province_code": "33",
+    "name": "KABUPATEN CILACAP",
+    "meta": {
+        "lat": "-7.6982991",
+        "long": "109.023521"
+    }
+}, {
+    "id": 189,
+    "code": "3302",
+    "province_code": "33",
+    "name": "KABUPATEN BANYUMAS",
+    "meta": {
+        "lat": "-7.4832133",
+        "long": "109.140438"
+    }
+}, {
+    "id": 190,
+    "code": "3303",
+    "province_code": "33",
+    "name": "KABUPATEN PURBALINGGA",
+    "meta": {
+        "lat": "-7.3058578",
+        "long": "109.4259114"
+    }
+}, {
+    "id": 191,
+    "code": "3304",
+    "province_code": "33",
+    "name": "KABUPATEN BANJARNEGARA",
+    "meta": {
+        "lat": "-7.3794368",
+        "long": "109.6163185"
+    }
+}, {
+    "id": 192,
+    "code": "3305",
+    "province_code": "33",
+    "name": "KABUPATEN KEBUMEN",
+    "meta": {
+        "lat": "-7.6680559",
+        "long": "109.6524575"
+    }
+}, {
+    "id": 193,
+    "code": "3306",
+    "province_code": "33",
+    "name": "KABUPATEN PURWOREJO",
+    "meta": {
+        "lat": "-7.6964509",
+        "long": "109.9989416"
+    }
+}, {
+    "id": 194,
+    "code": "3307",
+    "province_code": "33",
+    "name": "KABUPATEN WONOSOBO",
+    "meta": {
+        "lat": "-7.3632094",
+        "long": "109.9001796"
+    }
+}, {
+    "id": 195,
+    "code": "3308",
+    "province_code": "33",
+    "name": "KABUPATEN MAGELANG",
+    "meta": {
+        "lat": "-7.4305237",
+        "long": "110.2832217"
+    }
+}, {
+    "id": 196,
+    "code": "3309",
+    "province_code": "33",
+    "name": "KABUPATEN BOYOLALI",
+    "meta": {
+        "lat": "-7.4317773",
+        "long": "110.6883536"
+    }
+}, {
+    "id": 197,
+    "code": "3310",
+    "province_code": "33",
+    "name": "KABUPATEN KLATEN",
+    "meta": {
+        "lat": "-7.657893",
+        "long": "110.6645683"
+    }
+}, {
+    "id": 198,
+    "code": "3311",
+    "province_code": "33",
+    "name": "KABUPATEN SUKOHARJO",
+    "meta": {
+        "lat": "-7.6483506",
+        "long": "110.8552919"
+    }
+}, {
+    "id": 199,
+    "code": "3312",
+    "province_code": "33",
+    "name": "KABUPATEN WONOGIRI",
+    "meta": {
+        "lat": "-7.8846484",
+        "long": "111.0460407"
+    }
+}, {
+    "id": 200,
+    "code": "3313",
+    "province_code": "33",
+    "name": "KABUPATEN KARANGANYAR",
+    "meta": {
+        "lat": "-7.6387228",
+        "long": "111.0460407"
+    }
+}, {
+    "id": 201,
+    "code": "3314",
+    "province_code": "33",
+    "name": "KABUPATEN SRAGEN",
+    "meta": {
+        "lat": "-7.43027",
+        "long": "111.0091855"
+    }
+}, {
+    "id": 202,
+    "code": "3315",
+    "province_code": "33",
+    "name": "KABUPATEN GROBOGAN",
+    "meta": {
+        "lat": "-7.1541672",
+        "long": "110.9506636"
+    }
+}, {
+    "id": 203,
+    "code": "3316",
+    "province_code": "33",
+    "name": "KABUPATEN BLORA",
+    "meta": {
+        "lat": "-7.012244",
+        "long": "111.3798928"
+    }
+}, {
+    "id": 204,
+    "code": "3317",
+    "province_code": "33",
+    "name": "KABUPATEN REMBANG",
+    "meta": {
+        "lat": "-6.8082115",
+        "long": "111.4275888"
+    }
+}, {
+    "id": 205,
+    "code": "3318",
+    "province_code": "33",
+    "name": "KABUPATEN PATI",
+    "meta": {
+        "lat": "-6.7449635",
+        "long": "111.0460407"
+    }
+}, {
+    "id": 206,
+    "code": "3319",
+    "province_code": "33",
+    "name": "KABUPATEN KUDUS",
+    "meta": {
+        "lat": "-6.7726186",
+        "long": "110.8791343"
+    }
+}, {
+    "id": 207,
+    "code": "3320",
+    "province_code": "33",
+    "name": "KABUPATEN JEPARA",
+    "meta": {
+        "lat": "-6.582711",
+        "long": "110.6786933"
+    }
+}, {
+    "id": 208,
+    "code": "3321",
+    "province_code": "33",
+    "name": "KABUPATEN DEMAK",
+    "meta": {
+        "lat": "-6.9238879",
+        "long": "110.6645683"
+    }
+}, {
+    "id": 209,
+    "code": "3322",
+    "province_code": "33",
+    "name": "KABUPATEN SEMARANG",
+    "meta": {
+        "lat": "-7.1764785",
+        "long": "110.4738762"
+    }
+}, {
+    "id": 210,
+    "code": "3323",
+    "province_code": "33",
+    "name": "KABUPATEN TEMANGGUNG",
+    "meta": {
+        "lat": "-7.2748721",
+        "long": "110.0891894"
+    }
+}, {
+    "id": 211,
+    "code": "3324",
+    "province_code": "33",
+    "name": "KABUPATEN KENDAL",
+    "meta": {
+        "lat": "-7.0265442",
+        "long": "110.1879106"
+    }
+}, {
+    "id": 212,
+    "code": "3325",
+    "province_code": "33",
+    "name": "KABUPATEN BATANG",
+    "meta": {
+        "lat": "-7.0392183",
+        "long": "109.9020509"
+    }
+}, {
+    "id": 213,
+    "code": "3326",
+    "province_code": "33",
+    "name": "KABUPATEN PEKALONGAN",
+    "meta": {
+        "lat": "-7.0517128",
+        "long": "109.6163185"
+    }
+}, {
+    "id": 214,
+    "code": "3327",
+    "province_code": "33",
+    "name": "KABUPATEN PEMALANG",
+    "meta": {
+        "lat": "-7.0599422",
+        "long": "109.4259114"
+    }
+}, {
+    "id": 215,
+    "code": "3328",
+    "province_code": "33",
+    "name": "KABUPATEN TEGAL",
+    "meta": {
+        "lat": "-6.8588473",
+        "long": "109.1047663"
+    }
+}, {
+    "id": 216,
+    "code": "3329",
+    "province_code": "33",
+    "name": "KABUPATEN BREBES",
+    "meta": {
+        "lat": "-6.9591793",
+        "long": "108.902683"
+    }
+}, {
+    "id": 217,
+    "code": "3371",
+    "province_code": "33",
+    "name": "KOTA MAGELANG",
+    "meta": {
+        "lat": "-7.4797342",
+        "long": "110.2176941"
+    }
+}, {
+    "id": 218,
+    "code": "3372",
+    "province_code": "33",
+    "name": "KOTA SURAKARTA",
+    "meta": {
+        "lat": "-7.5754887",
+        "long": "110.8243272"
+    }
+}, {
+    "id": 219,
+    "code": "3373",
+    "province_code": "33",
+    "name": "KOTA SALATIGA",
+    "meta": {
+        "lat": "-7.3305234",
+        "long": "110.5084366"
+    }
+}, {
+    "id": 220,
+    "code": "3374",
+    "province_code": "33",
+    "name": "KOTA SEMARANG",
+    "meta": {
+        "lat": "-7.0051453",
+        "long": "110.4381254"
+    }
+}, {
+    "id": 221,
+    "code": "3375",
+    "province_code": "33",
+    "name": "KOTA PEKALONGAN",
+    "meta": {
+        "lat": "-6.8898362",
+        "long": "109.6745916"
+    }
+}, {
+    "id": 222,
+    "code": "3376",
+    "province_code": "33",
+    "name": "KOTA TEGAL",
+    "meta": {
+        "lat": "-6.8797041",
+        "long": "109.1255917"
+    }
+}, {
+    "id": 223,
+    "code": "3401",
+    "province_code": "34",
+    "name": "KABUPATEN KULON PROGO",
+    "meta": {
+        "lat": "-7.8266798",
+        "long": "110.1640846"
+    }
+}, {
+    "id": 224,
+    "code": "3402",
+    "province_code": "34",
+    "name": "KABUPATEN BANTUL",
+    "meta": {
+        "lat": "-7.9190169",
+        "long": "110.3785438"
+    }
+}, {
+    "id": 225,
+    "code": "3403",
+    "province_code": "34",
+    "name": "KABUPATEN GUNUNGKIDUL",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 226,
+    "code": "3404",
+    "province_code": "34",
+    "name": "KABUPATEN SLEMAN",
+    "meta": {
+        "lat": "-7.7325213",
+        "long": "110.402376"
+    }
+}, {
+    "id": 227,
+    "code": "3471",
+    "province_code": "34",
+    "name": "KOTA YOGYAKARTA",
+    "meta": {
+        "lat": "-7.7955798",
+        "long": "110.3694896"
+    }
+}, {
+    "id": 228,
+    "code": "3501",
+    "province_code": "35",
+    "name": "KABUPATEN PACITAN",
+    "meta": {
+        "lat": "-8.126331",
+        "long": "111.1414226"
+    }
+}, {
+    "id": 229,
+    "code": "3502",
+    "province_code": "35",
+    "name": "KABUPATEN PONOROGO",
+    "meta": {
+        "lat": "-7.8650759",
+        "long": "111.4696322"
+    }
+}, {
+    "id": 230,
+    "code": "3503",
+    "province_code": "35",
+    "name": "KABUPATEN TRENGGALEK",
+    "meta": {
+        "lat": "-8.1824112",
+        "long": "111.6183755"
+    }
+}, {
+    "id": 231,
+    "code": "3504",
+    "province_code": "35",
+    "name": "KABUPATEN TULUNGAGUNG",
+    "meta": {
+        "lat": "-8.091221",
+        "long": "111.9641728"
+    }
+}, {
+    "id": 232,
+    "code": "3505",
+    "province_code": "35",
+    "name": "KABUPATEN BLITAR",
+    "meta": {
+        "lat": "-8.0954627",
+        "long": "112.1609056"
+    }
+}, {
+    "id": 233,
+    "code": "3506",
+    "province_code": "35",
+    "name": "KABUPATEN KEDIRI",
+    "meta": {
+        "lat": "-7.8232397",
+        "long": "112.1907122"
+    }
+}, {
+    "id": 234,
+    "code": "3507",
+    "province_code": "35",
+    "name": "KABUPATEN MALANG",
+    "meta": {
+        "lat": "-8.242209",
+        "long": "112.7152125"
+    }
+}, {
+    "id": 235,
+    "code": "3508",
+    "province_code": "35",
+    "name": "KABUPATEN LUMAJANG",
+    "meta": {
+        "lat": "-8.0943571",
+        "long": "113.1441558"
+    }
+}, {
+    "id": 236,
+    "code": "3509",
+    "province_code": "35",
+    "name": "KABUPATEN JEMBER",
+    "meta": {
+        "lat": "-8.1844859",
+        "long": "113.6680747"
+    }
+}, {
+    "id": 237,
+    "code": "3510",
+    "province_code": "35",
+    "name": "KABUPATEN BANYUWANGI",
+    "meta": {
+        "lat": "-8.2190944",
+        "long": "114.3691416"
+    }
+}, {
+    "id": 238,
+    "code": "3511",
+    "province_code": "35",
+    "name": "KABUPATEN BONDOWOSO",
+    "meta": {
+        "lat": "-7.9673906",
+        "long": "113.9060624"
+    }
+}, {
+    "id": 239,
+    "code": "3512",
+    "province_code": "35",
+    "name": "KABUPATEN SITUBONDO",
+    "meta": {
+        "lat": "-7.7888522",
+        "long": "114.1914951"
+    }
+}, {
+    "id": 240,
+    "code": "3513",
+    "province_code": "35",
+    "name": "KABUPATEN PROBOLINGGO",
+    "meta": {
+        "lat": "-7.8717562",
+        "long": "113.4776098"
+    }
+}, {
+    "id": 241,
+    "code": "3514",
+    "province_code": "35",
+    "name": "KABUPATEN PASURUAN",
+    "meta": {
+        "lat": "-7.7859961",
+        "long": "112.858217"
+    }
+}, {
+    "id": 242,
+    "code": "3515",
+    "province_code": "35",
+    "name": "KABUPATEN SIDOARJO",
+    "meta": {
+        "lat": "-7.4726134",
+        "long": "112.6675398"
+    }
+}, {
+    "id": 243,
+    "code": "3516",
+    "province_code": "35",
+    "name": "KABUPATEN MOJOKERTO",
+    "meta": {
+        "lat": "-7.4698914",
+        "long": "112.4351068"
+    }
+}, {
+    "id": 244,
+    "code": "3517",
+    "province_code": "35",
+    "name": "KABUPATEN JOMBANG",
+    "meta": {
+        "lat": "-7.5740867",
+        "long": "112.28609"
+    }
+}, {
+    "id": 245,
+    "code": "3518",
+    "province_code": "35",
+    "name": "KABUPATEN NGANJUK",
+    "meta": {
+        "lat": "-7.5943507",
+        "long": "111.9045541"
+    }
+}, {
+    "id": 246,
+    "code": "3519",
+    "province_code": "35",
+    "name": "KABUPATEN MADIUN",
+    "meta": {
+        "lat": "-7.6093306",
+        "long": "111.6183755"
+    }
+}, {
+    "id": 247,
+    "code": "3520",
+    "province_code": "35",
+    "name": "KABUPATEN MAGETAN",
+    "meta": {
+        "lat": "-7.6433138",
+        "long": "111.356045"
+    }
+}, {
+    "id": 248,
+    "code": "3521",
+    "province_code": "35",
+    "name": "KABUPATEN NGAWI",
+    "meta": {
+        "lat": "-7.460987",
+        "long": "111.3321974"
+    }
+}, {
+    "id": 249,
+    "code": "3522",
+    "province_code": "35",
+    "name": "KABUPATEN BOJONEGORO",
+    "meta": {
+        "lat": "-7.3174629",
+        "long": "111.7614661"
+    }
+}, {
+    "id": 250,
+    "code": "3523",
+    "province_code": "35",
+    "name": "KABUPATEN TUBAN",
+    "meta": {
+        "lat": "-6.8949099",
+        "long": "112.0416754"
+    }
+}, {
+    "id": 251,
+    "code": "3524",
+    "province_code": "35",
+    "name": "KABUPATEN LAMONGAN",
+    "meta": {
+        "lat": "-7.1269261",
+        "long": "112.3337769"
+    }
+}, {
+    "id": 252,
+    "code": "3525",
+    "province_code": "35",
+    "name": "KABUPATEN GRESIK",
+    "meta": {
+        "lat": "-7.1550291",
+        "long": "112.5721881"
+    }
+}, {
+    "id": 253,
+    "code": "3526",
+    "province_code": "35",
+    "name": "KABUPATEN BANGKALAN",
+    "meta": {
+        "lat": "-7.038375",
+        "long": "112.9136695"
+    }
+}, {
+    "id": 254,
+    "code": "3527",
+    "province_code": "35",
+    "name": "KABUPATEN SAMPANG",
+    "meta": {
+        "lat": "-7.0402326",
+        "long": "113.2394452"
+    }
+}, {
+    "id": 255,
+    "code": "3528",
+    "province_code": "35",
+    "name": "KABUPATEN PAMEKASAN",
+    "meta": {
+        "lat": "-7.1050857",
+        "long": "113.5252319"
+    }
+}, {
+    "id": 256,
+    "code": "3529",
+    "province_code": "35",
+    "name": "KABUPATEN SUMENEP",
+    "meta": {
+        "lat": "-6.9253999",
+        "long": "113.9060624"
+    }
+}, {
+    "id": 257,
+    "code": "3571",
+    "province_code": "35",
+    "name": "KOTA KEDIRI",
+    "meta": {
+        "lat": "-7.8480156",
+        "long": "112.0178286"
+    }
+}, {
+    "id": 258,
+    "code": "3572",
+    "province_code": "35",
+    "name": "KOTA BLITAR",
+    "meta": {
+        "lat": "-8.0954627",
+        "long": "112.1609056"
+    }
+}, {
+    "id": 259,
+    "code": "3573",
+    "province_code": "35",
+    "name": "KOTA MALANG",
+    "meta": {
+        "lat": "-7.9666204",
+        "long": "112.6326321"
+    }
+}, {
+    "id": 260,
+    "code": "3574",
+    "province_code": "35",
+    "name": "KOTA PROBOLINGGO",
+    "meta": {
+        "lat": "-7.7764226",
+        "long": "113.2037131"
+    }
+}, {
+    "id": 261,
+    "code": "3575",
+    "province_code": "35",
+    "name": "KOTA PASURUAN",
+    "meta": {
+        "lat": "-7.6469193",
+        "long": "112.8999225"
+    }
+}, {
+    "id": 262,
+    "code": "3576",
+    "province_code": "35",
+    "name": "KOTA MOJOKERTO",
+    "meta": {
+        "lat": "-7.4704747",
+        "long": "112.4401329"
+    }
+}, {
+    "id": 263,
+    "code": "3577",
+    "province_code": "35",
+    "name": "KOTA MADIUN",
+    "meta": {
+        "lat": "-7.6310587",
+        "long": "111.5300159"
+    }
+}, {
+    "id": 264,
+    "code": "3578",
+    "province_code": "35",
+    "name": "KOTA SURABAYA",
+    "meta": {
+        "lat": "-7.2574719",
+        "long": "112.7520883"
+    }
+}, {
+    "id": 265,
+    "code": "3579",
+    "province_code": "35",
+    "name": "KOTA BATU",
+    "meta": {
+        "lat": "-7.8830648",
+        "long": "112.5334492"
+    }
+}, {
+    "id": 266,
+    "code": "3601",
+    "province_code": "36",
+    "name": "KABUPATEN PANDEGLANG",
+    "meta": {
+        "lat": "-6.7482706",
+        "long": "105.6881788"
+    }
+}, {
+    "id": 267,
+    "code": "3602",
+    "province_code": "36",
+    "name": "KABUPATEN LEBAK",
+    "meta": {
+        "lat": "-6.5643956",
+        "long": "106.2522143"
+    }
+}, {
+    "id": 268,
+    "code": "3603",
+    "province_code": "36",
+    "name": "KABUPATEN TANGERANG",
+    "meta": {
+        "lat": "-6.1870007",
+        "long": "106.487658"
+    }
+}, {
+    "id": 269,
+    "code": "3604",
+    "province_code": "36",
+    "name": "KABUPATEN SERANG",
+    "meta": {
+        "lat": "-6.1397339",
+        "long": "106.040506"
+    }
+}, {
+    "id": 270,
+    "code": "3671",
+    "province_code": "36",
+    "name": "KOTA TANGERANG",
+    "meta": {
+        "lat": "-6.1701796",
+        "long": "106.6403236"
+    }
+}, {
+    "id": 271,
+    "code": "3672",
+    "province_code": "36",
+    "name": "KOTA CILEGON",
+    "meta": {
+        "lat": "-6.0186817",
+        "long": "106.0558218"
+    }
+}, {
+    "id": 272,
+    "code": "3673",
+    "province_code": "36",
+    "name": "KOTA SERANG",
+    "meta": {
+        "lat": "-6.1169309",
+        "long": "106.1538519"
+    }
+}, {
+    "id": 273,
+    "code": "3674",
+    "province_code": "36",
+    "name": "KOTA TANGERANG SELATAN",
+    "meta": {
+        "lat": "-6.2835218",
+        "long": "106.7112933"
+    }
+}, {
+    "id": 274,
+    "code": "5101",
+    "province_code": "51",
+    "name": "KABUPATEN JEMBRANA",
+    "meta": {
+        "lat": "-8.3233438",
+        "long": "114.6667939"
+    }
+}, {
+    "id": 275,
+    "code": "5102",
+    "province_code": "51",
+    "name": "KABUPATEN TABANAN",
+    "meta": {
+        "lat": "-8.4595561",
+        "long": "115.0465991"
+    }
+}, {
+    "id": 276,
+    "code": "5103",
+    "province_code": "51",
+    "name": "KABUPATEN BADUNG",
+    "meta": {
+        "lat": "-8.5819296",
+        "long": "115.1770586"
+    }
+}, {
+    "id": 277,
+    "code": "5104",
+    "province_code": "51",
+    "name": "KABUPATEN GIANYAR",
+    "meta": {
+        "lat": "-8.4248244",
+        "long": "115.2600506"
+    }
+}, {
+    "id": 278,
+    "code": "5105",
+    "province_code": "51",
+    "name": "KABUPATEN KLUNGKUNG",
+    "meta": {
+        "lat": "-8.727807",
+        "long": "115.5444231"
+    }
+}, {
+    "id": 279,
+    "code": "5106",
+    "province_code": "51",
+    "name": "KABUPATEN BANGLI",
+    "meta": {
+        "lat": "-8.2975884",
+        "long": "115.3548713"
+    }
+}, {
+    "id": 280,
+    "code": "5107",
+    "province_code": "51",
+    "name": "KABUPATEN KARANGASEM",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 281,
+    "code": "5108",
+    "province_code": "51",
+    "name": "KABUPATEN BULELENG",
+    "meta": {
+        "lat": "-8.2238968",
+        "long": "114.9516869"
+    }
+}, {
+    "id": 282,
+    "code": "5171",
+    "province_code": "51",
+    "name": "KOTA DENPASAR",
+    "meta": {
+        "lat": "-8.6704582",
+        "long": "115.2126293"
+    }
+}, {
+    "id": 283,
+    "code": "5201",
+    "province_code": "52",
+    "name": "KABUPATEN LOMBOK BARAT",
+    "meta": {
+        "lat": "-8.6464599",
+        "long": "116.1123078"
+    }
+}, {
+    "id": 284,
+    "code": "5202",
+    "province_code": "52",
+    "name": "KABUPATEN LOMBOK TENGAH",
+    "meta": {
+        "lat": "-8.694623",
+        "long": "116.2777073"
+    }
+}, {
+    "id": 285,
+    "code": "5203",
+    "province_code": "52",
+    "name": "KABUPATEN LOMBOK TIMUR",
+    "meta": {
+        "lat": "-8.5134471",
+        "long": "116.5609857"
+    }
+}, {
+    "id": 286,
+    "code": "5204",
+    "province_code": "52",
+    "name": "KABUPATEN SUMBAWA",
+    "meta": {
+        "lat": "-8.6529334",
+        "long": "117.3616476"
+    }
+}, {
+    "id": 287,
+    "code": "5205",
+    "province_code": "52",
+    "name": "KABUPATEN DOMPU",
+    "meta": {
+        "lat": "-8.5363958",
+        "long": "118.3461948"
+    }
+}, {
+    "id": 288,
+    "code": "5206",
+    "province_code": "52",
+    "name": "KABUPATEN BIMA",
+    "meta": {
+        "lat": "-8.4353962",
+        "long": "118.626479"
+    }
+}, {
+    "id": 289,
+    "code": "5207",
+    "province_code": "52",
+    "name": "KABUPATEN SUMBAWA BARAT",
+    "meta": {
+        "lat": "-8.9292907",
+        "long": "116.8910342"
+    }
+}, {
+    "id": 290,
+    "code": "5208",
+    "province_code": "52",
+    "name": "KABUPATEN LOMBOK UTARA",
+    "meta": {
+        "lat": "-8.3739076",
+        "long": "116.2777073"
+    }
+}, {
+    "id": 291,
+    "code": "5271",
+    "province_code": "52",
+    "name": "KOTA MATARAM",
+    "meta": {
+        "lat": "-8.5970808",
+        "long": "116.1004894"
+    }
+}, {
+    "id": 292,
+    "code": "5272",
+    "province_code": "52",
+    "name": "KOTA BIMA",
+    "meta": {
+        "lat": "-8.4642661",
+        "long": "118.7449028"
+    }
+}, {
+    "id": 293,
+    "code": "5301",
+    "province_code": "53",
+    "name": "KABUPATEN KUPANG",
+    "meta": {
+        "lat": "-9.9906166",
+        "long": "123.8857747"
+    }
+}, {
+    "id": 294,
+    "code": "5302",
+    "province_code": "53",
+    "name": "KAB TIMOR TENGAH SELATAN",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 295,
+    "code": "5303",
+    "province_code": "53",
+    "name": "KABUPATEN TIMOR TENGAH UTARA",
+    "meta": {
+        "lat": "-9.4522647",
+        "long": "124.597132"
+    }
+}, {
+    "id": 296,
+    "code": "5304",
+    "province_code": "53",
+    "name": "KABUPATEN BELU",
+    "meta": {
+        "lat": "-9.1538978",
+        "long": "124.906551"
+    }
+}, {
+    "id": 297,
+    "code": "5305",
+    "province_code": "53",
+    "name": "KABUPATEN ALOR",
+    "meta": {
+        "lat": "-8.2928427",
+        "long": "124.5528387"
+    }
+}, {
+    "id": 298,
+    "code": "5306",
+    "province_code": "53",
+    "name": "KABUPATEN FLORES TIMUR",
+    "meta": {
+        "lat": "-8.3130942",
+        "long": "122.9663018"
+    }
+}, {
+    "id": 299,
+    "code": "5307",
+    "province_code": "53",
+    "name": "KABUPATEN SIKKA",
+    "meta": {
+        "lat": "-8.6766175",
+        "long": "122.1291843"
+    }
+}, {
+    "id": 300,
+    "code": "5308",
+    "province_code": "53",
+    "name": "KABUPATEN ENDE",
+    "meta": {
+        "lat": "-8.6762912",
+        "long": "121.7195459"
+    }
+}, {
+    "id": 301,
+    "code": "5309",
+    "province_code": "53",
+    "name": "KABUPATEN NGADA",
+    "meta": {
+        "lat": "-8.7430424",
+        "long": "120.9876321"
+    }
+}, {
+    "id": 302,
+    "code": "5310",
+    "province_code": "53",
+    "name": "KABUPATEN MANGGARAI",
+    "meta": {
+        "lat": "-8.6796987",
+        "long": "120.3896651"
+    }
+}, {
+    "id": 303,
+    "code": "5311",
+    "province_code": "53",
+    "name": "KABUPATEN SUMBA TIMUR",
+    "meta": {
+        "lat": "-9.9802103",
+        "long": "120.3435506"
+    }
+}, {
+    "id": 304,
+    "code": "5312",
+    "province_code": "53",
+    "name": "KABUPATEN SUMBA BARAT",
+    "meta": {
+        "lat": "-9.6548326",
+        "long": "119.3947135"
+    }
+}, {
+    "id": 305,
+    "code": "5313",
+    "province_code": "53",
+    "name": "KABUPATEN LEMBATA",
+    "meta": {
+        "lat": "-8.4719075",
+        "long": "123.4831906"
+    }
+}, {
+    "id": 306,
+    "code": "5314",
+    "province_code": "53",
+    "name": "KABUPATEN ROTE NDAO",
+    "meta": {
+        "lat": "-10.7386421",
+        "long": "123.1239049"
+    }
+}, {
+    "id": 307,
+    "code": "5315",
+    "province_code": "53",
+    "name": "KABUPATEN MANGGARAI BARAT",
+    "meta": {
+        "lat": "-8.6688149",
+        "long": "120.0665236"
+    }
+}, {
+    "id": 308,
+    "code": "5316",
+    "province_code": "53",
+    "name": "KABUPATEN NAGEKEO",
+    "meta": {
+        "lat": "-8.6753545",
+        "long": "121.3084088"
+    }
+}, {
+    "id": 309,
+    "code": "5317",
+    "province_code": "53",
+    "name": "KABUPATEN SUMBA TENGAH",
+    "meta": {
+        "lat": "-9.4879226",
+        "long": "119.6962677"
+    }
+}, {
+    "id": 310,
+    "code": "5318",
+    "province_code": "53",
+    "name": "KABUPATEN SUMBA BARAT DAYA",
+    "meta": {
+        "lat": "-9.539139",
+        "long": "119.1390642"
+    }
+}, {
+    "id": 311,
+    "code": "5319",
+    "province_code": "53",
+    "name": "KABUPATEN MANGGARAI TIMUR",
+    "meta": {
+        "lat": "-8.6206712",
+        "long": "120.6199895"
+    }
+}, {
+    "id": 312,
+    "code": "5320",
+    "province_code": "53",
+    "name": "KABUPATEN SABU RAIJUA",
+    "meta": {
+        "lat": "-10.5541116",
+        "long": "121.8334868"
+    }
+}, {
+    "id": 313,
+    "code": "5321",
+    "province_code": "53",
+    "name": "KABUPATEN MALAKA",
+    "meta": {
+        "lat": "-9.5308587",
+        "long": "124.906551"
+    }
+}, {
+    "id": 314,
+    "code": "5371",
+    "province_code": "53",
+    "name": "KOTA KUPANG",
+    "meta": {
+        "lat": "-10.1771997",
+        "long": "123.6070329"
+    }
+}, {
+    "id": 315,
+    "code": "6101",
+    "province_code": "61",
+    "name": "KABUPATEN SAMBAS",
+    "meta": {
+        "lat": "1.3625191",
+        "long": "109.2831531"
+    }
+}, {
+    "id": 316,
+    "code": "6102",
+    "province_code": "61",
+    "name": "KABUPATEN MEMPAWAH",
+    "meta": {
+        "lat": "0.3897139",
+        "long": "109.140438"
+    }
+}, {
+    "id": 317,
+    "code": "6103",
+    "province_code": "61",
+    "name": "KABUPATEN SANGGAU",
+    "meta": {
+        "lat": "0.1400117",
+        "long": "110.5215459"
+    }
+}, {
+    "id": 318,
+    "code": "6104",
+    "province_code": "61",
+    "name": "KABUPATEN KETAPANG",
+    "meta": {
+        "lat": "-1.5697615",
+        "long": "110.5215459"
+    }
+}, {
+    "id": 319,
+    "code": "6105",
+    "province_code": "61",
+    "name": "KABUPATEN SINTANG",
+    "meta": {
+        "lat": "-0.1378068",
+        "long": "112.8105512"
+    }
+}, {
+    "id": 320,
+    "code": "6106",
+    "province_code": "61",
+    "name": "KABUPATEN KAPUAS HULU",
+    "meta": {
+        "lat": "0.8336697",
+        "long": "113.0011989"
+    }
+}, {
+    "id": 321,
+    "code": "6107",
+    "province_code": "61",
+    "name": "KABUPATEN BENGKAYANG",
+    "meta": {
+        "lat": "1.06911",
+        "long": "109.6639309"
+    }
+}, {
+    "id": 322,
+    "code": "6108",
+    "province_code": "61",
+    "name": "KABUPATEN LANDAK",
+    "meta": {
+        "lat": "0.4237287",
+        "long": "109.7591675"
+    }
+}, {
+    "id": 323,
+    "code": "6109",
+    "province_code": "61",
+    "name": "KABUPATEN SEKADAU",
+    "meta": {
+        "lat": "-0.0697175",
+        "long": "110.9983515"
+    }
+}, {
+    "id": 324,
+    "code": "6110",
+    "province_code": "61",
+    "name": "KABUPATEN MELAWI",
+    "meta": {
+        "lat": "-0.7000681",
+        "long": "111.6660725"
+    }
+}, {
+    "id": 325,
+    "code": "6111",
+    "province_code": "61",
+    "name": "KABUPATEN KAYONG UTARA",
+    "meta": {
+        "lat": "-0.9225877",
+        "long": "110.0449662"
+    }
+}, {
+    "id": 326,
+    "code": "6112",
+    "province_code": "61",
+    "name": "KABUPATEN KUBU RAYA",
+    "meta": {
+        "lat": "-0.3533938",
+        "long": "109.4735066"
+    }
+}, {
+    "id": 327,
+    "code": "6171",
+    "province_code": "61",
+    "name": "KOTA PONTIANAK",
+    "meta": {
+        "lat": "-0.0263303",
+        "long": "109.3425039"
+    }
+}, {
+    "id": 328,
+    "code": "6172",
+    "province_code": "61",
+    "name": "KOTA SINGKAWANG",
+    "meta": {
+        "lat": "0.9060204",
+        "long": "108.9872049"
+    }
+}, {
+    "id": 329,
+    "code": "6201",
+    "province_code": "62",
+    "name": "KABUPATEN KOTAWARINGIN BARAT",
+    "meta": {
+        "lat": "-2.5063419",
+        "long": "111.7614661"
+    }
+}, {
+    "id": 330,
+    "code": "6202",
+    "province_code": "62",
+    "name": "KABUPATEN KOTAWARINGIN TIMUR",
+    "meta": {
+        "lat": "-2.1225475",
+        "long": "112.8105512"
+    }
+}, {
+    "id": 331,
+    "code": "6203",
+    "province_code": "62",
+    "name": "KABUPATEN KAPUAS",
+    "meta": {
+        "lat": "-1.8116445",
+        "long": "114.3341432"
+    }
+}, {
+    "id": 332,
+    "code": "6204",
+    "province_code": "62",
+    "name": "KABUPATEN BARITO SELATAN",
+    "meta": {
+        "lat": "-1.875943",
+        "long": "114.8092691"
+    }
+}, {
+    "id": 333,
+    "code": "6205",
+    "province_code": "62",
+    "name": "KABUPATEN BARITO UTARA",
+    "meta": {
+        "lat": "-0.9587136",
+        "long": "115.094045"
+    }
+}, {
+    "id": 334,
+    "code": "6206",
+    "province_code": "62",
+    "name": "KABUPATEN KATINGAN",
+    "meta": {
+        "lat": "-0.9758379",
+        "long": "112.8105512"
+    }
+}, {
+    "id": 335,
+    "code": "6207",
+    "province_code": "62",
+    "name": "KABUPATEN SERUYAN",
+    "meta": {
+        "lat": "-3.0123467",
+        "long": "112.4291464"
+    }
+}, {
+    "id": 336,
+    "code": "6208",
+    "province_code": "62",
+    "name": "KABUPATEN SUKAMARA",
+    "meta": {
+        "lat": "-2.6267517",
+        "long": "111.2368084"
+    }
+}, {
+    "id": 337,
+    "code": "6209",
+    "province_code": "62",
+    "name": "KABUPATEN LAMANDAU",
+    "meta": {
+        "lat": "-1.8526377",
+        "long": "111.2845025"
+    }
+}, {
+    "id": 338,
+    "code": "6210",
+    "province_code": "62",
+    "name": "KABUPATEN GUNUNG MAS",
+    "meta": {
+        "lat": "-1.2522464",
+        "long": "113.5728501"
+    }
+}, {
+    "id": 339,
+    "code": "6211",
+    "province_code": "62",
+    "name": "KABUPATEN PULANG PISAU",
+    "meta": {
+        "lat": "-2.6849607",
+        "long": "113.9536466"
+    }
+}, {
+    "id": 340,
+    "code": "6212",
+    "province_code": "62",
+    "name": "KABUPATEN MURUNG RAYA",
+    "meta": {
+        "lat": "-0.1362171",
+        "long": "114.3341432"
+    }
+}, {
+    "id": 341,
+    "code": "6213",
+    "province_code": "62",
+    "name": "KABUPATEN BARITO TIMUR",
+    "meta": {
+        "lat": "-2.0123999",
+        "long": "115.188916"
+    }
+}, {
+    "id": 342,
+    "code": "6271",
+    "province_code": "62",
+    "name": "KOTA PALANGKARAYA",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 343,
+    "code": "6301",
+    "province_code": "63",
+    "name": "KABUPATEN TANAH LAUT",
+    "meta": {
+        "lat": "-3.7694047",
+        "long": "114.8092691"
+    }
+}, {
+    "id": 344,
+    "code": "6302",
+    "province_code": "63",
+    "name": "KABUPATEN KOTABARU",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 345,
+    "code": "6303",
+    "province_code": "63",
+    "name": "KABUPATEN BANJAR",
+    "meta": {
+        "lat": "-3.3200228",
+        "long": "114.9991464"
+    }
+}, {
+    "id": 346,
+    "code": "6304",
+    "province_code": "63",
+    "name": "KABUPATEN BARITO KUALA",
+    "meta": {
+        "lat": "-3.0714738",
+        "long": "114.6667939"
+    }
+}, {
+    "id": 347,
+    "code": "6305",
+    "province_code": "63",
+    "name": "KABUPATEN TAPIN",
+    "meta": {
+        "lat": "-2.9160746",
+        "long": "115.0465991"
+    }
+}, {
+    "id": 348,
+    "code": "6306",
+    "province_code": "63",
+    "name": "KABUPATEN HULU SUNGAI SELATAN",
+    "meta": {
+        "lat": "-2.7662681",
+        "long": "115.2363408"
+    }
+}, {
+    "id": 349,
+    "code": "6307",
+    "province_code": "63",
+    "name": "KABUPATEN HULU SUNGAI TENGAH",
+    "meta": {
+        "lat": "-2.6153162",
+        "long": "115.5207358"
+    }
+}, {
+    "id": 350,
+    "code": "6308",
+    "province_code": "63",
+    "name": "KABUPATEN HULU SUNGAI UTARA",
+    "meta": {
+        "lat": "-2.4421225",
+        "long": "115.188916"
+    }
+}, {
+    "id": 351,
+    "code": "6309",
+    "province_code": "63",
+    "name": "KABUPATEN TABALONG",
+    "meta": {
+        "lat": "-1.864302",
+        "long": "115.5681084"
+    }
+}, {
+    "id": 352,
+    "code": "6310",
+    "province_code": "63",
+    "name": "KABUPATEN TANAH BUMBU",
+    "meta": {
+        "lat": "-3.4512244",
+        "long": "115.5681084"
+    }
+}, {
+    "id": 353,
+    "code": "6311",
+    "province_code": "63",
+    "name": "KABUPATEN BALANGAN",
+    "meta": {
+        "lat": "-2.3260425",
+        "long": "115.6154732"
+    }
+}, {
+    "id": 354,
+    "code": "6371",
+    "province_code": "63",
+    "name": "KOTA BANJARMASIN",
+    "meta": {
+        "lat": "-3.3186067",
+        "long": "114.5943784"
+    }
+}, {
+    "id": 355,
+    "code": "6372",
+    "province_code": "63",
+    "name": "KOTA BANJARBARU",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 356,
+    "code": "6401",
+    "province_code": "64",
+    "name": "KABUPATEN PASER",
+    "meta": {
+        "lat": "-1.7175266",
+        "long": "115.9467997"
+    }
+}, {
+    "id": 357,
+    "code": "6402",
+    "province_code": "64",
+    "name": "KABUPATEN KUTAI KARTANEGARA",
+    "meta": {
+        "lat": "-0.1336655",
+        "long": "116.6081653"
+    }
+}, {
+    "id": 358,
+    "code": "6403",
+    "province_code": "64",
+    "name": "KABUPATEN BERAU",
+    "meta": {
+        "lat": "2.0450883",
+        "long": "117.3616476"
+    }
+}, {
+    "id": 359,
+    "code": "6407",
+    "province_code": "64",
+    "name": "KABUPATEN KUTAI BARAT",
+    "meta": {
+        "lat": "-0.4051796",
+        "long": "115.8521764"
+    }
+}, {
+    "id": 360,
+    "code": "6408",
+    "province_code": "64",
+    "name": "KABUPATEN KUTAI TIMUR",
+    "meta": {
+        "lat": "0.9433774",
+        "long": "116.9852422"
+    }
+}, {
+    "id": 361,
+    "code": "6409",
+    "province_code": "64",
+    "name": "KABUPATEN PENAJAM PASER UTARA",
+    "meta": {
+        "lat": "-1.2917094",
+        "long": "116.5137964"
+    }
+}, {
+    "id": 362,
+    "code": "6411",
+    "province_code": "64",
+    "name": "KABUPATEN MAHAKAM ULU",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 363,
+    "code": "6471",
+    "province_code": "64",
+    "name": "KOTA BALIKPAPAN",
+    "meta": {
+        "lat": "-1.2379274",
+        "long": "116.8528526"
+    }
+}, {
+    "id": 364,
+    "code": "6472",
+    "province_code": "64",
+    "name": "KOTA SAMARINDA",
+    "meta": {
+        "lat": "-0.5016166",
+        "long": "117.1264753"
+    }
+}, {
+    "id": 365,
+    "code": "6474",
+    "province_code": "64",
+    "name": "KOTA BONTANG",
+    "meta": {
+        "lat": "0.120863",
+        "long": "117.4800445"
+    }
+}, {
+    "id": 366,
+    "code": "6501",
+    "province_code": "65",
+    "name": "KABUPATEN BULUNGAN",
+    "meta": {
+        "lat": "2.9042476",
+        "long": "116.9852422"
+    }
+}, {
+    "id": 367,
+    "code": "6502",
+    "province_code": "65",
+    "name": "KABUPATEN MALINAU",
+    "meta": {
+        "lat": "3.0730929",
+        "long": "116.0413889"
+    }
+}, {
+    "id": 368,
+    "code": "6503",
+    "province_code": "65",
+    "name": "KABUPATEN NUNUKAN",
+    "meta": {
+        "lat": "4.0809649",
+        "long": "116.6081653"
+    }
+}, {
+    "id": 369,
+    "code": "6504",
+    "province_code": "65",
+    "name": "KABUPATEN TANA TIDUNG",
+    "meta": {
+        "lat": "3.551869",
+        "long": "117.0794082"
+    }
+}, {
+    "id": 370,
+    "code": "6571",
+    "province_code": "65",
+    "name": "KOTA TARAKAN",
+    "meta": {
+        "lat": "3.3273599",
+        "long": "117.5785049"
+    }
+}, {
+    "id": 371,
+    "code": "7101",
+    "province_code": "71",
+    "name": "KABUPATEN BOLAANG MONGONDOW",
+    "meta": {
+        "lat": "0.6870994",
+        "long": "124.0641419"
+    }
+}, {
+    "id": 372,
+    "code": "7102",
+    "province_code": "71",
+    "name": "KABUPATEN MINAHASA",
+    "meta": {
+        "lat": "1.2168837",
+        "long": "124.8182593"
+    }
+}, {
+    "id": 373,
+    "code": "7103",
+    "province_code": "71",
+    "name": "KABUPATEN KEPULAUAN SANGIHE",
+    "meta": {
+        "lat": "3.6329172",
+        "long": "125.5000999"
+    }
+}, {
+    "id": 374,
+    "code": "7104",
+    "province_code": "71",
+    "name": "KABUPATEN KEPULAUAN TALAUD",
+    "meta": {
+        "lat": "4.3066741",
+        "long": "126.8034921"
+    }
+}, {
+    "id": 375,
+    "code": "7105",
+    "province_code": "71",
+    "name": "KABUPATEN MINAHASA SELATAN",
+    "meta": {
+        "lat": "1.0946773",
+        "long": "124.4641848"
+    }
+}, {
+    "id": 376,
+    "code": "7106",
+    "province_code": "71",
+    "name": "KABUPATEN MINAHASA UTARA",
+    "meta": {
+        "lat": "1.5327973",
+        "long": "124.994751"
+    }
+}, {
+    "id": 377,
+    "code": "7107",
+    "province_code": "71",
+    "name": "KABUPATEN MINAHASA TENGGARA",
+    "meta": {
+        "lat": "1.0278551",
+        "long": "124.7298765"
+    }
+}, {
+    "id": 378,
+    "code": "7108",
+    "province_code": "71",
+    "name": "KABUPATEN BOLAANG MONGONDOW UTARA",
+    "meta": {
+        "lat": "0.9070359",
+        "long": "123.2657311"
+    }
+}, {
+    "id": 379,
+    "code": "7109",
+    "province_code": "71",
+    "name": "KABUPATEN KEP. SIAU TAGULANDANG BIARO",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 380,
+    "code": "7110",
+    "province_code": "71",
+    "name": "KABUPATEN BOLAANG MONGONDOW TIMUR",
+    "meta": {
+        "lat": "0.7152651",
+        "long": "124.4641848"
+    }
+}, {
+    "id": 381,
+    "code": "7111",
+    "province_code": "71",
+    "name": "KABUPATEN BOLAANG MONGONDOW SELATAN",
+    "meta": {
+        "lat": "0.4053215",
+        "long": "123.8411288"
+    }
+}, {
+    "id": 382,
+    "code": "7171",
+    "province_code": "71",
+    "name": "KOTA MANADO",
+    "meta": {
+        "lat": "1.4748305",
+        "long": "124.8420794"
+    }
+}, {
+    "id": 383,
+    "code": "7172",
+    "province_code": "71",
+    "name": "KOTA BITUNG",
+    "meta": {
+        "lat": "1.4403744",
+        "long": "125.1216524"
+    }
+}, {
+    "id": 384,
+    "code": "7173",
+    "province_code": "71",
+    "name": "KOTA TOMOHON",
+    "meta": {
+        "lat": "1.3229337",
+        "long": "124.8405081"
+    }
+}, {
+    "id": 385,
+    "code": "7174",
+    "province_code": "71",
+    "name": "KOTA KOTAMOBAGU",
+    "meta": {
+        "lat": "0.7243733",
+        "long": "124.3199316"
+    }
+}, {
+    "id": 386,
+    "code": "7201",
+    "province_code": "72",
+    "name": "KABUPATEN BANGGAI",
+    "meta": {
+        "lat": "-0.956178",
+        "long": "122.6277455"
+    }
+}, {
+    "id": 387,
+    "code": "7202",
+    "province_code": "72",
+    "name": "KABUPATEN POSO",
+    "meta": {
+        "lat": "-1.6468883",
+        "long": "120.4357631"
+    }
+}, {
+    "id": 388,
+    "code": "7203",
+    "province_code": "72",
+    "name": "KABUPATEN DONGGALA",
+    "meta": {
+        "lat": "-0.4233155",
+        "long": "119.8352303"
+    }
+}, {
+    "id": 389,
+    "code": "7204",
+    "province_code": "72",
+    "name": "KABUPATEN TOLI TOLI",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 390,
+    "code": "7205",
+    "province_code": "72",
+    "name": "KABUPATEN BUOL",
+    "meta": {
+        "lat": "0.9695452",
+        "long": "121.3541631"
+    }
+}, {
+    "id": 391,
+    "code": "7206",
+    "province_code": "72",
+    "name": "KABUPATEN MOROWALI",
+    "meta": {
+        "lat": "-2.6987231",
+        "long": "121.9017954"
+    }
+}, {
+    "id": 392,
+    "code": "7207",
+    "province_code": "72",
+    "name": "KABUPATEN BANGGAI KEPULAUAN",
+    "meta": {
+        "lat": "-1.3075939",
+        "long": "123.0338767"
+    }
+}, {
+    "id": 393,
+    "code": "7208",
+    "province_code": "72",
+    "name": "KABUPATEN PARIGI MOUTONG",
+    "meta": {
+        "lat": "0.5817607",
+        "long": "120.8039474"
+    }
+}, {
+    "id": 394,
+    "code": "7209",
+    "province_code": "72",
+    "name": "KABUPATEN TOJO UNA UNA",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 395,
+    "code": "7210",
+    "province_code": "72",
+    "name": "KABUPATEN SIGI",
+    "meta": {
+        "lat": "-1.3859904",
+        "long": "119.8815203"
+    }
+}, {
+    "id": 396,
+    "code": "7211",
+    "province_code": "72",
+    "name": "KABUPATEN BANGGAI LAUT",
+    "meta": {
+        "lat": "-1.6734525",
+        "long": "123.5504076"
+    }
+}, {
+    "id": 397,
+    "code": "7212",
+    "province_code": "72",
+    "name": "KABUPATEN MOROWALI UTARA",
+    "meta": {
+        "lat": "-1.6311761",
+        "long": "121.3541631"
+    }
+}, {
+    "id": 398,
+    "code": "7271",
+    "province_code": "72",
+    "name": "KOTA PALU",
+    "meta": {
+        "lat": "-0.9002915",
+        "long": "119.8779987"
+    }
+}, {
+    "id": 399,
+    "code": "7301",
+    "province_code": "73",
+    "name": "KABUPATEN KEPULAUAN SELAYAR",
+    "meta": {
+        "lat": "-6.2869786",
+        "long": "120.5048792"
+    }
+}, {
+    "id": 400,
+    "code": "7302",
+    "province_code": "73",
+    "name": "KABUPATEN BULUKUMBA",
+    "meta": {
+        "lat": "-5.4329368",
+        "long": "120.2051096"
+    }
+}, {
+    "id": 401,
+    "code": "7303",
+    "province_code": "73",
+    "name": "KABUPATEN BANTAENG",
+    "meta": {
+        "lat": "-5.5169316",
+        "long": "120.0202964"
+    }
+}, {
+    "id": 402,
+    "code": "7304",
+    "province_code": "73",
+    "name": "KABUPATEN JENEPONTO",
+    "meta": {
+        "lat": "-5.554579",
+        "long": "119.6730939"
+    }
+}, {
+    "id": 403,
+    "code": "7305",
+    "province_code": "73",
+    "name": "KABUPATEN TAKALAR",
+    "meta": {
+        "lat": "-5.4162493",
+        "long": "119.4875668"
+    }
+}, {
+    "id": 404,
+    "code": "7306",
+    "province_code": "73",
+    "name": "KABUPATEN GOWA",
+    "meta": {
+        "lat": "-5.3102888",
+        "long": "119.742604"
+    }
+}, {
+    "id": 405,
+    "code": "7307",
+    "province_code": "73",
+    "name": "KABUPATEN SINJAI",
+    "meta": {
+        "lat": "-5.2171961",
+        "long": "120.112735"
+    }
+}, {
+    "id": 406,
+    "code": "7308",
+    "province_code": "73",
+    "name": "KABUPATEN BONE",
+    "meta": {
+        "lat": "-4.7443383",
+        "long": "120.0665236"
+    }
+}, {
+    "id": 407,
+    "code": "7309",
+    "province_code": "73",
+    "name": "KABUPATEN MAROS",
+    "meta": {
+        "lat": "-5.0549145",
+        "long": "119.6962677"
+    }
+}, {
+    "id": 408,
+    "code": "7310",
+    "province_code": "73",
+    "name": "KABUPATEN PANGKAJENE KEPULAUAN",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 409,
+    "code": "7311",
+    "province_code": "73",
+    "name": "KABUPATEN BARRU",
+    "meta": {
+        "lat": "-4.436417",
+        "long": "119.6499162"
+    }
+}, {
+    "id": 410,
+    "code": "7312",
+    "province_code": "73",
+    "name": "KABUPATEN SOPPENG",
+    "meta": {
+        "lat": "-4.3518541",
+        "long": "119.9277947"
+    }
+}, {
+    "id": 411,
+    "code": "7313",
+    "province_code": "73",
+    "name": "KABUPATEN WAJO",
+    "meta": {
+        "lat": "-4.022229",
+        "long": "120.0665236"
+    }
+}, {
+    "id": 412,
+    "code": "7314",
+    "province_code": "73",
+    "name": "KABUPATEN SIDENRENG RAPPANG",
+    "meta": {
+        "lat": "-3.7738981",
+        "long": "120.0202964"
+    }
+}, {
+    "id": 413,
+    "code": "7315",
+    "province_code": "73",
+    "name": "KABUPATEN PINRANG",
+    "meta": {
+        "lat": "-3.6483486",
+        "long": "119.5571677"
+    }
+}, {
+    "id": 414,
+    "code": "7316",
+    "province_code": "73",
+    "name": "KABUPATEN ENREKANG",
+    "meta": {
+        "lat": "-3.4590744",
+        "long": "119.8815203"
+    }
+}, {
+    "id": 415,
+    "code": "7317",
+    "province_code": "73",
+    "name": "KABUPATEN LUWU",
+    "meta": {
+        "lat": "-3.3052214",
+        "long": "120.2512728"
+    }
+}, {
+    "id": 416,
+    "code": "7318",
+    "province_code": "73",
+    "name": "KABUPATEN TANA TORAJA",
+    "meta": {
+        "lat": "-3.0753003",
+        "long": "119.742604"
+    }
+}, {
+    "id": 417,
+    "code": "7322",
+    "province_code": "73",
+    "name": "KABUPATEN LUWU UTARA",
+    "meta": {
+        "lat": "-2.2690446",
+        "long": "119.9740534"
+    }
+}, {
+    "id": 418,
+    "code": "7324",
+    "province_code": "73",
+    "name": "KABUPATEN LUWU TIMUR",
+    "meta": {
+        "lat": "-2.5825518",
+        "long": "121.1710389"
+    }
+}, {
+    "id": 419,
+    "code": "7326",
+    "province_code": "73",
+    "name": "KABUPATEN TORAJA UTARA",
+    "meta": {
+        "lat": "-2.8621942",
+        "long": "119.8352303"
+    }
+}, {
+    "id": 420,
+    "code": "7371",
+    "province_code": "73",
+    "name": "KOTA MAKASSAR",
+    "meta": {
+        "lat": "-5.1476651",
+        "long": "119.4327314"
+    }
+}, {
+    "id": 421,
+    "code": "7372",
+    "province_code": "73",
+    "name": "KOTA PARE PARE",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 422,
+    "code": "7373",
+    "province_code": "73",
+    "name": "KOTA PALOPO",
+    "meta": {
+        "lat": "-3.0016343",
+        "long": "120.1985141"
+    }
+}, {
+    "id": 423,
+    "code": "7401",
+    "province_code": "74",
+    "name": "KABUPATEN KOLAKA",
+    "meta": {
+        "lat": "-3.9946988",
+        "long": "121.5826642"
+    }
+}, {
+    "id": 424,
+    "code": "7402",
+    "province_code": "74",
+    "name": "KABUPATEN KONAWE",
+    "meta": {
+        "lat": "-3.9380432",
+        "long": "122.0837445"
+    }
+}, {
+    "id": 425,
+    "code": "7403",
+    "province_code": "74",
+    "name": "KABUPATEN MUNA",
+    "meta": {
+        "lat": "-4.901629",
+        "long": "122.6277455"
+    }
+}, {
+    "id": 426,
+    "code": "7404",
+    "province_code": "74",
+    "name": "KABUPATEN BUTON",
+    "meta": {
+        "lat": "-5.3096355",
+        "long": "122.9888319"
+    }
+}, {
+    "id": 427,
+    "code": "7405",
+    "province_code": "74",
+    "name": "KABUPATEN KONAWE SELATAN",
+    "meta": {
+        "lat": "-4.2027915",
+        "long": "122.4467238"
+    }
+}, {
+    "id": 428,
+    "code": "7406",
+    "province_code": "74",
+    "name": "KABUPATEN BOMBANA",
+    "meta": {
+        "lat": "-4.6543462",
+        "long": "121.9017954"
+    }
+}, {
+    "id": 429,
+    "code": "7407",
+    "province_code": "74",
+    "name": "KABUPATEN WAKATOBI",
+    "meta": {
+        "lat": "-5.6326806",
+        "long": "123.8902463"
+    }
+}, {
+    "id": 430,
+    "code": "7408",
+    "province_code": "74",
+    "name": "KABUPATEN KOLAKA UTARA",
+    "meta": {
+        "lat": "-3.1347227",
+        "long": "121.1710389"
+    }
+}, {
+    "id": 431,
+    "code": "7409",
+    "province_code": "74",
+    "name": "KABUPATEN KONAWE UTARA",
+    "meta": {
+        "lat": "-3.3803291",
+        "long": "122.0837445"
+    }
+}, {
+    "id": 432,
+    "code": "7410",
+    "province_code": "74",
+    "name": "KABUPATEN BUTON UTARA",
+    "meta": {
+        "lat": "-4.7023424",
+        "long": "123.0338767"
+    }
+}, {
+    "id": 433,
+    "code": "7411",
+    "province_code": "74",
+    "name": "KABUPATEN KOLAKA TIMUR",
+    "meta": {
+        "lat": "-4.2279225",
+        "long": "121.9017954"
+    }
+}, {
+    "id": 434,
+    "code": "7412",
+    "province_code": "74",
+    "name": "KABUPATEN KONAWE KEPULAUAN",
+    "meta": {
+        "lat": "-4.1361465",
+        "long": "123.1239049"
+    }
+}, {
+    "id": 435,
+    "code": "7413",
+    "province_code": "74",
+    "name": "KABUPATEN MUNA BARAT",
+    "meta": {
+        "lat": "-4.901629",
+        "long": "122.6277455"
+    }
+}, {
+    "id": 436,
+    "code": "7414",
+    "province_code": "74",
+    "name": "KABUPATEN BUTON TENGAH",
+    "meta": {
+        "lat": "-5.2891405",
+        "long": "122.424074"
+    }
+}, {
+    "id": 437,
+    "code": "7415",
+    "province_code": "74",
+    "name": "KABUPATEN BUTON SELATAN",
+    "meta": {
+        "lat": "-5.3096355",
+        "long": "122.9888319"
+    }
+}, {
+    "id": 438,
+    "code": "7471",
+    "province_code": "74",
+    "name": "KOTA KENDARI",
+    "meta": {
+        "lat": "-3.9984597",
+        "long": "122.5129742"
+    }
+}, {
+    "id": 439,
+    "code": "7472",
+    "province_code": "74",
+    "name": "KOTA BAU BAU",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 440,
+    "code": "7501",
+    "province_code": "75",
+    "name": "KABUPATEN GORONTALO",
+    "meta": {
+        "lat": "0.5692733",
+        "long": "122.8084496"
+    }
+}, {
+    "id": 441,
+    "code": "7502",
+    "province_code": "75",
+    "name": "KABUPATEN BOALEMO",
+    "meta": {
+        "lat": "0.7013419",
+        "long": "122.2653887"
+    }
+}, {
+    "id": 442,
+    "code": "7503",
+    "province_code": "75",
+    "name": "KABUPATEN BONE BOLANGO",
+    "meta": {
+        "lat": "0.5657885",
+        "long": "123.3486147"
+    }
+}, {
+    "id": 443,
+    "code": "7504",
+    "province_code": "75",
+    "name": "KABUPATEN PAHUWATO",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 444,
+    "code": "7505",
+    "province_code": "75",
+    "name": "KABUPATEN GORONTALO UTARA",
+    "meta": {
+        "lat": "0.9252647",
+        "long": "122.4920088"
+    }
+}, {
+    "id": 445,
+    "code": "7571",
+    "province_code": "75",
+    "name": "KOTA GORONTALO",
+    "meta": {
+        "lat": "0.5435442",
+        "long": "123.0567693"
+    }
+}, {
+    "id": 446,
+    "code": "7601",
+    "province_code": "76",
+    "name": "KABUPATEN PASANGKAYU",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 447,
+    "code": "7602",
+    "province_code": "76",
+    "name": "KABUPATEN MAMUJU",
+    "meta": {
+        "lat": "-2.4920057",
+        "long": "119.3250347"
+    }
+}, {
+    "id": 448,
+    "code": "7603",
+    "province_code": "76",
+    "name": "KABUPATEN MAMASA",
+    "meta": {
+        "lat": "-2.9118209",
+        "long": "119.3250347"
+    }
+}, {
+    "id": 449,
+    "code": "7604",
+    "province_code": "76",
+    "name": "KABUPATEN POLEWALI MANDAR",
+    "meta": {
+        "lat": "-3.3419323",
+        "long": "119.1390642"
+    }
+}, {
+    "id": 450,
+    "code": "7605",
+    "province_code": "76",
+    "name": "KABUPATEN MAJENE",
+    "meta": {
+        "lat": "-3.0297251",
+        "long": "118.9062794"
+    }
+}, {
+    "id": 451,
+    "code": "7606",
+    "province_code": "76",
+    "name": "KABUPATEN MAMUJU TENGAH",
+    "meta": {
+        "lat": "-1.9354109",
+        "long": "119.5107708"
+    }
+}, {
+    "id": 452,
+    "code": "8101",
+    "province_code": "81",
+    "name": "KABUPATEN MALUKU TENGAH",
+    "meta": {
+        "lat": "-3.0166501",
+        "long": "129.4864411"
+    }
+}, {
+    "id": 453,
+    "code": "8102",
+    "province_code": "81",
+    "name": "KABUPATEN MALUKU TENGGARA",
+    "meta": {
+        "lat": "-5.7512455",
+        "long": "132.7271587"
+    }
+}, {
+    "id": 454,
+    "code": "8103",
+    "province_code": "81",
+    "name": "KABUPATEN KEPULAUAN TANIMBAR",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 455,
+    "code": "8104",
+    "province_code": "81",
+    "name": "KABUPATEN BURU",
+    "meta": {
+        "lat": "-3.3307379",
+        "long": "126.6957216"
+    }
+}, {
+    "id": 456,
+    "code": "8105",
+    "province_code": "81",
+    "name": "KABUPATEN SERAM BAGIAN TIMUR",
+    "meta": {
+        "lat": "-3.4233267",
+        "long": "130.2271243"
+    }
+}, {
+    "id": 457,
+    "code": "8106",
+    "province_code": "81",
+    "name": "KABUPATEN SERAM BAGIAN BARAT",
+    "meta": {
+        "lat": "-3.1271575",
+        "long": "128.4008357"
+    }
+}, {
+    "id": 458,
+    "code": "8107",
+    "province_code": "81",
+    "name": "KABUPATEN KEPULAUAN ARU",
+    "meta": {
+        "lat": "-6.2067294",
+        "long": "134.4718394"
+    }
+}, {
+    "id": 459,
+    "code": "8108",
+    "province_code": "81",
+    "name": "KABUPATEN MALUKU BARAT DAYA",
+    "meta": {
+        "lat": "-7.7851588",
+        "long": "126.3498097"
+    }
+}, {
+    "id": 460,
+    "code": "8109",
+    "province_code": "81",
+    "name": "KABUPATEN BURU SELATAN",
+    "meta": {
+        "lat": "-3.7273972",
+        "long": "126.6957216"
+    }
+}, {
+    "id": 461,
+    "code": "8171",
+    "province_code": "81",
+    "name": "KOTA AMBON",
+    "meta": {
+        "lat": "-3.6386665",
+        "long": "128.1688559"
+    }
+}, {
+    "id": 462,
+    "code": "8172",
+    "province_code": "81",
+    "name": "KOTA TUAL",
+    "meta": {
+        "lat": "-5.626563",
+        "long": "132.7520867"
+    }
+}, {
+    "id": 463,
+    "code": "8201",
+    "province_code": "82",
+    "name": "KABUPATEN HALMAHERA BARAT",
+    "meta": {
+        "lat": "1.3589663",
+        "long": "127.5960704"
+    }
+}, {
+    "id": 464,
+    "code": "8202",
+    "province_code": "82",
+    "name": "KABUPATEN HALMAHERA TENGAH",
+    "meta": {
+        "lat": "0.4419543",
+        "long": "128.3587174"
+    }
+}, {
+    "id": 465,
+    "code": "8203",
+    "province_code": "82",
+    "name": "KABUPATEN HALMAHERA UTARA",
+    "meta": {
+        "lat": "1.5074308",
+        "long": "127.8936663"
+    }
+}, {
+    "id": 466,
+    "code": "8204",
+    "province_code": "82",
+    "name": "KABUPATEN HALMAHERA SELATAN",
+    "meta": {
+        "lat": "-1.5109015",
+        "long": "127.7237678"
+    }
+}, {
+    "id": 467,
+    "code": "8205",
+    "province_code": "82",
+    "name": "KABUPATEN KEPULAUAN SULA",
+    "meta": {
+        "lat": "-1.8321222",
+        "long": "125.958777"
+    }
+}, {
+    "id": 468,
+    "code": "8206",
+    "province_code": "82",
+    "name": "KABUPATEN HALMAHERA TIMUR",
+    "meta": {
+        "lat": "1.3121235",
+        "long": "128.4849923"
+    }
+}, {
+    "id": 469,
+    "code": "8207",
+    "province_code": "82",
+    "name": "KABUPATEN PULAU MOROTAI",
+    "meta": {
+        "lat": "2.3656672",
+        "long": "128.4008357"
+    }
+}, {
+    "id": 470,
+    "code": "8208",
+    "province_code": "82",
+    "name": "KABUPATEN PULAU TALIABU",
+    "meta": {
+        "lat": "-1.8268344",
+        "long": "124.7740793"
+    }
+}, {
+    "id": 471,
+    "code": "8271",
+    "province_code": "82",
+    "name": "KOTA TERNATE",
+    "meta": {
+        "lat": "0.7957999",
+        "long": "127.3613533"
+    }
+}, {
+    "id": 472,
+    "code": "8272",
+    "province_code": "82",
+    "name": "KOTA TIDORE KEPULAUAN",
+    "meta": {
+        "lat": "0.6740044",
+        "long": "127.4040871"
+    }
+}, {
+    "id": 473,
+    "code": "9101",
+    "province_code": "91",
+    "name": "KABUPATEN MERAUKE",
+    "meta": {
+        "lat": "-7.7838334",
+        "long": "139.041312"
+    }
+}, {
+    "id": 474,
+    "code": "9102",
+    "province_code": "91",
+    "name": "KABUPATEN JAYAWIJAYA",
+    "meta": {
+        "lat": "-4.0004481",
+        "long": "138.7995122"
+    }
+}, {
+    "id": 475,
+    "code": "9103",
+    "province_code": "91",
+    "name": "KABUPATEN JAYAPURA",
+    "meta": {
+        "lat": "-2.987923",
+        "long": "139.8547266"
+    }
+}, {
+    "id": 476,
+    "code": "9104",
+    "province_code": "91",
+    "name": "KABUPATEN NABIRE",
+    "meta": {
+        "lat": "-3.5095462",
+        "long": "135.7520985"
+    }
+}, {
+    "id": 477,
+    "code": "9105",
+    "province_code": "91",
+    "name": "KABUPATEN KEPULAUAN YAPEN",
+    "meta": {
+        "lat": "-1.7469359",
+        "long": "136.1709012"
+    }
+}, {
+    "id": 478,
+    "code": "9106",
+    "province_code": "91",
+    "name": "KABUPATEN BIAK NUMFOR",
+    "meta": {
+        "lat": "-1.0381022",
+        "long": "135.9800848"
+    }
+}, {
+    "id": 479,
+    "code": "9107",
+    "province_code": "91",
+    "name": "KABUPATEN PUNCAK JAYA",
+    "meta": {
+        "lat": "-3.4467891",
+        "long": "137.8427298"
+    }
+}, {
+    "id": 480,
+    "code": "9108",
+    "province_code": "91",
+    "name": "KABUPATEN PANIAI",
+    "meta": {
+        "lat": "-3.7876441",
+        "long": "136.3624686"
+    }
+}, {
+    "id": 481,
+    "code": "9109",
+    "province_code": "91",
+    "name": "KABUPATEN MIMIKA",
+    "meta": {
+        "lat": "-4.4553223",
+        "long": "137.1362125"
+    }
+}, {
+    "id": 482,
+    "code": "9110",
+    "province_code": "91",
+    "name": "KABUPATEN SARMI",
+    "meta": {
+        "lat": "-2.4678144",
+        "long": "139.2030851"
+    }
+}, {
+    "id": 483,
+    "code": "9111",
+    "province_code": "91",
+    "name": "KABUPATEN KEEROM",
+    "meta": {
+        "lat": "-3.3449536",
+        "long": "140.7624493"
+    }
+}, {
+    "id": 484,
+    "code": "9112",
+    "province_code": "91",
+    "name": "KABUPATEN PEGUNUNGAN BINTANG",
+    "meta": {
+        "lat": "-4.5589872",
+        "long": "140.5135589"
+    }
+}, {
+    "id": 485,
+    "code": "9113",
+    "province_code": "91",
+    "name": "KABUPATEN YAHUKIMO",
+    "meta": {
+        "lat": "-4.4939717",
+        "long": "139.5279996"
+    }
+}, {
+    "id": 486,
+    "code": "9114",
+    "province_code": "91",
+    "name": "KABUPATEN TOLIKARA",
+    "meta": {
+        "lat": "-3.481132",
+        "long": "138.4787258"
+    }
+}, {
+    "id": 487,
+    "code": "9115",
+    "province_code": "91",
+    "name": "KABUPATEN WAROPEN",
+    "meta": {
+        "lat": "-2.8435717",
+        "long": "136.670534"
+    }
+}, {
+    "id": 488,
+    "code": "9116",
+    "province_code": "91",
+    "name": "KABUPATEN BOVEN DIGOEL",
+    "meta": {
+        "lat": "-5.7400018",
+        "long": "140.3481835"
+    }
+}, {
+    "id": 489,
+    "code": "9117",
+    "province_code": "91",
+    "name": "KABUPATEN MAPPI",
+    "meta": {
+        "lat": "-6.7606468",
+        "long": "139.6911374"
+    }
+}, {
+    "id": 490,
+    "code": "9118",
+    "province_code": "91",
+    "name": "KABUPATEN ASMAT",
+    "meta": {
+        "lat": "-5.0573958",
+        "long": "138.3988186"
+    }
+}, {
+    "id": 491,
+    "code": "9119",
+    "province_code": "91",
+    "name": "KABUPATEN SUPIORI",
+    "meta": {
+        "lat": "-0.7295099",
+        "long": "135.6385125"
+    }
+}, {
+    "id": 492,
+    "code": "9120",
+    "province_code": "91",
+    "name": "KABUPATEN MAMBERAMO RAYA",
+    "meta": {
+        "lat": "-2.5331255",
+        "long": "137.7637565"
+    }
+}, {
+    "id": 493,
+    "code": "9121",
+    "province_code": "91",
+    "name": "KABUPATEN MAMBERAMO TENGAH",
+    "meta": {
+        "lat": "-2.3745692",
+        "long": "138.3190276"
+    }
+}, {
+    "id": 494,
+    "code": "9122",
+    "province_code": "91",
+    "name": "KABUPATEN YALIMO",
+    "meta": {
+        "lat": "-3.7852847",
+        "long": "139.4466005"
+    }
+}, {
+    "id": 495,
+    "code": "9123",
+    "province_code": "91",
+    "name": "KABUPATEN LANNY JAYA",
+    "meta": {
+        "lat": "-3.971033",
+        "long": "138.3190276"
+    }
+}, {
+    "id": 496,
+    "code": "9124",
+    "province_code": "91",
+    "name": "KABUPATEN NDUGA",
+    "meta": {
+        "lat": "-4.4069496",
+        "long": "138.2393528"
+    }
+}, {
+    "id": 497,
+    "code": "9125",
+    "province_code": "91",
+    "name": "KABUPATEN PUNCAK",
+    "meta": {
+        "lat": "-3.8649098",
+        "long": "137.6061625"
+    }
+}, {
+    "id": 498,
+    "code": "9126",
+    "province_code": "91",
+    "name": "KABUPATEN DOGIYAI",
+    "meta": {
+        "lat": "-4.0454139",
+        "long": "135.6763443"
+    }
+}, {
+    "id": 499,
+    "code": "9127",
+    "province_code": "91",
+    "name": "KABUPATEN INTAN JAYA",
+    "meta": {
+        "lat": "-3.5076422",
+        "long": "136.7478493"
+    }
+}, {
+    "id": 500,
+    "code": "9128",
+    "province_code": "91",
+    "name": "KABUPATEN DEIYAI",
+    "meta": {
+        "lat": "-4.0974893",
+        "long": "136.4393054"
+    }
+}, {
+    "id": 501,
+    "code": "9171",
+    "province_code": "91",
+    "name": "KOTA JAYAPURA",
+    "meta": {
+        "lat": "-2.5916025",
+        "long": "140.6689995"
+    }
+}, {
+    "id": 502,
+    "code": "9201",
+    "province_code": "92",
+    "name": "KABUPATEN SORONG",
+    "meta": {
+        "lat": "-1.1223204",
+        "long": "131.4883373"
+    }
+}, {
+    "id": 503,
+    "code": "9202",
+    "province_code": "92",
+    "name": "KABUPATEN MANOKWARI",
+    "meta": {
+        "lat": "-0.8614531",
+        "long": "134.0620421"
+    }
+}, {
+    "id": 504,
+    "code": "9203",
+    "province_code": "92",
+    "name": "KABUPATEN FAK FAK",
+    "meta": {
+        "lat": "NULL",
+        "long": "NULL"
+    }
+}, {
+    "id": 505,
+    "code": "9204",
+    "province_code": "92",
+    "name": "KABUPATEN SORONG SELATAN",
+    "meta": {
+        "lat": "-1.7657744",
+        "long": "132.1572702"
+    }
+}, {
+    "id": 506,
+    "code": "9205",
+    "province_code": "92",
+    "name": "KABUPATEN RAJA AMPAT",
+    "meta": {
+        "lat": "-1.0915151",
+        "long": "130.8778586"
+    }
+}, {
+    "id": 507,
+    "code": "9206",
+    "province_code": "92",
+    "name": "KABUPATEN TELUK BINTUNI",
+    "meta": {
+        "lat": "-1.9056848",
+        "long": "133.329466"
+    }
+}, {
+    "id": 508,
+    "code": "9207",
+    "province_code": "92",
+    "name": "KABUPATEN TELUK WONDAMA",
+    "meta": {
+        "lat": "-2.8551699",
+        "long": "134.3236557"
+    }
+}, {
+    "id": 509,
+    "code": "9208",
+    "province_code": "92",
+    "name": "KABUPATEN KAIMANA",
+    "meta": {
+        "lat": "-3.288406",
+        "long": "133.9436788"
+    }
+}, {
+    "id": 510,
+    "code": "9209",
+    "province_code": "92",
+    "name": "KABUPATEN TAMBRAUW",
+    "meta": {
+        "lat": "-0.781856",
+        "long": "132.3938375"
+    }
+}, {
+    "id": 511,
+    "code": "9210",
+    "province_code": "92",
+    "name": "KABUPATEN MAYBRAT",
+    "meta": {
+        "lat": "-1.2970979",
+        "long": "132.3150993"
+    }
+}, {
+    "id": 512,
+    "code": "9211",
+    "province_code": "92",
+    "name": "KABUPATEN MANOKWARI SELATAN",
+    "meta": {
+        "lat": "-0.9135107",
+        "long": "134.0008674"
+    }
+}, {
+    "id": 513,
+    "code": "9212",
+    "province_code": "92",
+    "name": "KABUPATEN PEGUNUNGAN ARFAK",
+    "meta": {
+        "lat": "-1.1554562",
+        "long": "133.7142484"
+    }
+}, {
+    "id": 514,
+    "code": "9271",
+    "province_code": "92",
+    "name": "KOTA SORONG",
+    "meta": {
+        "lat": "-0.8761629",
+        "long": "131.255828"
+    }
+}]
