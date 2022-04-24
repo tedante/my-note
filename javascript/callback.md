@@ -2,8 +2,8 @@
 
 ## 1. Asynchronous
 Javascript itu bisa sync dan async. Bedanya?
-Sync itu task 2 menunggu task 1 selesai.
-Async itu task 2 tidak menunggu task 1 selesai.
+Sync itu baris selanjutnya menunggu baris sebelumnya selesai.
+Async itu baris selanjutnya tidak menunggu baris sebelumnya selesai.
 
 contoh kita punya 3 task
 - Task 1, tampilkan mulai
@@ -143,6 +143,7 @@ contohnya function yang diawal tadi baca kota
 
 # Reference:
 - https://www.youtube.com/watch?v=wVtdv5BHhno
+- https://www.youtube.com/watch?v=5bOBknsIGQI
 - https://www.youtube.com/watch?v=5bOBknsIGQI
 - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Concepts
 - https://www.w3schools.com/js/js_callback.asp
