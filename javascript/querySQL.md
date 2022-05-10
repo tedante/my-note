@@ -37,7 +37,7 @@ SELECT DISTINCT "startBatch" FROM "StudentDetails"
 ```sql
 SELECT * FROM "Instructors" i WHERE i."name" = 'Acong'
 ```
-## 3. [LIKE](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-like/)
+## 4. [LIKE](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-like/)
 
 * tampilkan instructor yang memiliki nama dengan huruf awal 'A' 
 
@@ -48,7 +48,7 @@ SELECT * FROM "Instructors" i WHERE i."name" LIKE 'a%'
 
 SELECT * FROM "Instructors" i WHERE i."name" ILIKE 'a%'
 ```
-## 3. [LIMIT](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-limit/)
+## 5. [LIMIT](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-limit/)
 
 * tampilkan 2 instructor
 
@@ -56,7 +56,7 @@ SELECT * FROM "Instructors" i WHERE i."name" ILIKE 'a%'
 SELECT * FROM "Instructors" i LIMIT 2
 SELECT * FROM "Instructors" i WHERE i."name" LIKE 'A%' LIMIT 2
 ```
-## 3. [JOIN](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-joins/)
+## 6. [JOIN](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-joins/)
 
 * tampilkan 2 data instructor dan student dengan nama instructor yang memiliki huruf awal a 
 
@@ -74,7 +74,7 @@ SELECT * FROM "Students" s
 
 **ketika join perhatikan nama kolom, karena bisa kejadian ada nama kolom yang sama antara table a dan b
 
-## 3. [ORDER](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-order-by/)
+## 7. [ORDER](https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-order-by/)
 
 * tampilkan name dari Students dan testScore dari StudentDetail, dengan kriteria student yang memiliki score lebih kecil atau sama dengan 80 urutkan berdasarkan test score
 ```sql
@@ -91,7 +91,7 @@ SELECT s."name", sd."testScore" FROM "Students" s
     ORDER BY sd."testScore"
 ```
 
-## 3. [Aggregate Functions](https://www.postgresqltutorial.com/postgresql-aggregate-functions/)
+## 8. [Aggregate Functions](https://www.postgresqltutorial.com/postgresql-aggregate-functions/)
 
 * tampilkan rata-rata testScore dari semua batch
 * tampilkan rata-rata testScore dari batch oslo
