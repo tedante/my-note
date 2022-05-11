@@ -63,11 +63,11 @@ SELECT * FROM "Instructors" i WHERE i."name" LIKE 'A%' LIMIT 2
 ```sql
 SELECT * FROM "Students" s 
     JOIN "Instructors" i
-    ON i."id" = s."instructorId" 
+    ON i."id" = s."InstructorId" 
 
 SELECT * FROM "Students" s 
     LEFT JOIN "Instructors" i
-    ON i."id" = s."instructorId" 
+    ON i."id" = s."InstructorId" 
     WHERE i."name" ILIKE 'a%'
     LIMIT 2
 ```
@@ -80,7 +80,7 @@ SELECT * FROM "Students" s
 ```sql
 SELECT * FROM "Students" s 
     JOIN "Instructors" i
-    ON i."id" = s."instructorId" 
+    ON i."id" = s."InstructorId"
     WHERE i."name" ILIKE 'a%'
     ORDER BY s."name"
 
@@ -109,11 +109,11 @@ SELECT AVG("testScore") FROM "StudentDetails" sd
 ```sql
 SELECT i.name, COUNT(s.*) FROM "Instructors" i
     JOIN "Students" s 
-    ON i."id" = s."instructorId" 
+    ON i."id" = s."InstructorId"
 
 SELECT i.name, COUNT(s.*) FROM "Instructors" i
     JOIN "Students" s 
-    ON i."id" = s."instructorId" 
+    ON i."id" = s."InstructorId"
     GROUP BY i.name
 ```
 
@@ -125,10 +125,10 @@ SELECT i.name, COUNT(s.*) FROM "Instructors" i
 SELECT sd."startBatch", 
     COUNT(i.*) AS "totalInstructor",
     COUNT(s.*) AS "totalStudent",
-    AVG(sd."testScore") AS "rata-rata",
+    AVG(sd."testScore") AS "rata-rata"
     FROM "Students" s 
     JOIN "Instructors" i
-    ON i."id" = s."instructorId" 
+    ON i."id" = s."InstructorId"
     JOIN "StudentDetails" sd
     ON s."id" = sd."StudentId"
     GROUP BY sd."startBatch";
@@ -136,10 +136,10 @@ SELECT sd."startBatch",
 SELECT sd."startBatch", 
     COUNT(i.*) AS "totalInstructor",
     COUNT(s.*) AS "totalStudent",
-    AVG(sd."testScore") AS "rata-rata",
+    AVG(sd."testScore") AS "rata-rata"
     FROM "Students" s 
     JOIN "Instructors" i
-    ON i."id" = s."instructorId" 
+    ON i."id" = s."InstructorId"
     JOIN "StudentDetails" sd
     ON s."id" = sd."StudentId"
     WHERE sd."startBatch" LIKE '33%'
@@ -148,10 +148,10 @@ SELECT sd."startBatch",
 SELECT sd."startBatch", 
     COUNT(i.*) AS "totalInstructor",
     COUNT(s.*) AS "totalStudent",
-    AVG(sd."testScore") AS "rata-rata",
+    AVG(sd."testScore") AS "rata-rata"
     FROM "Students" s 
     JOIN "Instructors" i
-    ON i."id" = s."instructorId" 
+    ON i."id" = s."InstructorId"
     JOIN "StudentDetails" sd
     ON s."id" = sd."StudentId"
     GROUP BY sd."startBatch"
