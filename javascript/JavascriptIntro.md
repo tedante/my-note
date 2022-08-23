@@ -1,6 +1,6 @@
 # Conditional and Primitive Data Type
 
-## 1. Data Type Test
+## 1. [Data Type Test](https://www.javascripttutorial.net/javascript-data-types/)
 ```js
 console.log(5)
 console.log("Emeizing")
@@ -20,7 +20,7 @@ console.log(typeof true)
 console.log(typeof null)
 ```
 
-## 2. Variable
+## 2. [Variable](https://www.javascripttutorial.net/javascript-variables/)
 ```js
 console.log("Nama saya adalah Juned")
 console.log("Juned lahir di bandung")
@@ -216,6 +216,7 @@ if(umur > 0 || umur <= 16) {
 ## 6. [Truthy Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
 
 # Referensi 
+- https://www.javascripttutorial.net/what-is-javascript/
 - https://www.w3schools.com/js/js_const.asp
 - https://www.w3schools.com/js/js_let.asp
 - https://www.w3schools.com/js/js_conventions.asp
