@@ -102,7 +102,7 @@ Post
 
 Relasi yang ada di migration dan model itu `BERBEDA ALAM`. Relasi yang ada di migration ada di dalam `databasenya` sedangkan relasi yang ada di model itu ada di `aplikasinya`.
 
-![beda alam aplikasi dan database](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/Screenshot_8.png)
+![beda alam aplikasi dan database](./images/Screenshot_8.png)
 
 
 # Referensi 
