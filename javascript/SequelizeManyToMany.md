@@ -25,7 +25,7 @@ Kata kunci:
 
 Membuat relasi many to many, jika kita menemukan pola seperti ini maka perlu membuat table junction.
 
-![m to m](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/mtomv4.png)
+![m to m](./images/mtomv4.png)
 
 Jika relasinya adalah **Many To Many** maka **forign key-nya di letakan di table juction**, contohnya adalah jika kita punya 2 table yaitu Posts dan Tags, maka jika kita ingin membuat post memiliki tag, dimana 1 post bisa memiliki banyak tag dan 1 tag bisa pakai oleh banyak post disini terlihat pola many to many. maka kita perlu membuat table junction, misal namanya adalah table PostHasTags yang didalamnya ada TagId dan PostId.
 
@@ -35,7 +35,7 @@ Dengan command:
 
 ```npx sequelize-cli model:generate --name PostHasTag --attributes PostId:integer,TagId:integer```
 
-![one to one](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/mtomv5.png)
+![one to one](./images/mtomv5.png)
 
 ```js
 // codingan migration yang lain
