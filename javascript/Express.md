@@ -14,7 +14,7 @@ Framework itu sebuah kerangka program atau mungkin bisa dibilang juga sebagai ku
 
 Secara singkat mekanisme aplikasi web itu alurnya seperti ini, pertama browser seperti chrome dll itu yang **client** akan mengirimkan permintaan (**request**), lalu ada yang memproses request dari client tersebut nanti hasilnya (**response**) akan dikirim lagi ke client, yang memproses ini disebut **server**.
 
-![client and server](https://raw.githubusercontent.com/teddyKoerniadi/my-note/master/images/client-server.png)
+![client and server](../images/client-server.png)
 
 ## 4. [NPM init](https://docs.npmjs.com/creating-a-package-json-file)
 
