@@ -30,10 +30,10 @@ Ketika membuat function perhatikan mau dipanggilnya seperti apa atau mekanisme o
 rekursif intinya adalah sebuah fungsi yang didalamnya itu memanggil dirinya sendiri. 
 
 Function:
-![one to one](./img/writing-function.png)
+![one to one](./images/writing-function.png)
 
 Fucntion Recursive:
-![one to one](./img/recursive.png)
+![one to one](./images/recursive.png)
 
 rekursif memiliki 2 kondisi yaitu base case (end recursion) dan recursive case (resume recursion).
 
