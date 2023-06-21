@@ -14,7 +14,7 @@ Secara syntax-nya associations di sequelize ada 4 yang bisa dipakai yang memilik
 1. BelongsTo, **ditempatkan di model yang merupakan source model atau tempat foreign key berada.**
 2. HasOne, **ditempatkan di model yang merupakan target model atau tempat referensi dari foreign key.**
 3. HasMany, **hasMany juga ditempatkan di model yang merupakan target model atau tempat referensi dari foreign key.**
-4. BelongsToMany, nanti di bahas.
+4. Many to Many dalam sequelize ada 3 mekanisme: Double One-to-Many, Many-to-Many, Super Many-to-Many
 
 Kata kunci:
 1. `DALAM RELASI ONE TO ONE, FOREIGN KEY BISA DILETAKAN DIMANA SAJA`
